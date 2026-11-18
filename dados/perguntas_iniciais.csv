@@ -1,0 +1,81 @@
+id,enunciado,alternativa_a,alternativa_b,alternativa_c,alternativa_d,resposta_correta,dificuldade
+1,O que significa a sigla CPU?,Central de Processamento Universal,Unidade Central de Processamento,Controle Principal do Usuário,Unidade de Programa Central,B,1
+2,Qual dispositivo é usado principalmente para movimentar o cursor?,Monitor,Impressora,Mouse,Microfone,C,1
+3,Qual destes dispositivos é usado para digitar textos?,Teclado,Monitor,Alto-falante,Projetor,A,1
+4,Qual linguagem é conhecida por utilizar a função printf?,HTML,Python,C,SQL,C,1
+5,Qual componente é utilizado para armazenar dados temporários durante a execução?,SSD,Placa de vídeo,Disco óptico,Memória RAM,D,1
+6,Qual destes é um sistema operacional?,Google,Windows,YouTube,Intel,B,1
+7,Qual símbolo inicia um comentário de uma linha em C?,//,##,**,@@,A,1
+8,Qual unidade é comumente usada para medir o tamanho de arquivos?,Metro,Volt,Byte,Litro,C,1
+9,Quem é conhecido por criar a World Wide Web?,Bill Gates,Tim Berners-Lee,Steve Jobs,Alan Turing,B,1
+10,Qual programa permite acessar páginas da internet?,Compilador,Navegador,Editor de áudio,Calculadora,B,1
+11,Qual destes é um sistema operacional de código aberto?,Linux,Photoshop,Excel,PowerPoint,A,1
+12,Qual destas opções é uma linguagem de programação?,Bluetooth,HDMI,Python,Ethernet,C,1
+13,Qual tecla normalmente confirma uma ação ou pula uma linha?,Shift,Ctrl,Enter,Alt,C,1
+14,Qual destes é um videogame?,PlayStation,Firefox,Android,Excel,A,1
+15,O que significa a sigla WWW?,World Wide Web,Windows Web Work,Wide World Window,Web With Wireless,A,1
+16,Qual dispositivo apresenta imagens do computador ao usuário?,Mouse,Monitor,Teclado,Microfone,B,1
+17,Qual destes é um jogo eletrônico?,Minecraft,Git,GCC,MySQL,A,1
+18,Qual equipamento produz cópias em papel?,Roteador,Scanner,Impressora,Webcam,C,1
+19,Para que serve uma porta USB?,Aumentar a resolução,Conectar dispositivos,Resfriar o processador,Armazenar energia,B,1
+20,Qual operador representa multiplicação na linguagem C?,+,*,%,=,B,1
+21,Quais algarismos são utilizados no sistema binário?,0 e 1,1 e 2,0 até 9,2 e 3,A,2
+22,Que característica define a memória RAM?,É sempre permanente,É uma memória volátil,É usada apenas para imagens,Não pode ser alterada,B,2
+23,Para que é utilizada principalmente a linguagem HTML?,Criar estruturas de páginas web,Editar vídeos,Controlar motores,Gerenciar bancos locais,A,2
+24,Que tipo de valor uma variável do tipo int armazena em C?,Texto,Valores inteiros,Imagens,Valores decimais,B,2
+25,Para que serve o Git?,Editar imagens,Controlar versões de arquivos,Criar planilhas,Compactar vídeos,B,2
+26,Qual das empresas abaixo fabrica processadores?,Intel,Spotify,Netflix,Adobe,A,2
+27,Qual é a principal função de um navegador como o Firefox?,Executar jogos de console,Acessar páginas da internet,Formatar discos,Compilar programas,B,2
+28,O que é uma URL?,Um tipo de memória,Um endereço de recurso na internet,Uma linguagem de programação,Um formato de imagem,B,2
+29,Na programação o que é um bug?,Uma atualização automática,Um erro ou defeito no programa,Um tipo de teclado,Um arquivo de áudio,B,2
+30,Para que serve uma variável em um programa?,Guardar um valor,Desligar o computador,Limpar a memória física,Conectar à internet,A,2
+31,Qual extensão é normalmente utilizada em arquivos de código C?,.py,.java,.c,.html,C,2
+32,Qual é uma função de um sistema operacional?,Gerenciar recursos do computador,Criar energia elétrica,Substituir o processador,Imprimir sem hardware,A,2
+33,Para que serve a estrutura if em C?,Repetir sempre um bloco,Declarar uma estrutura,Tomar uma decisão,Encerrar o sistema,C,2
+34,Qual estrutura é utilizada para repetir instruções em C?,for,printf,struct,return,A,2
+35,Qual é a finalidade da função scanf em C?,Mostrar uma imagem,Ler dados digitados pelo usuário,Apagar um arquivo,Declarar uma função,B,2
+36,O que normalmente indica return 0 ao final de main?,Que ocorreu um erro grave,Que o programa terminou com sucesso,Que a memória acabou,Que o programa será repetido,B,2
+37,Qual tecnologia de armazenamento não possui partes mecânicas móveis?,HD tradicional,SSD,Fita magnética,Disquete,B,2
+38,O que identifica um endereço IP?,Um dispositivo ou interface em uma rede,Uma tecla do teclado,Um formato de áudio,Um tipo de processador,A,2
+39,Qual componente é especializado no processamento gráfico?,Fonte,Memória ROM,GPU,Teclado,C,2
+40,O que caracteriza um software de código aberto?,Seu código-fonte pode ser consultado conforme a licença,Ele só funciona sem internet,Ele não possui atualizações,Ele sempre é gratuito e sem restrições,A,2
+41,Quantos bits formam um byte?,4,8,16,32,B,3
+42,Qual é o primeiro índice de um vetor em C?,0,1,-1,Depende do compilador,A,3
+43,O que um ponteiro armazena?,Um caractere,Um endereço de memória,O tamanho do monitor,O nome do arquivo,B,3
+44,Qual função da biblioteca stdlib.h pode alocar memória dinamicamente?,printf,malloc,strlen,fopen,B,3
+45,Em uma função o que é um parâmetro?,Um valor recebido pela função,Uma mensagem de erro,Um arquivo executável,Um tipo de comentário,A,3
+46,Qual estrutura de dados segue a regra LIFO?,Fila,Pilha,Árvore,Lista circular,B,3
+47,Qual estrutura de dados normalmente segue a regra FIFO?,Pilha,Fila,Grafo,Heap,B,3
+48,O que é recursão em programação?,Uma função que chama a si mesma,Uma variável global,Uma operação de arquivo,Uma comparação de textos,A,3
+49,Qual linguagem é amplamente utilizada para consultar bancos de dados relacionais?,CSS,SQL,XML,JSON,B,3
+50,Qual é a função principal do DNS?,Traduzir nomes de domínio em endereços IP,Criptografar discos,Editar páginas HTML,Controlar a memória RAM,A,3
+51,O que o HTTPS acrescenta ao HTTP?,Compressão obrigatória,Comunicação protegida por criptografia,Execução local de programas,Armazenamento em nuvem,B,3
+52,O que faz um compilador?,Traduz o código-fonte para outra representação executável,Desenha interfaces automaticamente,Conecta computadores por Wi-Fi,Gerencia arquivos pessoais,A,3
+53,O que é um algoritmo?,Uma sequência finita de passos para resolver um problema,Um componente físico do computador,Um tipo de cabo,Uma linguagem de marcação,A,3
+54,Qual é o valor decimal do número binário 1010?,8,9,10,12,C,3
+55,O que a notação Big O descreve?,A cor de uma interface,O crescimento do custo de um algoritmo,Um formato de imagem,A velocidade da internet,B,3
+56,O que normalmente causa um segmentation fault em C?,Acesso inválido à memória,Uma variável com nome longo,Um comentário sem acento,A impressão de um número,A,4
+57,Qual operador é usado para acessar o valor apontado por um ponteiro em C?,&,*,%,#,B,4
+58,Para que serve uma struct em C?,Agrupar variáveis relacionadas em uma estrutura,Repetir um laço,Importar uma biblioteca,Encerrar um arquivo,A,4
+59,Qual função da biblioteca padrão C é usada para abrir um arquivo?,fopen,strlen,malloc,printf,A,4
+60,Qual condição é necessária para a busca binária funcionar corretamente?,Os dados devem estar ordenados,Os dados devem ser textos,Deve existir apenas um elemento,O vetor deve conter números negativos,A,4
+61,Qual é uma característica de uma lista simplesmente encadeada?,Cada elemento aponta para o próximo,Todos os elementos ficam em uma matriz fixa,Os elementos não possuem ligação,A lista sempre possui tamanho constante,A,4
+62,Como uma tabela hash normalmente localiza uma posição?,Por uma função de hash,Pela ordenação alfabética,Por busca linear obrigatória,Pelo tamanho do arquivo,A,4
+63,O que é uma condição de corrida?,Resultado depende da ordem de execução concorrente,Erro causado por falta de espaço em disco,Problema de resolução de tela,Uma falha na conexão elétrica,A,4
+64,O que caracteriza um deadlock?,Processos ficam esperando recursos uns dos outros indefinidamente,Um programa termina corretamente,A memória é liberada automaticamente,O processador aumenta sua frequência,A,4
+65,Qual é a finalidade principal de uma memória cache?,Reduzir o tempo de acesso a dados frequentes,Substituir o sistema operacional,Armazenar arquivos permanentemente,Converter sinais analógicos,A,4
+66,Qual característica é associada ao protocolo TCP?,Entrega confiável e ordenada de dados,Envio sem qualquer controle de entrega,Tradução de nomes de domínio,Renderização de imagens,A,4
+67,O que é memória virtual em um sistema operacional?,Uma abstração que permite processos utilizarem um espaço de endereçamento,Uma memória física exclusiva da placa de vídeo,Um tipo de cabo de rede,Uma unidade de armazenamento removível,A,4
+68,O que é uma thread?,Uma unidade de execução dentro de um processo,Um tipo de arquivo de imagem,Um endereço IP,Um componente da placa-mãe,A,4
+69,O que é uma injeção de SQL?,Uma técnica de ataque que manipula consultas ao banco de dados,Uma forma de compactar tabelas,Um método de resfriamento,Uma linguagem para desenhar gráficos,A,4
+70,O que uma API define?,Uma interface para comunicação entre componentes de software,Um padrão de memória RAM,Um tipo de processador,Um formato de cabo,A,4
+71,Qual algoritmo encontra caminhos mínimos em grafos com arestas de peso não negativo?,Dijkstra,Bubble Sort,DFS sem pesos,Insertion Sort,A,5
+72,Qual problema matemático fundamenta a segurança do RSA clássico?,Fatoração de números inteiros grandes,Ordenação de listas,Busca em largura,Compressão de imagens,A,5
+73,Qual é a ideia central de uma máquina de Turing?,Modelo abstrato de computação com fita e regras de transição,Um processador com múltiplos núcleos,Um protocolo de comunicação,Um banco de dados distribuído,A,5
+74,Como é caracterizada uma classe de problemas NP-completos?,Problemas em NP para os quais todo problema de NP pode ser reduzido em tempo polinomial,Problemas resolvidos apenas por hardware,Problemas que não aceitam entradas binárias,Problemas sempre resolvidos em tempo constante,A,5
+75,Qual mecanismo ajuda a evitar atualizações simultâneas conflitantes em uma variável compartilhada?,Operação atômica,Comentário de código,Conversão de tipo,Formatação de texto,A,5
+76,O que acontece em um page fault?,Um processo acessa uma página que não está atualmente mapeada na memória física,Um arquivo CSV é exportado,Um processador troca de frequência,O navegador bloqueia uma imagem,A,5
+77,No teorema CAP qual é a ideia central para sistemas distribuídos durante uma partição de rede?,Não é possível garantir simultaneamente consistência e disponibilidade completas durante a partição,Todo sistema deve usar SQL,Todo dado precisa ficar em um único servidor,A latência sempre será zero,A,5
+78,O que significa SIMD em arquitetura de computadores?,Single Instruction Multiple Data,Simple Input Memory Device,Sequential Internet Mode,Shared Instruction Main Disk,A,5
+79,Qual é a propriedade desejada de uma função hash criptográfica resistente a colisões?,Ser computacionalmente difícil encontrar duas entradas distintas com a mesma saída,Produzir sempre uma saída diferente para qualquer bit alterado,Permitir recuperar a entrada original rapidamente,Ter tamanho variável de saída,A,5
+80,Qual característica distingue uma assinatura digital válida de uma simples codificação?,Permite verificar autenticidade e integridade com criptografia assimétrica,Esconde dados sem utilizar chaves,Comprime arquivos sem perda,Converte qualquer texto em hexadecimal,A,5
