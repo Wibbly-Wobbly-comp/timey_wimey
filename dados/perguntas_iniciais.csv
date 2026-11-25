@@ -1,81 +1,1001 @@
-id,enunciado,alternativa_a,alternativa_b,alternativa_c,alternativa_d,resposta_correta,dificuldade
-1,O que significa a sigla CPU?,Central de Processamento Universal,Unidade Central de Processamento,Controle Principal do Usuário,Unidade de Programa Central,B,1
-2,Qual dispositivo é usado principalmente para movimentar o cursor?,Monitor,Impressora,Mouse,Microfone,C,1
-3,Qual destes dispositivos é usado para digitar textos?,Teclado,Monitor,Alto-falante,Projetor,A,1
-4,Qual linguagem é conhecida por utilizar a função printf?,HTML,Python,C,SQL,C,1
-5,Qual componente é utilizado para armazenar dados temporários durante a execução?,SSD,Placa de vídeo,Disco óptico,Memória RAM,D,1
-6,Qual destes é um sistema operacional?,Google,Windows,YouTube,Intel,B,1
-7,Qual símbolo inicia um comentário de uma linha em C?,//,##,**,@@,A,1
-8,Qual unidade é comumente usada para medir o tamanho de arquivos?,Metro,Volt,Byte,Litro,C,1
-9,Quem é conhecido por criar a World Wide Web?,Bill Gates,Tim Berners-Lee,Steve Jobs,Alan Turing,B,1
-10,Qual programa permite acessar páginas da internet?,Compilador,Navegador,Editor de áudio,Calculadora,B,1
-11,Qual destes é um sistema operacional de código aberto?,Linux,Photoshop,Excel,PowerPoint,A,1
-12,Qual destas opções é uma linguagem de programação?,Bluetooth,HDMI,Python,Ethernet,C,1
-13,Qual tecla normalmente confirma uma ação ou pula uma linha?,Shift,Ctrl,Enter,Alt,C,1
-14,Qual destes é um videogame?,PlayStation,Firefox,Android,Excel,A,1
-15,O que significa a sigla WWW?,World Wide Web,Windows Web Work,Wide World Window,Web With Wireless,A,1
-16,Qual dispositivo apresenta imagens do computador ao usuário?,Mouse,Monitor,Teclado,Microfone,B,1
-17,Qual destes é um jogo eletrônico?,Minecraft,Git,GCC,MySQL,A,1
-18,Qual equipamento produz cópias em papel?,Roteador,Scanner,Impressora,Webcam,C,1
-19,Para que serve uma porta USB?,Aumentar a resolução,Conectar dispositivos,Resfriar o processador,Armazenar energia,B,1
-20,Qual operador representa multiplicação na linguagem C?,+,*,%,=,B,1
-21,Quais algarismos são utilizados no sistema binário?,0 e 1,1 e 2,0 até 9,2 e 3,A,2
-22,Que característica define a memória RAM?,É sempre permanente,É uma memória volátil,É usada apenas para imagens,Não pode ser alterada,B,2
-23,Para que é utilizada principalmente a linguagem HTML?,Criar estruturas de páginas web,Editar vídeos,Controlar motores,Gerenciar bancos locais,A,2
-24,Que tipo de valor uma variável do tipo int armazena em C?,Texto,Valores inteiros,Imagens,Valores decimais,B,2
-25,Para que serve o Git?,Editar imagens,Controlar versões de arquivos,Criar planilhas,Compactar vídeos,B,2
-26,Qual das empresas abaixo fabrica processadores?,Intel,Spotify,Netflix,Adobe,A,2
-27,Qual é a principal função de um navegador como o Firefox?,Executar jogos de console,Acessar páginas da internet,Formatar discos,Compilar programas,B,2
-28,O que é uma URL?,Um tipo de memória,Um endereço de recurso na internet,Uma linguagem de programação,Um formato de imagem,B,2
-29,Na programação o que é um bug?,Uma atualização automática,Um erro ou defeito no programa,Um tipo de teclado,Um arquivo de áudio,B,2
-30,Para que serve uma variável em um programa?,Guardar um valor,Desligar o computador,Limpar a memória física,Conectar à internet,A,2
-31,Qual extensão é normalmente utilizada em arquivos de código C?,.py,.java,.c,.html,C,2
-32,Qual é uma função de um sistema operacional?,Gerenciar recursos do computador,Criar energia elétrica,Substituir o processador,Imprimir sem hardware,A,2
-33,Para que serve a estrutura if em C?,Repetir sempre um bloco,Declarar uma estrutura,Tomar uma decisão,Encerrar o sistema,C,2
-34,Qual estrutura é utilizada para repetir instruções em C?,for,printf,struct,return,A,2
-35,Qual é a finalidade da função scanf em C?,Mostrar uma imagem,Ler dados digitados pelo usuário,Apagar um arquivo,Declarar uma função,B,2
-36,O que normalmente indica return 0 ao final de main?,Que ocorreu um erro grave,Que o programa terminou com sucesso,Que a memória acabou,Que o programa será repetido,B,2
-37,Qual tecnologia de armazenamento não possui partes mecânicas móveis?,HD tradicional,SSD,Fita magnética,Disquete,B,2
-38,O que identifica um endereço IP?,Um dispositivo ou interface em uma rede,Uma tecla do teclado,Um formato de áudio,Um tipo de processador,A,2
-39,Qual componente é especializado no processamento gráfico?,Fonte,Memória ROM,GPU,Teclado,C,2
-40,O que caracteriza um software de código aberto?,Seu código-fonte pode ser consultado conforme a licença,Ele só funciona sem internet,Ele não possui atualizações,Ele sempre é gratuito e sem restrições,A,2
-41,Quantos bits formam um byte?,4,8,16,32,B,3
-42,Qual é o primeiro índice de um vetor em C?,0,1,-1,Depende do compilador,A,3
-43,O que um ponteiro armazena?,Um caractere,Um endereço de memória,O tamanho do monitor,O nome do arquivo,B,3
-44,Qual função da biblioteca stdlib.h pode alocar memória dinamicamente?,printf,malloc,strlen,fopen,B,3
-45,Em uma função o que é um parâmetro?,Um valor recebido pela função,Uma mensagem de erro,Um arquivo executável,Um tipo de comentário,A,3
-46,Qual estrutura de dados segue a regra LIFO?,Fila,Pilha,Árvore,Lista circular,B,3
-47,Qual estrutura de dados normalmente segue a regra FIFO?,Pilha,Fila,Grafo,Heap,B,3
-48,O que é recursão em programação?,Uma função que chama a si mesma,Uma variável global,Uma operação de arquivo,Uma comparação de textos,A,3
-49,Qual linguagem é amplamente utilizada para consultar bancos de dados relacionais?,CSS,SQL,XML,JSON,B,3
-50,Qual é a função principal do DNS?,Traduzir nomes de domínio em endereços IP,Criptografar discos,Editar páginas HTML,Controlar a memória RAM,A,3
-51,O que o HTTPS acrescenta ao HTTP?,Compressão obrigatória,Comunicação protegida por criptografia,Execução local de programas,Armazenamento em nuvem,B,3
-52,O que faz um compilador?,Traduz o código-fonte para outra representação executável,Desenha interfaces automaticamente,Conecta computadores por Wi-Fi,Gerencia arquivos pessoais,A,3
-53,O que é um algoritmo?,Uma sequência finita de passos para resolver um problema,Um componente físico do computador,Um tipo de cabo,Uma linguagem de marcação,A,3
-54,Qual é o valor decimal do número binário 1010?,8,9,10,12,C,3
-55,O que a notação Big O descreve?,A cor de uma interface,O crescimento do custo de um algoritmo,Um formato de imagem,A velocidade da internet,B,3
-56,O que normalmente causa um segmentation fault em C?,Acesso inválido à memória,Uma variável com nome longo,Um comentário sem acento,A impressão de um número,A,4
-57,Qual operador é usado para acessar o valor apontado por um ponteiro em C?,&,*,%,#,B,4
-58,Para que serve uma struct em C?,Agrupar variáveis relacionadas em uma estrutura,Repetir um laço,Importar uma biblioteca,Encerrar um arquivo,A,4
-59,Qual função da biblioteca padrão C é usada para abrir um arquivo?,fopen,strlen,malloc,printf,A,4
-60,Qual condição é necessária para a busca binária funcionar corretamente?,Os dados devem estar ordenados,Os dados devem ser textos,Deve existir apenas um elemento,O vetor deve conter números negativos,A,4
-61,Qual é uma característica de uma lista simplesmente encadeada?,Cada elemento aponta para o próximo,Todos os elementos ficam em uma matriz fixa,Os elementos não possuem ligação,A lista sempre possui tamanho constante,A,4
-62,Como uma tabela hash normalmente localiza uma posição?,Por uma função de hash,Pela ordenação alfabética,Por busca linear obrigatória,Pelo tamanho do arquivo,A,4
-63,O que é uma condição de corrida?,Resultado depende da ordem de execução concorrente,Erro causado por falta de espaço em disco,Problema de resolução de tela,Uma falha na conexão elétrica,A,4
-64,O que caracteriza um deadlock?,Processos ficam esperando recursos uns dos outros indefinidamente,Um programa termina corretamente,A memória é liberada automaticamente,O processador aumenta sua frequência,A,4
-65,Qual é a finalidade principal de uma memória cache?,Reduzir o tempo de acesso a dados frequentes,Substituir o sistema operacional,Armazenar arquivos permanentemente,Converter sinais analógicos,A,4
-66,Qual característica é associada ao protocolo TCP?,Entrega confiável e ordenada de dados,Envio sem qualquer controle de entrega,Tradução de nomes de domínio,Renderização de imagens,A,4
-67,O que é memória virtual em um sistema operacional?,Uma abstração que permite processos utilizarem um espaço de endereçamento,Uma memória física exclusiva da placa de vídeo,Um tipo de cabo de rede,Uma unidade de armazenamento removível,A,4
-68,O que é uma thread?,Uma unidade de execução dentro de um processo,Um tipo de arquivo de imagem,Um endereço IP,Um componente da placa-mãe,A,4
-69,O que é uma injeção de SQL?,Uma técnica de ataque que manipula consultas ao banco de dados,Uma forma de compactar tabelas,Um método de resfriamento,Uma linguagem para desenhar gráficos,A,4
-70,O que uma API define?,Uma interface para comunicação entre componentes de software,Um padrão de memória RAM,Um tipo de processador,Um formato de cabo,A,4
-71,Qual algoritmo encontra caminhos mínimos em grafos com arestas de peso não negativo?,Dijkstra,Bubble Sort,DFS sem pesos,Insertion Sort,A,5
-72,Qual problema matemático fundamenta a segurança do RSA clássico?,Fatoração de números inteiros grandes,Ordenação de listas,Busca em largura,Compressão de imagens,A,5
-73,Qual é a ideia central de uma máquina de Turing?,Modelo abstrato de computação com fita e regras de transição,Um processador com múltiplos núcleos,Um protocolo de comunicação,Um banco de dados distribuído,A,5
-74,Como é caracterizada uma classe de problemas NP-completos?,Problemas em NP para os quais todo problema de NP pode ser reduzido em tempo polinomial,Problemas resolvidos apenas por hardware,Problemas que não aceitam entradas binárias,Problemas sempre resolvidos em tempo constante,A,5
-75,Qual mecanismo ajuda a evitar atualizações simultâneas conflitantes em uma variável compartilhada?,Operação atômica,Comentário de código,Conversão de tipo,Formatação de texto,A,5
-76,O que acontece em um page fault?,Um processo acessa uma página que não está atualmente mapeada na memória física,Um arquivo CSV é exportado,Um processador troca de frequência,O navegador bloqueia uma imagem,A,5
-77,No teorema CAP qual é a ideia central para sistemas distribuídos durante uma partição de rede?,Não é possível garantir simultaneamente consistência e disponibilidade completas durante a partição,Todo sistema deve usar SQL,Todo dado precisa ficar em um único servidor,A latência sempre será zero,A,5
-78,O que significa SIMD em arquitetura de computadores?,Single Instruction Multiple Data,Simple Input Memory Device,Sequential Internet Mode,Shared Instruction Main Disk,A,5
-79,Qual é a propriedade desejada de uma função hash criptográfica resistente a colisões?,Ser computacionalmente difícil encontrar duas entradas distintas com a mesma saída,Produzir sempre uma saída diferente para qualquer bit alterado,Permitir recuperar a entrada original rapidamente,Ter tamanho variável de saída,A,5
-80,Qual característica distingue uma assinatura digital válida de uma simples codificação?,Permite verificar autenticidade e integridade com criptografia assimétrica,Esconde dados sem utilizar chaves,Comprime arquivos sem perda,Converte qualquer texto em hexadecimal,A,5
+id;enunciado;alternativa_a;alternativa_b;alternativa_c;alternativa_d;resposta_correta;dificuldade
+1;Em que ano Doctor Who estreou na televisão britânica?;1963;1953;1983;1973;A;1
+2;Qual ator interpretou originalmente o Primeiro Doutor?;William Hartnell;Patrick Troughton;Jon Pertwee;Tom Baker;A;1
+3;Qual é o nome da nave do Doutor, conhecida por ser maior por dentro?;Sonic Screwdriver;Bessie;Gallifrey;TARDIS;D;1
+4;O que significa a sigla TARDIS?;Transdimensional Apparatus for Rapid Interstellar Discovery;Time And Relative Dimension In Space;Temporal And Relative Distance In Space;Time And Rotational Dimensions In Space;B;1
+5;Qual planeta é o mundo natal dos Time Lords?;Trenzalore;Gallifrey;Skaro;Mondas;B;1
+6;Qual é o nome da neta que viaja com o Primeiro Doutor no início da série?;Barbara Wright;Jo Grant;Susan Foreman;Vicki Pallister;C;1
+7;Quais dois professores acompanham Susan e o Doutor após entrarem na TARDIS?;Ben Jackson e Polly Wright;Ian Chesterton e Barbara Wright;Steven Taylor e Dodo Chaplet;Jamie McCrimmon e Victoria Waterfield;B;1
+8;Qual história apresentou os Daleks pela primeira vez?;Genesis of the Daleks;The Evil of the Daleks;The Daleks;The Dalek Invasion of Earth;C;1
+9;Em qual planeta os Daleks foram apresentados na série?;Peladon;Mondas;Skaro;Gallifrey;C;1
+10;Quem criou os Daleks dentro da ficção?;Omega;The Master;Rassilon;Davros;D;1
+11;A qual povo os Daleks originalmente pertenciam antes de sua mutação?;Thals;Rutans;Kaleds;Sontarans;C;1
+12;Qual povo de Skaro era adversário dos Kaleds durante a guerra que antecedeu os Daleks?;Ice Warriors;Ogrons;Draconians;Thals;D;1
+13;Qual ator interpretou o Segundo Doutor?;William Hartnell;Peter Davison;Jon Pertwee;Patrick Troughton;D;1
+14;Qual companheiro escocês tornou-se um dos viajantes mais duradouros do Segundo Doutor?;Adric;Harry Sullivan;Jamie McCrimmon;Mickey Smith;C;1
+15;Em The Tomb of the Cybermen, que grupo é descoberto em câmaras criogênicas?;Cybermen;Silurians;Sontarans;Daleks;A;1
+16;Qual ator interpretou o Terceiro Doutor?;Jon Pertwee;Tom Baker;Sylvester McCoy;Colin Baker;A;1
+17;Que organização militar e científica frequentemente trabalha com o Terceiro Doutor na Terra?;UNIT;Torchwood;The Shadow Proclamation;Division;A;1
+18;Qual oficial da UNIT tornou-se aliado recorrente do Terceiro Doutor?;Danny Pink;Capitão Jack Harkness;Alistair Gordon;Brigadeiro Lethbridge-Stewart;D;1
+19;Qual companheira do Terceiro Doutor era uma cientista que trabalhava com a UNIT?;Clara Oswald;Liz Shaw;Mel Bush;Rose Tyler;B;1
+20;Qual carro amarelo do Terceiro Doutor tinha personalidade própria e era chamado de Bessie?;Um carro de corrida futurista;Um roadster de estilo eduardiano;Um jipe militar;Uma motocicleta;B;1
+21;Qual ator interpretou o Quarto Doutor, conhecido pelo cachecol comprido?;David Tennant;Peter Davison;Paul McGann;Tom Baker;D;2
+22;Qual robô cão tornou-se companheiro do Quarto Doutor?;Handles;The Mechonoid;K9;Kamelion;C;2
+23;Qual companheira viajou com o Quarto Doutor e depois tornou-se Time Lady?;Romana;Tegan Jovanka;Ace;Martha Jones;A;2
+24;Em Genesis of the Daleks, qual missão os Time Lords atribuem ao Doutor?;Destruir Gallifrey;Salvar os Cybermen;Encontrar a origem da TARDIS;Impedir a criação dos Daleks;D;2
+25;Qual atriz interpretou Sarah Jane Smith, companheira de vários Doutores?;Louise Jameson;Nicola Bryant;Elisabeth Sladen;Carole Ann Ford;C;2
+26;Qual ator assumiu o papel do Quinto Doutor?;Christopher Eccleston;Peter Davison;Sylvester McCoy;Colin Baker;B;2
+27;Em The Caves of Androzani, qual substância tóxica ameaça o Doutor e Peri?;Vitrílico;Spectrox;Metebelis cristal;Zeiton-7;B;2
+28;Qual companheiro do Quinto Doutor era um jovem matemático de origem alienígena?;Wilfred Mott;Adric;Nardole;Rory Williams;B;2
+29;Qual atriz interpretou Peri Brown, companheira do Quinto e do Sexto Doutor?;Deborah Watling;Janet Fielding;Nicola Bryant;Sophie Aldred;C;2
+30;Qual ator interpretou o Sexto Doutor?;Colin Baker;Peter Davison;Sylvester McCoy;Matt Smith;A;2
+31;Que peça de vestuário chamativa ficou associada ao Sexto Doutor?;Casaco multicolorido;Cachecol listrado longo;Sobretudo de couro preto;Uniforme militar azul;A;2
+32;Qual arco do Sexto Doutor reúne episódios em torno de um julgamento perante os Time Lords?;The War Games;The Time Meddler;The Trial of a Time Lord;The Key to Time;C;2
+33;Quem assumiu o papel do Doutor em 1987, após a saída de Colin Baker?;Tom Baker;Sylvester McCoy;Colin Baker;Paul McGann;B;2
+34;Qual companheira do Sétimo Doutor era conhecida pelo apelido Ace?;Leela;Dorothy McShane;Melanie Bush;Tegan Jovanka;B;2
+35;Em Remembrance of the Daleks, em que cidade e ano a ação principal retorna a um local importante para a série?;Nova York, 1989;Paris, 1940;Londres, 1963;Cardiff, 2005;C;2
+36;Qual ator interpretou o Oitavo Doutor no telefilme de 1996?;John Hurt;David Tennant;Paul McGann;Eric Roberts;C;2
+37;Qual médica humana ajuda o Oitavo Doutor no telefilme de 1996?;Donna Noble;Grace Holloway;Jo Grant;Martha Jones;B;2
+38;Qual ator interpretou o Doutor da Guerra, mostrado no especial de 50 anos?;John Hurt;Peter Capaldi;Christopher Eccleston;David Bradley;A;2
+39;Qual conflito devastador entre os Time Lords e os Daleks é central na história moderna da série?;A Rebelião de Mondas;A Guerra dos Sontarans;A Guerra de Skaro;A Última Grande Guerra do Tempo;D;2
+40;Qual ator interpretou o Nono Doutor na temporada de 2005?;Matt Smith;Christopher Eccleston;Peter Capaldi;David Tennant;B;2
+41;Quem é a primeira companheira regular do Nono Doutor na série moderna?;Donna Noble;Martha Jones;Rose Tyler;Amy Pond;C;3
+42;Qual personagem interpretado por John Barrowman é um viajante do tempo imortal e antigo Agente do Tempo?;Jack Harkness;Mickey Smith;Danny Pink;Rory Williams;A;3
+43;Que frase os Daleks costumam gritar ao ameaçar seus inimigos?;Upgrade!;Assimilate!;Exterminate!;Delete!;C;3
+44;Que espécie de invasores aparece disfarçada de manequins no episódio Rose?;Autons;Silurians;Weeping Angels;Slitheen;A;3
+45;Qual episódio apresenta Rose Tyler investigando manequins que ganham vida em uma loja de departamentos?;Bad Wolf;Rose;The Parting of the Ways;The Empty Child;B;3
+46;Qual ator que interpretou o Décimo Doutor retornou anos depois para viver o Décimo Quarto?;Peter Capaldi;David Tennant;Matt Smith;Christopher Eccleston;B;3
+47;Qual companheira trabalha como médica e viaja com o Décimo Doutor após Rose?;Bill Potts;Amy Pond;Martha Jones;Donna Noble;C;3
+48;Qual companheira do Décimo Doutor é uma trabalhadora temporária de Chiswick e aparece em The Runaway Bride?;Donna Noble;Clara Oswald;Rose Tyler;Nardole;A;3
+49;Qual antagonista assume a identidade de Harold Saxon na era do Décimo Doutor?;Davros;O Monge;O Mestre;Rassilon;C;3
+50;Em Blink, qual espécie só consegue se mover quando não está sendo observada?;Silurians;Cybermen;Anjos Lamentadores;Judoon;C;3
+51;Qual arqueóloga aparece pela primeira vez em Silence in the Library e conhece detalhes do futuro do Doutor?;River Song;Iris Wildthyme;Madame Vastra;Jenny Flint;A;3
+52;Qual planeta é conhecido pelos habitantes Ood e pela exploração de sua espécie?;Mondas;Ood-Sphere;Skaro;Peladon;B;3
+53;Qual ator interpretou o Décimo Primeiro Doutor?;Peter Capaldi;Matt Smith;David Tennant;Jodie Whittaker;B;3
+54;Quais amigos de infância viajam com o Décimo Primeiro Doutor e são os pais de River Song?;Clara Oswald e Danny Pink;Amy Pond e Rory Williams;Bill Potts e Nardole;Martha Jones e Mickey Smith;B;3
+55;Qual objeto de vestuário o Décimo Primeiro Doutor frequentemente defende como elegante?;Cachecol longo;Chapéu-coco;Gravata-borboleta;Gravata vermelha;C;3
+56;Que entidade ou fenômeno aparece como rachaduras no tempo na parede do quarto de Amy?;Uma nave Siluriana;Uma prisão dos Cybermen;Um portal de Skaro;Uma fenda no universo;D;3
+57;Qual ator interpretou o Décimo Segundo Doutor?;Matt Smith;David Tennant;Christopher Eccleston;Peter Capaldi;D;3
+58;Qual companheira continua viajando ao lado do Décimo Segundo Doutor após sua regeneração em Deep Breath?;Tegan Jovanka;Amy Pond;Clara Oswald;Rose Tyler;C;3
+59;Qual companheira do Décimo Segundo Doutor é uma estudante universitária que aparece em The Pilot?;Jo Grant;Martha Jones;Peri Brown;Bill Potts;D;3
+60;Qual ator interpretou a versão feminina do Mestre conhecida como Missy?;Suranne Jones;Michelle Gomez;Alex Kingston;Sacha Dhawan;B;3
+61;Em Heaven Sent, qual Doutor enfrenta repetidamente um percurso solitário dentro de uma estrutura chamada de quê?;O Castelo;A Pandorica;A Cidadela de Skaro;A Biblioteca;A;4
+62;Qual atriz interpretou o Décimo Terceiro Doutor?;Jodie Whittaker;Sophie Aldred;Jo Martin;Michelle Gomez;A;4
+63;Quais três personagens compõem o grupo de companheiros que acompanha inicialmente o Décimo Terceiro Doutor?;Amy Pond, Rory Williams e River Song;Bill Potts, Nardole e Clara Oswald;Rose Tyler, Mickey Smith e Martha Jones;Yasmin Khan, Ryan Sinclair e Graham O'Brien;D;4
+64;Qual especial reúne o Doutor de David Tennant e o de Matt Smith com o Doutor da Guerra?;The Two Doctors;The Three Doctors;The Day of the Doctor;The Five Doctors;C;4
+65;No especial de 50 anos, qual raça metamórfica participa de um plano envolvendo pinturas tridimensionais?;Zygons;Ogrons;Judoon;Slitheen;A;4
+66;Qual é o nome do planeta que aparece como origem dos Cybermen originais?;Mondas;Traken;Gallifrey;Skaro;A;4
+67;Qual história marcou a primeira aparição regular dos Cybermen na série?;Tomb of the Cybermen;Earthshock;The Moonbase;The Tenth Planet;D;4
+68;O que os Cybermen fazem para aumentar sua população?;Criar cópias de TARDIS;Absorver energia de estrelas;Converter indivíduos de outras espécies;Clonar apenas Time Lords;C;4
+69;Qual espécie guerreira é composta por soldados clonados e tem rivalidade com os Rutans?;Silurians;Ood;Sontarans;Thals;C;4
+70;Qual povo reptiliano é apresentado como antigo habitante da Terra, anterior à humanidade?;Silurians;Vashta Nerada;Daleks;Judoon;A;4
+71;Qual espécie aparece como criaturas microscópicas semelhantes a sombras que podem consumir pessoas?;Vashta Nerada;Adipose;Weeping Angels;Autons;A;4
+72;Qual organização secreta britânica foi criada na ficção após o encontro da Rainha Vitória com o Doutor em Tooth and Claw?;Torchwood;The Shadow Proclamation;UNIT;The Division;A;4
+73;Qual personagem lidera a UNIT na era moderna como filha do Brigadeiro?;Toshiko Sato;Martha Jones;Sarah Jane Smith;Kate Stewart;D;4
+74;Qual programa derivado acompanha as investigações de Sarah Jane Smith sobre atividades alienígenas?;The Sarah Jane Adventures;Class;K9;The War Between the Land and the Sea;A;4
+75;Qual nome humano é revelado como sendo o da filha de Amy e Rory, que se torna River Song?;Melody Pond;Susan Foreman;Lucy Saxon;Jenny Smith;A;4
+76;Por que Donna perde as memórias das viagens com o Doutor ao final de Journey's End?;Porque o Mestre altera sua linha temporal;Porque ela escolhe tornar-se uma Time Lady;Porque a TARDIS apaga a memória de todos os passageiros;Para impedir que sua mente seja destruída pelo conhecimento absorvido;D;4
+77;Qual profissão Rose Tyler exerce no início da série moderna?;Médica em um hospital;Professora de história;Jornalista de televisão;Vendedora em uma loja;D;4
+78;Qual era a profissão de Martha Jones antes de viajar com o Doutor?;Policial da UNIT;Arqueóloga;Estudante de medicina;Piloto espacial;C;4
+79;Qual personagem se torna conhecido como Face of Boe após uma vida extraordinariamente longa?;O Mestre;Rory Williams;Wilfred Mott;Jack Harkness;D;4
+80;Qual elemento central do episódio The Empty Child causa a transformação de pessoas em figuras com máscara de gás?;Um vírus Dalek;Um sinal dos Cybermen;Um cristal de Metebelis;Um nanogenes médicos;D;4
+81;Qual escritor criou o personagem dos Daleks para a série?;Douglas Adams;Terry Nation;Russell T Davies;Robert Holmes;B;5
+82;Quem foi a primeira produtora da série Doctor Who?;Jacqueline Hill;Delia Derbyshire;Verity Lambert;Carole Ann Ford;C;5
+83;Quem compôs a música original do tema de Doctor Who, posteriormente realizada eletronicamente por Delia Derbyshire?;Murray Gold;Ron Grainer;Barry Gray;John Williams;B;5
+84;Qual história de 1970 é lembrada como a primeira aventura do Terceiro Doutor e a estreia da série em cores?;Inferno;Spearhead from Space;The Three Doctors;The Silurians;B;5
+85;Qual serial apresentou os Time Lords ao público durante a era do Segundo Doutor?;The Mind Robber;The War Games;The Invasion;The Dominators;B;5
+86;Qual Doutor se regenera ao final de The Caves of Androzani?;Sexto Doutor;Quarto Doutor;Sétimo Doutor;Quinto Doutor;D;5
+87;Qual história de 1975 mostra a primeira aparição de Davros?;Remembrance of the Daleks;Genesis of the Daleks;Destiny of the Daleks;The Daleks;B;5
+88;Qual é o nome do dispositivo de papel que permite ao Doutor convencer pessoas de que possui uma autorização adequada?;Papel psíquico;Chave de fenda sônica;Anel de Rassilon;Vórtice manipulador;A;5
+89;Qual parte da TARDIS está avariada, fazendo-a manter a aparência exterior de uma cabine policial azul?;Filtro de percepção;Circuito camaleão;Núcleo de artron;Matriz de teletransporte;B;5
+90;Por que a chave de fenda sônica não resolve todos os problemas do Doutor?;Ela tem limitações e não funciona em certas situações ou materiais;Ela perde energia sempre que a TARDIS aterrissa;Ela serve apenas para abrir fechaduras mecânicas;Ela só funciona dentro de Gallifrey;A;5
+91;Que nome recebe o processo pelo qual um Time Lord sobrevive a ferimentos fatais mudando de corpo?;Conversão;Biotransferência;Regeneração;Transmigração;C;5
+92;Qual Time Lord é o principal rival recorrente do Doutor e aparece sob várias identidades?;O Mestre;O Monge;Rassilon;O Valeyard;A;5
+93;Em The Girl in the Fireplace, com qual figura histórica o Décimo Doutor desenvolve uma ligação?;Rainha Vitória;Cleópatra;Madame de Pompadour;Maria Antonieta;C;5
+94;Em Vincent and the Doctor, qual artista é visitado pelo Doutor e Amy?;Salvador Dalí;Pablo Picasso;Claude Monet;Vincent van Gogh;D;5
+95;Qual episódio encerra a saga do Mestre como primeiro-ministro Harold Saxon e mostra Martha retornando à Terra após sua jornada?;The Sound of Drums;Turn Left;The Lazarus Experiment;The Last of the Time Lords;D;5
+96;Qual companheira do Quarto Doutor era uma guerreira da tribo Sevateem?;Leela;Nyssa;Victoria Waterfield;Romana;A;5
+97;Qual especial de 1983 reuniu cinco encarnações do Doutor para celebrar o aniversário de vinte anos?;The Two Doctors;The Three Doctors;The Five Doctors;The Day of the Doctor;C;5
+98;Qual cientista de Skaro criou os Daleks e aparece pela primeira vez em Genesis of the Daleks?;The Rani;Davros;Omega;The Black Guardian;B;5
+99;Qual ator interpretou o Décimo Quinto Doutor em sua estreia completa em The Church on Ruby Road?;Matt Smith;Peter Capaldi;David Tennant;Ncuti Gatwa;D;5
+100;Qual ator interpretou o Décimo Quarto Doutor antes de Ncuti Gatwa assumir o papel?;Matt Smith;David Tennant;Peter Capaldi;Christopher Eccleston;B;5
+101;Qual civilização desenvolveu a escrita cuneiforme na antiga Mesopotâmia?;Minoicos;Romanos;Sumérios;Fenícios;C;1
+102;Em qual cidade antiga ficava o famoso Código de Hamurábi?;Babilônia;Alexandria;Atenas;Cartago;A;1
+103;Na Batalha de Maratona, os atenienses combateram qual império?;Império Romano;Império Mongol;Império Hitita;Império Persa;D;1
+104;Alexandre, o Grande, era rei de qual reino grego?;Creta;Macedônia;Tebas;Esparta;B;1
+105;Qual cidade foi o centro político da República e depois do Império Romano?;Roma;Constantinopla;Cartago;Jerusalém;A;1
+106;As Guerras Púnicas foram travadas principalmente entre Roma e qual potência?;Pérgamo;Cartago;Egito;Macedônia;B;1
+107;Qual líder romano foi assassinado nos Idos de Março de 44 a.C.?;Augusto;Cícero;Júlio César;Marco Antônio;C;1
+108;Quem é tradicionalmente considerado o primeiro imperador romano?;Augusto;Nero;Trajano;Calígula;A;2
+109;Qual dinastia chinesa unificou grande parte do território e deu nome ao país?;Song;Ming;Qin;Tang;C;2
+110;A Rota da Seda conectava redes comerciais chinesas a regiões que alcançavam qual continente?;África austral;Europa;Oceania;América do Sul;B;2
+111;Qual imperador indiano da dinastia Máuria ficou conhecido por apoiar o budismo após uma guerra devastadora?;Akbar;Chandragupta II;Harsha;Ashoka;D;2
+112;Qual religião tem como figura fundadora Siddhartha Gautama?;Jainismo;Zoroastrismo;Budismo;Siquismo;C;2
+113;A cidade de Timbuktu floresceu como centro intelectual e comercial em qual império africano?;Império do Mali;Império Axumita;Império do Benim;Império Zulu;A;2
+114;Qual documento inglês de 1215 limitou certos poderes do rei João?;Bill of Rights;Magna Carta;Petition of Right;Act of Settlement;B;2
+115;A Peste Negra do século XIV foi causada por qual agente infeccioso?;Protozoário Plasmodium;Vírus influenza;Fungo Candida;Bactéria Yersinia pestis;D;3
+116;Qual cidade italiana é frequentemente associada ao florescimento inicial do Renascimento?;Nápoles;Florença;Turim;Gênova;B;3
+117;Qual inventor europeu ficou associado à difusão da imprensa de tipos móveis no século XV?;Johannes Gutenberg;Galileu Galilei;Leonardo da Vinci;Nicolau Copérnico;A;3
+118;A conquista de Constantinopla em 1453 foi realizada por qual potência?;Reino de Portugal;Império Bizantino;Império Mongol;Império Otomano;D;3
+119;Em 1492, a expedição de Cristóvão Colombo atravessou o Atlântico a serviço de qual monarquia?;República de Veneza;Coroa de Castela;Coroa inglesa;Reino de França;B;3
+120;Qual monge publicou as 95 teses que se tornaram marco da Reforma Protestante?;Martinho Lutero;Tomás de Aquino;João Calvino;Inácio de Loyola;A;3
+121;Qual tratado encerrou a Guerra dos Trinta Anos em 1648?;Congresso de Viena;Tratado de Tordesilhas;Tratado de Utrecht;Paz de Vestfália;D;3
+122;Qual acontecimento simboliza o início da Revolução Francesa em 1789?;Queda da Bastilha;Batalha de Waterloo;Execução de Luís XVI;Golpe do 18 de Brumário;A;4
+123;Qual revolução culminou na independência do Haiti em 1804?;Revolução Haitiana;Revolta dos Boxers;Revolução Francesa;Revolução Americana;A;4
+124;Em qual batalha Napoleão Bonaparte foi derrotado definitivamente em 1815?;Jena;Austerlitz;Waterloo;Marengo;C;4
+125;Em que ano foi aprovada a Declaração de Independência dos Estados Unidos?;1789;1776;1812;1865;B;4
+126;Qual fonte de energia teve papel decisivo na primeira fase da Revolução Industrial britânica?;Petróleo;Energia nuclear;Carvão mineral;Gás natural;C;4
+127;Qual líder militar teve papel central na unificação italiana ao comandar a Expedição dos Mil?;Klemens von Metternich;Otto von Bismarck;Napoleão III;Giuseppe Garibaldi;D;4
+128;A Restauração Meiji, iniciada em 1868, transformou politicamente qual país?;Japão;Coreia;Tailândia;China;A;4
+129;Qual assassinato em Sarajevo ajudou a desencadear a Primeira Guerra Mundial?;Do rei Jorge V;Do presidente Woodrow Wilson;Do arquiduque Francisco Ferdinando;Do czar Nicolau II;C;5
+130;Qual grupo político liderado por Lenin tomou o poder na Revolução Russa de Outubro de 1917?;Socialistas revolucionários moderados;Bolcheviques;Cadetes;Mencheviques;B;5
+131;Qual organização internacional foi criada após a Primeira Guerra Mundial para promover a segurança coletiva?;Organização das Nações Unidas;OTAN;União Europeia;Liga das Nações;D;5
+132;Em qual mês e ano terminou a guerra na Europa durante a Segunda Guerra Mundial?;Setembro de 1945;Maio de 1945;Novembro de 1946;Agosto de 1944;B;5
+133;Qual cidade alemã teve seu muro derrubado em novembro de 1989?;Munique;Bonn;Hamburgo;Berlim;D;5
+134;Qual império construiu a extensa rede de estradas associada ao Caminho Real na América do Sul?;Império Inca;Império Maia;Império Asteca;Império Chimú;A;5
+135;Qual cidade-estado grega é tradicionalmente associada ao desenvolvimento da democracia direta?;Esparta;Corinto;Atenas;Tebas;C;5
+136;A Revolução Gloriosa de 1688 ocorreu em qual reino?;Inglaterra;Espanha;Suécia;França;A;4
+137;Qual navegador português comandava a expedição que chegou à costa do atual Brasil em 1500?;Vasco da Gama;Pedro Álvares Cabral;Martim Afonso de Sousa;Pero Lopes de Sousa;B;1
+138;Qual tratado de 1494 definiu uma linha de divisão de terras reivindicadas por Portugal e Espanha?;Tratado de Petrópolis;Tratado de Madri;Tratado de Tordesilhas;Tratado de Utrecht;C;1
+139;Qual sistema a Coroa portuguesa implantou em 1534 para estimular a ocupação da colônia?;Governo republicano;Câmaras provinciais;Vice-reinado;Capitanias hereditárias;D;1
+140;Quem foi o primeiro governador-geral do Brasil, instalado em Salvador em 1549?;Mem de Sá;Estácio de Sá;Duarte da Costa;Tomé de Sousa;D;1
+141;Qual atividade econômica marcou a ocupação colonial do litoral nordestino nos séculos XVI e XVII?;Mineração de ouro;Produção de açúcar;Extração de borracha;Cultivo de café;B;1
+142;Qual potência europeia ocupou partes do Nordeste brasileiro no século XVII, incluindo Pernambuco?;Espanha;Inglaterra;França;Países Baixos;D;1
+143;Qual governador neerlandês administrou o Brasil Holandês em parte da década de 1630?;Johan van Oldenbarnevelt;João Maurício de Nassau-Siegen;Maurício de Nassau;Guilherme de Orange;C;1
+144;As expedições dos bandeirantes partiram principalmente de qual vila, núcleo da atual metrópole paulista?;São Paulo;Recife;Belém;Salvador;A;2
+145;Qual região ganhou grande importância econômica com a descoberta de ouro no final do século XVII?;Minas Gerais;Amazônia;Maranhão;Rio Grande do Sul;A;2
+146;Qual movimento de 1789 em Minas Gerais foi influenciado por ideias iluministas e pela insatisfação com impostos?;Revolução Farroupilha;Revolta dos Malês;Cabanagem;Inconfidência Mineira;D;2
+147;Qual participante da Inconfidência Mineira foi executado e tornou-se símbolo do movimento?;José Bonifácio;Bento Gonçalves;Tiradentes;Frei Caneca;C;2
+148;A Conjuração Baiana de 1798 defendia, entre outras pautas, o fim da escravidão e qual mudança política?;Anexação à Espanha;Restauração do absolutismo;Retorno do domínio holandês;Independência e república;D;2
+149;Por que a família real portuguesa transferiu a corte para o Rio de Janeiro em 1808?;Para escapar da invasão napoleônica de Portugal;Para negociar a anexação do Uruguai;Para fugir da Guerra do Paraguai;Para iniciar a mineração em Minas Gerais;A;2
+150;Quem proclamou a independência do Brasil em 1822?;José Bonifácio;Deodoro da Fonseca;Dom João VI;Dom Pedro I;D;2
+151;Qual foi a primeira Constituição do Brasil independente, outorgada em 1824?;Constituição de 1934;Constituição de 1891;Constituição Republicana;Constituição do Império;D;3
+152;Qual revolta de 1824 defendia a formação de uma república no Nordeste?;Revolta dos Farrapos;Sabinada;Balaiada;Confederação do Equador;D;3
+153;Em que ano Dom Pedro I abdicou do trono brasileiro?;1831;1822;1889;1840;A;3
+154;Qual período político começou após a abdicação de Dom Pedro I e antes da maioridade de Dom Pedro II?;Estado Novo;Segundo Reinado;República da Espada;Período Regencial;D;3
+155;Qual revolta regencial ocorreu no Grão-Pará e teve forte participação popular?;Revolta da Armada;Guerra de Canudos;Cabanagem;Revolta da Vacina;C;3
+156;Qual conflito no Sul do Brasil ficou conhecido como Guerra dos Farrapos?;Guerra do Contestado;Revolta dos Malês;Revolução Farroupilha;Cabanada;C;3
+157;Qual lei de 1850 proibiu o tráfico transatlântico de africanos escravizados para o Brasil?;Lei do Ventre Livre;Lei Eusébio de Queirós;Lei dos Sexagenários;Lei Áurea;B;3
+158;Qual lei de 1871 declarou livres os filhos de mulheres escravizadas nascidos a partir de sua promulgação?;Lei Áurea;Lei do Ventre Livre;Lei Eusébio de Queirós;Lei dos Sexagenários;B;4
+159;Qual lei de 1885 concedeu liberdade, sob condições, a pessoas escravizadas com mais de 60 anos?;Lei dos Sexagenários;Lei do Ventre Livre;Lei de Terras;Lei Áurea;A;4
+160;Qual princesa assinou a Lei Áurea em 13 de maio de 1888?;Princesa Francisca;Princesa Januária;Princesa Isabel;Princesa Leopoldina;C;4
+161;Quem proclamou a República brasileira em 15 de novembro de 1889?;Floriano Peixoto;Marechal Deodoro da Fonseca;Duque de Caxias;Prudente de Moraes;B;4
+162;Qual conflito no sertão da Bahia terminou com a destruição de Canudos em 1897?;Revolta da Chibata;Guerra do Contestado;Guerra de Canudos;Revolução Federalista;C;4
+163;Qual líder religioso tornou-se a principal figura do arraial de Canudos?;José Maria;Frei Caneca;Padre Cícero;Antônio Conselheiro;D;4
+164;A Revolta da Vacina de 1904 ocorreu durante reformas urbanas e sanitárias em qual cidade?;Belo Horizonte;São Paulo;Rio de Janeiro;Salvador;C;4
+165;Qual presidente chegou ao poder após a Revolução de 1930?;Eurico Gaspar Dutra;Getúlio Vargas;Washington Luís;Juscelino Kubitschek;B;5
+166;Qual regime autoritário foi instaurado por Getúlio Vargas em 1937?;República do Café com Leite;República da Espada;Estado Novo;Nova República;C;5
+167;Em que ano foi criada a Consolidação das Leis do Trabalho, conhecida como CLT?;1943;1968;1954;1930;A;5
+168;Na Segunda Guerra Mundial, a Força Expedicionária Brasileira combateu principalmente em qual país?;França;Alemanha;Itália;Japão;C;5
+169;Qual presidente inaugurou Brasília em 21 de abril de 1960?;Jânio Quadros;Juscelino Kubitschek;João Goulart;Getúlio Vargas;B;5
+170;Qual ato institucional de 1968 ampliou drasticamente os poderes repressivos da ditadura militar?;AI-4;AI-1;AI-5;AI-2;C;5
+171;Qual movimento da década de 1980 mobilizou a população pela eleição direta para presidente?;Marcha da Família;Queremismo;Diretas Já;Movimento Tenentista;C;5
+172;Em que ano foi promulgada a Constituição atualmente vigente no Brasil?;1967;1974;1988;1994;C;1
+173;Qual é o maior oceano da Terra em área?;Oceano Atlântico;Oceano Pacífico;Oceano Índico;Oceano Ártico;B;1
+174;Qual linha imaginária divide a Terra em hemisférios Norte e Sul?;Equador;Trópico de Câncer;Meridiano de Greenwich;Círculo Polar Antártico;A;1
+175;Qual é a capital do Canadá?;Toronto;Ottawa;Vancouver;Montreal;B;1
+176;Qual é a capital da Austrália?;Melbourne;Perth;Sydney;Canberra;D;1
+177;Em qual continente fica o deserto do Saara?;Ásia;Oceania;América do Sul;África;D;1
+178;Qual cordilheira funciona como uma longa barreira natural no oeste da América do Sul?;Montes Urais;Andes;Alpes;Himalaia;B;1
+179;Qual é o rio que atravessa ou margeia cidades como Viena, Budapeste e Belgrado?;Reno;Sena;Tâmisa;Danúbio;D;1
+180;Qual estreito separa a Espanha do Marrocos?;Estreito de Ormuz;Estreito de Gibraltar;Estreito de Malaca;Estreito de Bering;B;2
+181;Qual país tem Lisboa como capital?;Espanha;Itália;Portugal;Grécia;C;2
+182;Qual país europeu é formado por uma península em formato semelhante a uma bota?;Noruega;Croácia;Itália;Dinamarca;C;2
+183;Qual é a capital do Egito, localizada às margens do Nilo?;Trípoli;Cartum;Cairo;Alexandria;C;2
+184;O rio Nilo deságua em qual mar?;Mar Vermelho;Mar Arábico;Mar Mediterrâneo;Mar Negro;C;2
+185;Qual país sul-americano não possui litoral e faz fronteira com Brasil e Peru?;Chile;Equador;Uruguai;Bolívia;D;2
+186;Qual é a capital da Nova Zelândia?;Christchurch;Auckland;Hamilton;Wellington;D;2
+187;Qual país tem Tóquio como capital e é formado por um arquipélago no Pacífico?;Sri Lanka;Filipinas;Indonésia;Japão;D;3
+188;Qual cadeia montanhosa abriga o Monte Everest?;Cáucaso;Andes;Himalaia;Alpes;C;3
+189;Qual é o maior país do mundo em área territorial?;Canadá;Estados Unidos;China;Rússia;D;3
+190;Qual mar interior fica entre a Europa Oriental e a Ásia Ocidental e é o maior corpo de água fechado do planeta?;Mar Negro;Mar Cáspio;Mar de Aral;Mar Morto;B;3
+191;Qual canal artificial liga o Mar Mediterrâneo ao Mar Vermelho?;Canal de Kiel;Canal de Suez;Canal do Panamá;Canal da Mancha;B;3
+192;Qual canal permite a passagem entre os oceanos Atlântico e Pacífico através da América Central?;Canal do Panamá;Canal de Suez;Canal de Corinto;Canal de São Lourenço;A;3
+193;Qual país escandinavo tem Estocolmo como capital?;Noruega;Islândia;Finlândia;Suécia;D;3
+194;Qual é a capital da Coreia do Sul?;Pyongyang;Incheon;Seul;Busan;C;4
+195;Em qual país fica a região histórica da Capadócia?;Turquia;Armênia;Irã;Grécia;A;4
+196;Qual país africano tem Adis Abeba como capital?;Uganda;Quênia;Senegal;Etiópia;D;4
+197;Qual cadeia de montanhas separa tradicionalmente a Europa da Ásia na Rússia?;Alpes;Cárpatos;Montes Urais;Apeninos;C;4
+198;Qual é o nome do ponto mais profundo conhecido dos oceanos, localizado na Fossa das Marianas?;Abismo de Puerto Rico;Platô de Kerguelen;Challenger Deep;Dorsal de Gakkel;C;4
+199;Qual país abriga a maior parte da floresta amazônica?;Colômbia;Brasil;Venezuela;Peru;B;4
+200;Qual é a capital da Islândia?;Reykjavík;Oslo;Helsinque;Nuuk;A;4
+201;Qual país tem em Jacarta sua maior metrópole e é formado por milhares de ilhas?;Vietnã;Tailândia;Malásia;Indonésia;D;5
+202;Qual é o nome da grande ilha situada a sudeste da Índia e que forma o território do Sri Lanka?;Bornéu;Sumatra;Madagascar;Sri Lanka;D;5
+203;Qual país sul-americano tem Quito como capital e inclui o arquipélago de Galápagos?;Argentina;Guiana;Equador;Paraguai;C;5
+204;Qual é a capital do Marrocos?;Marrakech;Fez;Casablanca;Rabat;D;5
+205;Qual país europeu tem Berna como cidade federal e é conhecido por sua neutralidade histórica?;Luxemburgo;Áustria;Bélgica;Suíça;D;5
+206;Qual é o maior deserto quente do mundo?;Saara;Atacama;Gobi;Kalahari;A;5
+207;Qual estreito separa a Ásia da América do Norte?;Estreito de Cook;Estreito de Magalhães;Estreito de Bering;Estreito de Gibraltar;C;5
+208;Qual país tem Ulaanbaatar como capital e fica entre Rússia e China?;Mongólia;Cazaquistão;Nepal;Butão;A;3
+209;Qual é a capital federal do Brasil?;Brasília;Rio de Janeiro;Goiânia;São Paulo;A;1
+210;Quantas grandes regiões oficiais o IBGE utiliza para dividir o Brasil?;Cinco;Sete;Quatro;Seis;A;1
+211;Qual região brasileira concentra os estados do Amazonas, Pará e Acre?;Sul;Centro-Oeste;Norte;Nordeste;C;1
+212;Qual é o maior estado brasileiro em extensão territorial?;Mato Grosso;Amazonas;Minas Gerais;Pará;B;1
+213;Qual é o menor estado brasileiro em área?;Rio de Janeiro;Alagoas;Espírito Santo;Sergipe;D;1
+214;Qual bioma ocupa grande parte do interior do Nordeste brasileiro?;Pantanal;Mata de Araucárias;Pampa;Caatinga;D;1
+215;Qual bioma é caracterizado por campos naturais no extremo sul do Brasil?;Caatinga;Amazônia;Pampa;Cerrado;C;1
+216;Qual grande planície alagável se estende principalmente por Mato Grosso e Mato Grosso do Sul?;Pantanal;Mata Atlântica;Cerrado;Pampa;A;2
+217;Qual é o ponto culminante do Brasil, na Serra do Imeri?;Pico das Agulhas Negras;Monte Roraima;Pico da Neblina;Pico da Bandeira;C;2
+218;Qual rio forma parte da fronteira entre Brasil, Argentina e Paraguai?;Rio São Francisco;Rio Tocantins;Rio Paraná;Rio Parnaíba;C;2
+219;Qual rio brasileiro atravessa o sertão e deságua no Oceano Atlântico entre Alagoas e Sergipe?;Rio Madeira;Rio São Francisco;Rio Doce;Rio Xingu;B;2
+220;Qual região brasileira tem maior concentração de estados e ampla faixa litorânea voltada ao Atlântico?;Sul;Norte;Centro-Oeste;Nordeste;D;2
+221;Qual estado brasileiro tem Florianópolis como capital?;Paraná;Rio Grande do Sul;Santa Catarina;São Paulo;C;2
+222;Qual é a capital do estado do Paraná?;Londrina;Curitiba;Ponta Grossa;Maringá;B;2
+223;Qual é a capital de Minas Gerais?;Ouro Preto;Juiz de Fora;Uberlândia;Belo Horizonte;D;3
+224;Qual estado brasileiro tem como capital a cidade de Vitória?;Bahia;Sergipe;Rio de Janeiro;Espírito Santo;D;3
+225;Qual é a capital do estado de Goiás?;Campo Grande;Goiânia;Palmas;Cuiabá;B;3
+226;Qual região hidrográfica abriga o maior volume de água e a maior bacia hidrográfica do Brasil?;São Francisco;Amazônica;Uruguai;Paraná;B;3
+227;Qual rio é conhecido por atravessar o interior do Nordeste e por sua importância para irrigação?;Rio Iguaçu;Rio Negro;Rio São Francisco;Rio Itajaí-Açu;C;3
+228;Qual formação vegetal brasileira é associada a árvores retorcidas, gramíneas e estação seca bem marcada?;Floresta Ombrófila Densa;Manguezal;Mata de Araucárias;Cerrado;D;3
+229;Qual bioma brasileiro tem a maior biodiversidade e se estende ao longo de boa parte do litoral?;Mata Atlântica;Caatinga;Pampa;Pantanal;A;3
+230;Qual estado abriga a maior parte da Chapada Diamantina?;Tocantins;Bahia;Goiás;Minas Gerais;B;4
+231;Em qual estado fica o Parque Nacional dos Lençóis Maranhenses?;Maranhão;Ceará;Rio Grande do Norte;Piauí;A;4
+232;Qual capital brasileira está localizada na foz do rio Amazonas?;Macapá;Manaus;Porto Velho;Belém;D;4
+233;Qual estado tem Campo Grande como capital?;Mato Grosso do Sul;Acre;Rondônia;Mato Grosso;A;4
+234;Qual estado tem Cuiabá como capital?;Tocantins;Mato Grosso do Sul;Goiás;Mato Grosso;D;4
+235;Qual estado brasileiro é atravessado pelo Trópico de Capricórnio e tem Curitiba como capital?;Rio Grande do Sul;Paraná;Santa Catarina;São Paulo;B;4
+236;Qual cadeia de serras acompanha parte do litoral dos estados do Paraná e de Santa Catarina?;Serra da Mantiqueira;Serra Geral;Serra do Mar;Serra da Canastra;C;4
+237;Qual ilha brasileira é conhecida por suas praias e pertence ao arquipélago de Fernando de Noronha?;Ilha de Santa Catarina;Ilha Grande;Ilha de Fernando de Noronha;Ilha do Marajó;C;5
+238;Qual estado brasileiro não possui litoral e tem Porto Velho como capital?;Tocantins;Roraima;Rondônia;Acre;C;5
+239;Qual é a capital do Acre?;Porto Velho;Rio Branco;Manaus;Boa Vista;B;5
+240;Qual é a capital do Amapá?;Belém;Santarém;Boa Vista;Macapá;D;5
+241;Qual região brasileira reúne Paraná, Santa Catarina e Rio Grande do Sul?;Nordeste;Centro-Oeste;Sudeste;Sul;D;5
+242;Qual é o nome do planalto que ocupa boa parte do Brasil central e influencia a divisão de bacias hidrográficas?;Planalto Central;Planalto das Guianas;Planalto da Borborema;Planalto Meridional;A;5
+243;Qual estado brasileiro tem Palmas como capital e foi criado pela Constituição de 1988?;Amapá;Rondônia;Tocantins;Mato Grosso do Sul;C;5
+244;Qual região metropolitana brasileira se desenvolveu ao redor da Baía de Guanabara?;Rio de Janeiro;Recife;Vitória;Salvador;A;2
+245;Que processo permite às plantas produzir açúcares usando luz, água e dióxido de carbono?;Fotossíntese;Respiração anaeróbia;Transpiração;Fermentação;A;1
+246;Qual é a principal função dos glóbulos vermelhos no sangue humano?;Digerir nutrientes;Produzir anticorpos;Transportar oxigênio;Coagular o sangue;C;1
+247;Qual órgão humano filtra o sangue e produz a urina?;Baço;Pâncreas;Pulmões;Rins;D;1
+248;Qual fenômeno faz um objeto parecer deslocado ao ser observado parcialmente submerso na água?;Polarização magnética;Difração sonora;Refração da luz;Reflexão total;C;1
+249;Qual camada da atmosfera concentra a maior parte do ozônio que absorve radiação ultravioleta?;Troposfera;Termosfera;Estratosfera;Mesosfera;C;1
+250;Qual processo transforma vapor de água em gotículas líquidas durante a formação de nuvens?;Condensação;Fusão;Solidificação;Sublimação;A;1
+251;Qual tipo de rocha se forma pelo resfriamento e solidificação do magma ou da lava?;Orgânica;Ígnea;Sedimentar;Metamórfica;B;1
+252;Qual escala é usada para medir a acidez ou basicidade de uma solução aquosa?;Escala Beaufort;Escala Richter;pH;Escala de Mohs;C;2
+253;Qual estrutura celular contém a maior parte do DNA em células eucarióticas?;Núcleo;Ribossomo;Lisossomo;Complexo de Golgi;A;2
+254;Qual molécula é a principal fonte imediata de energia utilizada pelas células?;Colágeno;ATP;DNA;Hemoglobina;B;2
+255;Qual fenômeno geológico ocorre quando placas tectônicas deslizam, colidem ou se afastam?;Intemperismo químico;Erosão eólica;Tectonismo;Sedimentação fluvial;C;2
+256;Qual tipo de relação ecológica beneficia uma espécie e prejudica outra, sem necessariamente matá-la?;Mutualismo;Comensalismo;Protocooperação;Parasitismo;D;2
+257;Qual grupo de seres vivos decompõe matéria orgânica e recicla nutrientes em muitos ecossistemas?;Predadores de topo;Plantas produtoras;Fungos e bactérias decompositoras;Apenas herbívoros;C;2
+258;Qual é o nome do processo pelo qual a água passa da superfície terrestre para a atmosfera em forma de vapor?;Condensação;Evaporação;Infiltração;Precipitação;B;2
+259;O que acontece com a densidade média de uma substância quando ela se expande sem alterar sua massa?;Aumenta;Torna-se necessariamente zero;Permanece sempre igual;Diminui;D;3
+260;Qual fenômeno explica a separação de cores da luz branca ao atravessar um prisma?;Efeito fotoelétrico;Interferência destrutiva;Polarização circular;Dispersão;D;3
+261;Qual região do olho humano regula a quantidade de luz que entra pela pupila?;Retina;Nervo óptico;Córnea;Íris;D;3
+262;Qual hormônio produzido pelo pâncreas reduz a concentração de glicose no sangue?;Melatonina;Adrenalina;Insulina;Tiroxina;C;3
+263;Qual é a função principal dos alvéolos pulmonares?;Produzir muco digestivo;Filtrar a urina;Realizar trocas gasosas;Bombear sangue;C;3
+264;Qual fenômeno está relacionado ao aumento da frequência aparente de uma onda quando a fonte se aproxima do observador?;Efeito Tyndall;Efeito estufa;Efeito Doppler;Efeito Joule;C;3
+265;Qual mecanismo evolutivo favorece indivíduos com características que aumentam sua reprodução em determinado ambiente?;Seleção natural;Geração espontânea;Deriva continental;Sucessão ecológica;A;3
+266;Qual componente do sangue é essencial para a coagulação?;Neurônios;Linfócitos T;Plaquetas;Hemácias;C;4
+267;Qual organela celular realiza a maior parte da produção de ATP pela respiração aeróbia?;Mitocôndria;Cloroplasto;Centríolo;Lisossomo;A;4
+268;Qual é o nome do processo em que uma população de organismos se separa e acumula diferenças até formar espécies distintas?;Especiação;Homeostase;Mimetismo;Fossilização;A;4
+269;Qual fenômeno climático envolve o aquecimento anormal das águas superficiais do Pacífico equatorial?;Monção asiática;La Niña;El Niño;Oscilação do Atlântico Norte;C;4
+270;Qual gás é liberado em grande quantidade pela queima completa de combustíveis fósseis e contribui para o efeito estufa?;Hélio;Neônio;Dióxido de carbono;Oxigênio;C;4
+271;Qual vitamina é sintetizada na pele humana com a participação da radiação ultravioleta?;Vitamina D;Vitamina B12;Vitamina K;Vitamina C;A;4
+272;Qual é a unidade básica estrutural e funcional dos seres vivos?;Sistema;Tecido;Célula;Órgão;C;4
+273;Qual sistema do corpo humano coordena respostas rápidas usando sinais elétricos e neurotransmissores?;Sistema nervoso;Sistema linfático;Sistema endócrino apenas;Sistema urinário;A;5
+274;Qual tipo de imunidade é obtido quando o organismo produz seus próprios anticorpos após uma vacinação?;Imunidade passiva natural;Imunidade ativa artificial;Imunidade inata;Imunidade passiva artificial;B;5
+275;Qual é o nome do processo pelo qual os seres vivos mantêm condições internas relativamente estáveis?;Mutação;Metamorfose;Osmose;Homeostase;D;5
+276;Qual estrutura das plantas absorve água e sais minerais do solo?;Estame;Fruto;Raiz;Flor;C;5
+277;Qual interação ecológica ocorre quando duas espécies disputam um recurso limitado?;Inquilinismo;Mutualismo;Comensalismo;Competição;D;5
+278;Qual fenômeno explica por que a água líquida pode subir por tubos muito estreitos ou vasos de plantas?;Reflexão;Capilaridade;Sublimação;Convecção;B;5
+279;Qual é o principal papel da camada de ozônio para a vida na superfície terrestre?;Absorver grande parte da radiação ultravioleta;Controlar diretamente as marés;Produzir oxigênio para a respiração;Impedir a entrada de ondas de rádio;A;5
+280;Qual processo natural transforma nitrogênio atmosférico em compostos que podem entrar em cadeias biológicas?;Fermentação lática;Transpiração;Fixação do nitrogênio;Fotólise da água;C;5
+281;Qual grandeza física mede a quantidade de matéria de um corpo?;Massa;Peso;Pressão;Força;A;1
+282;No Sistema Internacional, qual é a unidade de força?;Watt;Joule;Newton;Pascal;C;1
+283;Se a velocidade de um carro dobra, mantendo a massa, como fica sua energia cinética?;Permanece igual;Dobra;Fica pela metade;Fica quatro vezes maior;D;1
+284;Qual lei de Newton explica por que um passageiro tende a continuar em movimento quando o ônibus freia bruscamente?;Lei da ação e reação;Lei da inércia;Lei da gravitação universal;Lei de Coulomb;B;1
+285;Qual grandeza é calculada dividindo-se a distância percorrida pelo intervalo de tempo?;Aceleração média;Potência;Força resultante;Velocidade média;D;1
+286;Qual é a unidade de potência no Sistema Internacional?;Ohm;Ampere;Watt;Volt;C;1
+287;Em um circuito simples, qual componente fornece a diferença de potencial necessária para impulsionar a corrente?;Fusível queimado;Interruptor aberto;Resistor;Fonte de tensão;D;1
+288;Se dois resistores idênticos são ligados em série, a resistência equivalente é:;O dobro da resistência de cada um;Metade da resistência de cada um;Quatro vezes a resistência de cada um;Igual à de um resistor;A;2
+289;Em uma associação em paralelo de resistores idênticos, a resistência equivalente é menor que a resistência de cada resistor porque:;A tensão desaparece;A corrente é necessariamente nula;Os resistores deixam de dissipar energia;Há mais caminhos para a corrente;D;2
+290;Qual fenômeno permite que uma colher pareça torta dentro de um copo com água?;Difração;Refração;Ressonância;Polarização;B;2
+291;Qual tipo de onda precisa de um meio material para se propagar?;Onda sonora;Luz visível;Onda eletromagnética;Raio X;A;2
+292;Qual é a velocidade aproximada da luz no vácuo?;300 mil quilômetros por segundo;3 mil quilômetros por segundo;30 mil quilômetros por segundo;300 quilômetros por segundo;A;2
+293;Qual grandeza permanece constante para uma onda ao atravessar a fronteira entre dois meios estacionários?;Velocidade;Amplitude em qualquer caso;Frequência;Comprimento de onda;C;2
+294;Qual fenômeno ocorre quando uma onda contorna obstáculos ou atravessa uma abertura?;Polarização;Refração;Difração;Reflexão especular;C;2
+295;Qual princípio explica o aumento da pressão exercida por um fluido quando a profundidade aumenta?;Lei de Hooke;Princípio de Arquimedes;Lei de Snell;Pressão hidrostática;D;3
+296;Um objeto flutua em água quando sua densidade média é:;Igual a zero;Maior que a densidade da água;Menor que a densidade da água;Independente da densidade do fluido;C;3
+297;Qual grandeza mede a capacidade de realizar trabalho ou provocar transformações?;Energia;Densidade;Temperatura;Carga elétrica;A;3
+298;Em um processo sem perdas, se uma máquina recebe 100 J e realiza 70 J de trabalho útil, qual é sua eficiência?;170%;30%;100%;70%;D;3
+299;Qual transformação de energia ocorre principalmente em um alto-falante?;Térmica em nuclear;Sonora em química;Luminosa em potencial;Elétrica em sonora;D;3
+300;Qual instrumento mede a corrente elétrica em um circuito?;Amperímetro;Voltímetro;Termômetro;Barômetro;A;3
+301;Qual instrumento deve ser ligado em paralelo para medir a diferença de potencial em um componente?;Ohmímetro em série;Amperímetro;Voltímetro;Wattímetro mecânico;C;3
+302;Se a força resultante sobre um corpo é nula, o corpo:;Necessariamente para;Mantém repouso ou movimento retilíneo uniforme;Aumenta sua velocidade;Gira com aceleração angular constante;B;4
+303;Qual é o nome da força que se opõe ao movimento relativo entre superfícies em contato?;Atrito;Empuxo;Tração gravitacional;Força centrípeta;A;4
+304;Em um movimento circular uniforme, a aceleração aponta para:;O sentido contrário à velocidade sempre;Fora da trajetória;A direção tangencial;O centro da trajetória;D;4
+305;Qual princípio relaciona pressão e velocidade de um fluido em escoamento ideal?;Lei de Ohm;Lei de Faraday;Princípio de Bernoulli;Lei de Stefan-Boltzmann;C;4
+306;Qual partícula possui carga elétrica negativa?;Nêutron;Elétron;Pósitron;Próton;B;4
+307;O que acontece com a frequência de uma onda se seu período diminui pela metade?;Cai pela metade;Dobra;Torna-se zero;Permanece igual;B;4
+308;Qual fenômeno permite a formação de padrões de máximos e mínimos quando duas ondas se sobrepõem?;Convecção;Efeito fotoelétrico;Fissão;Interferência;D;4
+309;Qual unidade costuma aparecer na conta de luz para expressar o consumo de energia elétrica?;Watt;Ampere;Quilowatt-hora;Volt;C;5
+310;Em um transformador ideal, elevar a tensão no secundário implica, para a mesma potência, que a corrente no secundário:;Aumenta;Muda de sentido a cada ciclo;Permanece sempre idêntica;Diminui;D;5
+311;Qual fenômeno explica a atração gravitacional entre a Terra e a Lua?;Força nuclear forte;Força magnética;Pressão atmosférica;Interação gravitacional;D;5
+312;Qual condição permite que um satélite permaneça em órbita circular ao redor da Terra?;A gravidade fornece a força centrípeta necessária;O satélite fica fora do campo gravitacional;A gravidade deixa de atuar;A propulsão precisa atuar continuamente na direção do movimento;A;5
+313;Qual é o nome da quantidade de movimento de um corpo, igual ao produto de massa pela velocidade?;Trabalho mecânico;Impulso térmico;Torque;Momento linear;D;5
+314;O impulso de uma força constante é igual ao produto da força por qual intervalo?;Tempo de atuação;Massa do corpo;Distância total;Velocidade inicial;A;5
+315;Qual lei estabelece que a corrente em um condutor ôhmico é proporcional à tensão, a temperatura constante?;Lei de Coulomb;Lei de Lenz;Lei de Ohm;Lei de Snell;C;5
+316;Qual princípio diz que a pressão aplicada a um fluido confinado é transmitida integralmente a todas as partes do fluido?;Princípio de Pascal;Princípio de Arquimedes;Princípio da inércia;Princípio da superposição;A;3
+317;Qual partícula do átomo determina seu número atômico?;Elétron;Nêutron;Fóton;Próton;D;1
+318;Que tipo de ligação química envolve o compartilhamento de pares de elétrons?;Nuclear;Iônica;Covalente;Metálica;C;1
+319;Em uma ligação iônica típica, o que acontece entre os átomos envolvidos?;Os núcleos se fundem;Há transferência de elétrons;Há compartilhamento igual de elétrons;Os átomos perdem todos os prótons;B;1
+320;Qual é a fórmula química da água?;H2O;CO2;O2;H2O2;A;1
+321;Qual substância é formada por átomos de sódio e cloro em proporção 1:1?;Carbonato de cálcio;Cloreto de sódio;Hidróxido de sódio;Ácido clorídrico;B;1
+322;Uma solução com pH 3 é, em condições usuais, classificada como:;Ácida;Básica;Metálica;Neutra;A;1
+323;Qual propriedade da água ajuda a dissolver muitos sais e substâncias polares?;Sua polaridade;Sua baixa massa molar;Sua ausência de ligações;Sua natureza apolar;A;1
+324;O que um catalisador faz com a energia de ativação de uma reação?;Aumenta a energia de ativação;Torna todos os produtos radioativos;Altera a massa dos reagentes;Diminui a energia de ativação;D;2
+325;Em uma reação de oxidação, uma espécie química perde ou ganha elétrons?;Ganha elétrons;Não troca elétrons;Perde elétrons;Ganha prótons obrigatoriamente;C;2
+326;Dois átomos do mesmo elemento com quantidades diferentes de nêutrons são chamados de:;Isótopos;Alótropos;Íons;Isômeros;A;2
+327;Qual família da tabela periódica reúne elementos como hélio, neônio e argônio?;Calcogênios;Metais alcalinos;Halogênios;Gases nobres;D;2
+328;Qual família da tabela periódica contém flúor, cloro e bromo?;Gases nobres;Metais alcalino-terrosos;Lantanídeos;Halogênios;D;2
+329;Qual gás é liberado quando muitos carbonatos reagem com ácidos?;Hidrogênio;Dióxido de carbono;Oxigênio;Nitrogênio;B;2
+330;Em uma neutralização entre um ácido e uma base de Arrhenius, quais produtos são comuns?;Apenas gás oxigênio;Álcool e éster;Sal e água;Metal e hidrogênio;C;2
+331;Uma reação exotérmica transfere energia térmica predominantemente para onde?;Para o ambiente;Para o núcleo dos átomos;Para lugar nenhum;Do ambiente para o sistema;A;3
+332;Em uma transformação endotérmica, o sistema:;Libera necessariamente calor;Não troca energia;Converte massa em prótons;Absorve energia do ambiente;D;3
+333;Qual unidade representa a quantidade de matéria no Sistema Internacional?;Pascal;Candela;Kelvin;Mol;D;3
+334;Quantas entidades elementares existem aproximadamente em um mol?;6,02 × 10²³;3,00 × 10⁸;9,81 × 10²;1,60 × 10⁻¹⁹;A;3
+335;Se a temperatura absoluta de um gás ideal aumenta e o volume permanece constante, o que ocorre com a pressão?;Aumenta;Diminui;Permanece necessariamente nula;Inverte seu sinal;A;3
+336;Segundo a lei de Boyle, a temperatura constante, se o volume de um gás ideal cai à metade, sua pressão:;Dobra;Fica quatro vezes menor;Permanece igual;Cai à metade;A;3
+337;Qual equação relaciona pressão, volume, quantidade de matéria e temperatura de um gás ideal?;F = ma;PV = nRT;V = RI;E = mc²;B;3
+338;Como se chama o processo de transformação de um líquido em gás que ocorre na superfície abaixo do ponto de ebulição?;Condensação;Solidificação;Evaporação;Deposição;C;4
+339;Qual característica define, em geral, os compostos orgânicos estudados pela química do carbono?;A presença obrigatória de sódio;A ausência de ligações covalentes;A presença de estruturas baseadas em carbono;A presença obrigatória de metais pesados;C;4
+340;Uma longa molécula formada pela repetição de unidades menores é chamada de:;Isótopo;Eletrólito;Catalisador;Polímero;D;4
+341;A reação entre um ácido carboxílico e um álcool pode produzir qual classe de composto?;Aldeído;Hidrocarboneto aromático;Éster;Amina;C;4
+342;Qual processo químico transforma gorduras em sabão pela reação com uma base forte?;Esterificação;Hidrogenação;Saponificação;Polimerização;C;4
+343;Qual gás é produzido no cátodo durante a eletrólise da água em condições adequadas?;Hélio;Hidrogênio;Nitrogênio;Cloro;B;4
+344;De acordo com o princípio de Le Chatelier, como um equilíbrio reage ao aumento da concentração de um reagente?;Desloca-se no sentido de consumir parte desse reagente;Deixa de existir;Aumenta a massa de todos os elementos;Desloca-se sempre para os reagentes;A;4
+345;Qual alteração geralmente acelera uma reação química entre reagentes em solução?;Diminuir a concentração de todos os reagentes;Reduzir a superfície de contato de um sólido;Aumentar a temperatura;Retirar o catalisador;C;5
+346;A dureza temporária da água está associada principalmente à presença de quais íons?;Cálcio e magnésio;Ferro e alumínio exclusivamente;Sódio e potássio;Prata e ouro;A;5
+347;A ferrugem se forma principalmente pela corrosão do ferro em presença de:;Oxigênio e água;Hélio e nitrogênio;Argônio e luz;Gás carbônico puro e óleo;A;5
+348;Em uma pilha galvânica espontânea, onde ocorre a oxidação?;Na ponte salina;No ânodo;No cátodo;No fio externo apenas;B;5
+349;Qual é a fórmula molecular do ozônio?;O3;O4;O2;CO3;A;5
+350;Por que o carbono-14 é útil em datação arqueológica de materiais orgânicos?;Sua concentração cresce continuamente após a morte;Sua quantidade diminui por decaimento radioativo após a morte do organismo;Ele existe apenas em minerais vulcânicos;Ele se transforma em carbono-12 em horas;B;5
+351;Por que o sódio metálico é conservado sob óleo mineral em laboratório?;Para mantê-lo em estado gasoso;Para reduzir seu contato com água e oxigênio;Para acelerar sua oxidação;Para torná-lo radioativo;B;5
+352;Qual gás nobre é frequentemente usado em balões por ser muito menos denso que o ar e pouco reativo?;Criptônio;Hélio;Radônio;Argônio;B;1
+353;Qual molécula armazena a informação genética hereditária na maioria dos seres vivos?;DNA;Glicose;Celulose;ATP;A;1
+354;Qual estrutura celular fabrica proteínas a partir de informações do RNA mensageiro?;Centríolo;Vacúolo;Ribossomo;Lisossomo;C;1
+355;Qual processo produz duas células-filhas geneticamente muito semelhantes à célula original?;Meiose;Mitose;Transcrição;Fecundação;B;1
+356;Qual divisão celular reduz à metade o número de cromossomos e forma gametas em muitos animais?;Meiose;Mitose;Brotamento;Fissão binária;A;1
+357;Qual organela está associada à respiração celular aeróbia e à produção de ATP?;Cloroplasto;Retículo endoplasmático rugoso;Complexo de Golgi;Mitocôndria;D;1
+358;Qual componente forma a barreira seletiva que envolve a célula?;Membrana plasmática;Nucleolo;Parede nuclear;Centrossomo;A;1
+359;Uma célula procariótica distingue-se de uma eucariótica porque:;Não possui membrana plasmática;Não possui núcleo delimitado por membrana;Possui mitocôndrias maiores;Não possui material genético;B;1
+360;Qual substância compõe principalmente a parede celular das plantas?;Celulose;Glicogênio;Quitina;Peptidoglicano;A;2
+361;Em qual organela das células vegetais ocorre a fotossíntese?;Lisossomo;Mitocôndria;Ribossomo;Cloroplasto;D;2
+362;Qual componente do sangue transporta a maior parte do oxigênio ligado à hemoglobina?;Plasma sem proteínas;Hemácias;Leucócitos;Plaquetas;B;2
+363;Qual órgão produz a bile, substância que auxilia na digestão de lipídios?;Baço;Pâncreas;Fígado;Estômago;C;2
+364;Qual órgão produz insulina e glucagon para regular a glicemia?;Rim;Pâncreas;Tireoide;Vesícula biliar;B;2
+365;Qual parte do neurônio normalmente recebe sinais de outras células?;Axônio terminal;Dendritos;Bainha de mielina;Nódulo de Ranvier exclusivamente;B;2
+366;Como se chama a região de comunicação funcional entre neurônios?;Sinapse;Sarcolema;Alvéolo;Glomérulo;A;2
+367;Qual tipo de célula do sistema imune pode produzir anticorpos após diferenciação em plasmócito?;Plaqueta;Hemácia;Linfócito B;Neurônio motor;C;3
+368;Como as vacinas treinam o sistema imunológico?;Impedem qualquer mutação viral;Eliminam toda bactéria do ambiente;Apresentam antígenos ou instruções para gerar resposta e memória imune;Substituem permanentemente todos os leucócitos;C;3
+369;Qual nível trófico é ocupado por organismos que produzem matéria orgânica a partir de substâncias inorgânicas?;Produtores;Consumidores secundários;Decompositores exclusivamente;Predadores de topo;A;3
+370;Se uma população de predadores diminui muito, o que pode acontecer com a população de suas presas, na ausência de outros fatores?;Necessariamente desaparece;Pode aumentar;Transforma-se em produtora;Mantém sempre o mesmo tamanho;B;3
+371;Qual relação ecológica beneficia ambas as espécies envolvidas?;Mutualismo;Competição;Parasitismo;Predação;A;3
+372;Qual estrutura do DNA é formada por duas fitas complementares enroladas em hélice?;Dupla hélice;Anel de celulose;Cadeia tripla de aminoácidos;Folha beta;A;3
+373;Qual base nitrogenada do RNA substitui a timina encontrada no DNA?;Uracila;Citosina;Guanina;Adenina;A;3
+374;Qual processo copia uma sequência de DNA em uma molécula de RNA?;Replicação;Tradução;Transcrição;Recombinação;C;4
+375;Qual processo utiliza o RNA mensageiro para montar uma sequência de aminoácidos?;Transcrição;Duplicação cromossômica;Tradução;Mutação;C;4
+376;Uma mutação em uma célula germinativa pode ser transmitida aos descendentes porque:;Ela transforma qualquer gene em proteína;Células germinativas não possuem DNA;Pode estar presente nos gametas produzidos;Toda mutação é imediatamente corrigida;C;4
+377;Qual lei de Mendel afirma que os alelos de um gene se separam durante a formação dos gametas?;Lei da segregação;Lei da dominância incompleta;Lei da biogênese;Lei do uso e desuso;A;4
+378;Qual padrão de herança ocorre quando o heterozigoto apresenta um fenótipo intermediário entre os dois homozigotos?;Herança ligada ao Y;Codominância;Epistasia obrigatória;Dominância incompleta;D;4
+379;Qual grupo sanguíneo é considerado doador universal de hemácias em transfusões convencionais, considerando o sistema ABO e Rh?;O negativo;A positivo;B negativo;AB positivo;A;4
+380;Qual grupo sanguíneo é considerado receptor universal de hemácias no sistema ABO e Rh?;AB positivo;O negativo;A negativo;B positivo;A;4
+381;Qual tecido vegetal transporta água e sais minerais das raízes para outras partes da planta?;Floema;Meristema apical exclusivamente;Epiderme;Xilema;D;5
+382;Qual tecido vegetal transporta principalmente açúcares produzidos nas folhas?;Xilema;Floema;Súber;Colênquima;B;5
+383;Qual hormônio vegetal está associado ao amadurecimento de frutos?;Etileno;Tiroxina;Insulina;Adrenalina;A;5
+384;Qual estrutura dos fungos forma uma rede de filamentos chamada micélio?;Estômatos;Cílios;Cloroplastos;Hifas;D;5
+385;Qual característica distingue os mamíferos de outros vertebrados?;Presença de penas;Glândulas mamárias que produzem leite;Respiração exclusivamente branquial;Ovo com casca em todas as espécies;B;5
+386;Qual classe de vertebrados apresenta pele geralmente úmida e ciclo de vida frequentemente ligado à água?;Mamíferos;Anfíbios;Aves;Répteis;B;5
+387;Qual mecanismo ajuda a explicar por que bactérias expostas repetidamente a antibióticos podem se tornar resistentes?;Adaptação intencional de cada bactéria;Desaparecimento de todo material genético;Transformação das bactérias em vírus;Seleção natural de variantes resistentes;D;5
+388;Qual estrutura renal realiza a filtração inicial do sangue?;Neurônio;Alvéolo;Hepatócito;Glomérulo;D;3
+389;Qual estrela está no centro do Sistema Solar?;Sol;Sirius;Vega;Betelgeuse;A;1
+390;Qual planeta é o mais próximo do Sol?;Mercúrio;Marte;Terra;Vênus;A;1
+391;Qual planeta tem a maior temperatura média superficial por causa de seu intenso efeito estufa?;Mercúrio;Júpiter;Marte;Vênus;D;1
+392;Qual planeta é conhecido por sua grande mancha vermelha, uma tempestade atmosférica persistente?;Saturno;Urano;Netuno;Júpiter;D;1
+393;Qual planeta possui um sistema de anéis muito proeminente e facilmente observado?;Mercúrio;Vênus;Marte;Saturno;D;1
+394;Qual planeta do Sistema Solar gira com o eixo de rotação extremamente inclinado, quase de lado?;Marte;Urano;Júpiter;Terra;B;1
+395;Qual planeta é conhecido por apresentar ventos muito rápidos e uma coloração azulada associada ao metano?;Netuno;Mercúrio;Saturno;Vênus;A;1
+396;Qual é o nome da galáxia que abriga o Sistema Solar?;Galáxia do Sombrero;Via Láctea;Andrômeda;Grande Nuvem de Magalhães;B;2
+397;Qual fase lunar ocorre quando a face visível da Lua está praticamente toda iluminada?;Lua nova;Lua cheia;Quarto crescente;Quarto minguante;B;2
+398;Qual alinhamento produz um eclipse solar?;Marte bloqueia a luz solar;A Lua fica entre a Terra e o Sol;A Terra fica entre o Sol e a Lua;O Sol fica entre a Terra e a Lua;B;2
+399;Qual região ao redor de uma estrela pode permitir água líquida na superfície de um planeta, sob condições adequadas?;Cinturão de asteroides;Zona habitável;Heliopausa;Nuvem de Oort;B;2
+400;O que representa um ano-luz?;A idade média de uma estrela;A duração de um ano em qualquer planeta;O tempo que a luz leva para sair do Sol;A distância que a luz percorre em um ano;D;2
+401;Qual objeto é definido por uma região do espaço de onde nem mesmo a luz consegue escapar após cruzar seu horizonte de eventos?;Cometa;Pulsar comum;Buraco negro;Anã branca;C;2
+402;O desvio para o vermelho de galáxias distantes é uma evidência importante de que:;O universo está em expansão;A Terra está no centro do universo;A luz não sofre efeito Doppler;Todas as estrelas estão parando;A;2
+403;Qual fenômeno sustenta a luminosidade do Sol durante a maior parte de sua vida?;Decaimento de ferro;Fissão de urânio;Fusão nuclear de hidrogênio em hélio;Combustão química de carbono;C;3
+404;Qual lei descreve que os planetas percorrem órbitas elípticas com o Sol em um dos focos?;Lei de Hubble;Lei de Newton da refração;Lei de Wien;Primeira lei de Kepler;D;3
+405;Qual cientista formulou as leis do movimento planetário que levam seu nome?;Johannes Kepler;Tycho Brahe;Edwin Hubble;Galileu Galilei;A;3
+406;Qual foi o primeiro satélite artificial colocado em órbita da Terra?;Sputnik 1;Luna 2;Vostok 1;Explorer 1;A;3
+407;Quem foi o primeiro ser humano a viajar ao espaço?;Buzz Aldrin;Neil Armstrong;Yuri Gagarin;John Glenn;C;3
+408;Qual missão levou os primeiros seres humanos à superfície da Lua?;Gemini 4;Apollo 13;Apollo 8;Apollo 11;D;3
+409;Quem foi o primeiro ser humano a pisar na Lua?;Michael Collins;Neil Armstrong;Buzz Aldrin;Yuri Gagarin;B;3
+410;Qual telescópio espacial, lançado em 1990, tornou-se conhecido por imagens de alta resolução do universo?;Chandra;Telescópio James Webb;Telescópio Espacial Hubble;Kepler;C;4
+411;Qual telescópio espacial foi projetado principalmente para observar o universo em infravermelho e entrou em operação científica em 2022?;Fermi;James Webb;Hubble;Spitzer;B;4
+412;Por que existem estações do ano na Terra?;Pela distância variável entre Terra e Sol como causa principal;Pela sombra da Lua sobre os continentes;Pela inclinação do eixo terrestre durante a translação;Pela mudança da luminosidade do Sol a cada mês;C;4
+413;Qual corpo celeste é composto principalmente de gelo, poeira e rochas e pode formar uma cauda ao se aproximar do Sol?;Planeta anão rochoso;Cometa;Estrela de nêutrons;Asteroide metálico;B;4
+414;Qual é a diferença entre meteoro e meteorito?;Meteoro é sempre maior que um asteroide e meteorito é uma estrela;Meteoro é o fenômeno luminoso na atmosfera e meteorito é o fragmento que chega ao solo;São nomes para fases da Lua;Meteoro existe apenas no espaço e meteorito apenas no Sol;B;4
+415;Qual região além da órbita de Netuno contém muitos corpos gelados, incluindo Plutão?;Cinturão de asteroides;Nuvem de Oort interna apenas;Ponto de Lagrange L1;Cinturão de Kuiper;D;4
+416;Qual planeta anão está localizado no cinturão de asteroides entre Marte e Júpiter?;Ceres;Plutão;Éris;Makemake;A;4
+417;Qual fenômeno é observado como uma explosão extremamente luminosa no fim da vida de certas estrelas?;Aurora;Trânsito planetário;Supernova;Eclipse;C;5
+418;Qual objeto compacto pode emitir pulsos regulares de radiação devido à rápida rotação e ao campo magnético?;Cometa periódico;Pulsar;Nebulosa planetária;Anã marrom;B;5
+419;Qual radiação remanescente do universo primordial é observada como um fundo em micro-ondas?;Radiação Cherenkov;Radiação cósmica de fundo;Vento solar;Luz zodiacal;B;5
+420;Qual missão foi a primeira a realizar um pouso suave na Lua?;Luna 2;Luna 9;Surveyor 1;Apollo 11;B;5
+421;Qual é o nome da estação espacial internacional mantida por cooperação de várias agências?;Tiangong-1;ISS;Skylab II;Mir-2;B;5
+422;Qual planeta possui o maior vulcão conhecido do Sistema Solar, o Monte Olimpo?;Mercúrio;Io;Marte;Vênus;C;5
+423;Qual lua de Saturno possui lagos e mares de hidrocarbonetos líquidos em sua superfície?;Europa;Fobos;Titã;Io;C;5
+424;Qual lua de Júpiter é considerada um dos principais alvos na busca por oceanos subterrâneos?;Deimos;Tritão;Calisto;Europa;D;4
+425;Quanto é 15% de 200?;45;30;15;20;B;1
+426;Se um produto de R$ 80 recebe desconto de 25%, qual é o preço final?;R$ 70;R$ 65;R$ 60;R$ 55;C;1
+427;Qual é o próximo número da sequência 2, 4, 8, 16, ...?;32;30;24;64;A;1
+428;Se três cadernos custam R$ 24, quanto custam cinco cadernos ao mesmo preço unitário?;R$ 48;R$ 36;R$ 40;R$ 42;C;1
+429;Qual é a média aritmética de 6, 8 e 10?;12;8;7;9;B;1
+430;Qual é o menor número primo maior que 10?;13;15;12;11;D;1
+431;Qual é o resultado de 7² − 5²?;49;20;14;24;D;1
+432;Um relógio atrasa 5 minutos por hora. Quanto terá atrasado após 6 horas?;30 minutos;35 minutos;60 minutos;25 minutos;A;2
+433;Qual fração é equivalente a 3/4?;6/8;5/8;9/16;4/6;A;2
+434;Se x + 7 = 19, qual é o valor de x?;26;10;13;12;D;2
+435;Um retângulo mede 8 cm por 5 cm. Qual é seu perímetro?;13 cm;26 cm;40 cm;80 cm;B;2
+436;Qual é a área de um triângulo com base 10 cm e altura 6 cm?;30 cm²;16 cm²;32 cm²;60 cm²;A;2
+437;Qual é o valor de 2³ × 2²?;12;64;16;32;D;2
+438;Se todos os Zorbs são azuis e nenhum objeto azul é pesado, o que necessariamente se conclui sobre os Zorbs?;Alguns Zorbs são pesados;Nenhum Zorb é pesado;Todos os Zorbs são pesados;Nada pode ser concluído;B;2
+439;Uma caixa contém 3 bolas vermelhas e 2 azuis. Qual a probabilidade de retirar uma bola azul em um único sorteio aleatório?;1/5;3/5;1/2;2/5;D;3
+440;Qual é o máximo divisor comum de 18 e 24?;9;6;3;12;B;3
+441;Qual é o mínimo múltiplo comum de 6 e 8?;48;12;36;24;D;3
+442;Qual é a soma dos ângulos internos de um quadrilátero simples?;270 graus;180 graus;540 graus;360 graus;D;3
+443;Se um ângulo mede 35 graus, quanto mede seu complemento?;65 graus;145 graus;35 graus;55 graus;D;3
+444;Qual é a raiz quadrada principal de 169?;14;12;15;13;D;3
+445;Qual é o resultado de 3/5 + 1/10?;7/10;2/5;4/15;8/10;A;3
+446;Em uma turma de 30 alunos, 18 estudam inglês e 12 estudam francês. Se 5 estudam os dois idiomas, quantos estudam pelo menos um deles?;30;35;20;25;D;4
+447;Se a razão entre dois números é 2:3 e a soma é 25, qual é o menor número?;10;12;5;15;A;4
+448;Qual é o próximo termo da sequência 1, 1, 2, 3, 5, 8, ...?;14;13;16;11;B;4
+449;Um carro percorre 180 km em 3 horas com velocidade média constante. Quantos quilômetros percorre em 5 horas nesse ritmo?;270 km;240 km;300 km;360 km;C;4
+450;Se o dobro de um número somado a 4 resulta em 18, qual é esse número?;9;7;8;6;B;4
+451;Uma senha tem dois algarismos distintos, escolhidos entre 1, 2 e 3. Quantas senhas ordenadas podem ser formadas?;3;9;6;12;C;4
+452;Em um dado honesto, qual é a probabilidade de sair um número par?;1/6;1/3;1/2;2/3;C;4
+453;Se a área de um quadrado é 81 cm², quanto mede seu lado?;18 cm;8 cm;27 cm;9 cm;D;5
+454;Qual expressão representa a soma dos ângulos internos de um polígono convexo de n lados?;(n − 1) × 90°;(n − 2) × 180°;n × 180°;(n + 2) × 180°;B;5
+455;Se 5 máquinas produzem 5 peças em 5 minutos, quanto tempo 100 máquinas idênticas levam para produzir 100 peças?;20 minutos;100 minutos;5 minutos;1 minuto;C;5
+456;Um número aumenta 20% e depois diminui 20%. Em relação ao valor inicial, o resultado final é:;Igual;20% menor;4% maior;4% menor;D;5
+457;Qual é o determinante da matriz 2 × 2 [[2,1],[3,4]]?;−5;11;5;8;C;5
+458;Se a proposição “Se chove, a rua molha” é verdadeira e a rua não está molhada, o que se conclui pela contraposição?;Choveu;Nada se conclui;A rua está seca e choveu;Não choveu;D;5
+459;Quantas diagonais possui um hexágono convexo?;9;15;6;12;A;5
+460;Qual é o resto da divisão de 2 elevado a 10 por 3?;2;1;3;0;B;3
+461;Qual componente executa instruções e coordena operações fundamentais em um computador?;CPU;Monitor;Fonte de alimentação;SSD;A;1
+462;Qual característica diferencia a memória RAM de um SSD em uso comum?;A RAM é volátil e perde dados sem energia;O SSD só funciona enquanto há energia;A RAM armazena dados permanentemente;O SSD é sempre mais rápido que a RAM;A;1
+463;Qual dispositivo de armazenamento não possui partes mecânicas móveis?;Disquete;Unidade de fita;SSD;HD magnético tradicional;C;1
+464;Qual software controla recursos de hardware e oferece serviços aos programas?;Compilador apenas;Editor de texto;Sistema operacional;Navegador web;C;1
+465;O que faz um compilador tradicional?;Cria conexões físicas de rede;Traduz código-fonte para outra forma executável ou intermediária;Resfria o processador;Armazena permanentemente arquivos do usuário;B;1
+466;Qual sistema numérico utiliza apenas os algarismos 0 e 1?;Octal;Binário;Decimal;Hexadecimal;B;1
+467;Qual padrão de codificação é amplamente usado para representar texto Unicode na web?;EBCDIC de 4 bits;BCD;UTF-8;ASCII de 5 bits;C;1
+468;Qual protocolo é a base da transferência de páginas e recursos na web?;SSH;FTP;SMTP;HTTP;D;2
+469;Qual serviço traduz nomes de domínio, como exemplo.com, em endereços IP?;DHCP;DNS;SNMP;NTP;B;2
+470;Qual equipamento encaminha pacotes entre redes diferentes?;Teclado;Repetidor de áudio;Roteador;Scanner;C;2
+471;Qual identificador lógico permite localizar uma interface em uma rede IP?;Endereço MAC da fonte de energia;Endereço IP;Porta USB;Número de série da tela;B;2
+472;Qual protocolo adiciona criptografia e autenticação ao tráfego HTTP?;ARP;POP3;TLS;ICMP;C;2
+473;Uma mensagem falsa tenta convencer alguém a revelar sua senha por meio de um link enganoso. Que tipo de ataque é esse?;Desfragmentação;Defacement;Phishing;Overclocking;C;2
+474;Qual função criptográfica transforma dados em um resumo de tamanho fixo e é usada para verificar integridade?;Virtualização;Renderização;Compressão com perda;Hash;D;2
+475;Em criptografia simétrica, remetente e destinatário utilizam:;Duas chaves públicas sem segredo;A mesma chave secreta;Um par de chaves sem relação matemática;Apenas uma senha armazenada em texto claro;B;3
+476;Qual sistema de controle de versão distribuído é amplamente usado no desenvolvimento de software?;Linux;Git;Jenkins;Docker;B;3
+477;Qual linguagem é especialmente usada para consultar e manipular dados em bancos relacionais?;SQL;HTML;JSON;CSS;A;3
+478;Em um banco relacional, para que serve uma chave primária?;Substituir o sistema de arquivos;Identificar unicamente cada registro de uma tabela;Criptografar todas as colunas;Ordenar automaticamente todos os relatórios;B;3
+479;Qual estrutura de dados segue a regra primeiro a entrar, primeiro a sair?;Pilha;Árvore binária de busca;Fila;Grafo completo;C;3
+480;Ao retirar elementos de uma pilha, qual deles sai primeiro?;O elemento de maior valor numérico;O elemento inserido há mais tempo;Um elemento escolhido aleatoriamente;O elemento inserido mais recentemente;D;3
+481;O que caracteriza uma função recursiva?;Ela só pode executar uma vez;Ela chama a si mesma direta ou indiretamente;Ela nunca recebe parâmetros;Ela sempre utiliza memória constante;B;3
+482;Em análise de algoritmos, o que descreve a notação Big O?;A quantidade exata de volts do processador;A velocidade física da conexão de internet;O número de linguagens instaladas;Como o custo cresce assintoticamente com o tamanho da entrada;D;4
+483;Qual componente é especializado em realizar muitos cálculos gráficos em paralelo?;Controlador SATA;Fonte ATX;BIOS;GPU;D;4
+484;Qual é uma característica típica de uma API?;É um tipo de memória volátil;Define uma interface para sistemas ou programas trocarem dados e serviços;Substitui o sistema operacional;É obrigatoriamente um banco de dados físico;B;4
+485;Em uma API REST, qual método HTTP costuma ser usado para solicitar a representação de um recurso?;GET;PATCH;DELETE;TRACE;A;4
+486;Qual protocolo de transporte oferece entrega confiável e ordenada de bytes entre aplicações?;IP;UDP;ARP;TCP;D;4
+487;Qual é uma característica do UDP em comparação ao TCP?;Criptografa automaticamente os dados;Sempre retransmite todos os pacotes perdidos;Não estabelece a mesma garantia de entrega e ordenação;Realiza handshake de três vias obrigatório;C;4
+488;Para que serve uma memória cache?;Substituir o processador;Aumentar fisicamente o tamanho do monitor;Reduzir o tempo médio de acesso a dados usados com frequência;Armazenar apenas cópias de segurança offline;C;4
+489;Em aprendizado de máquina supervisionado, os exemplos de treinamento geralmente incluem:;Apenas dados sem qualquer objetivo;Somente regras escritas manualmente;Apenas imagens sem metadados e sem classe;Rótulos ou respostas esperadas;D;5
+490;O que ocorre no overfitting de um modelo de aprendizado de máquina?;Ele não aprende nenhum padrão dos dados de treino;Ele se ajusta demais aos dados de treino e generaliza mal;Ele sempre alcança desempenho perfeito em novos dados;Ele reduz automaticamente a quantidade de atributos;B;5
+491;Qual prática caracteriza software de código aberto?;Proibir toda leitura do código-fonte;Disponibilizar o código sob licença que permite usos e modificações conforme seus termos;Exigir que o programa seja gratuito em qualquer circunstância;Impedir redistribuição em todos os casos;B;5
+492;Qual é o papel do kernel em um sistema operacional?;Traduzir páginas HTML;Editar imagens vetoriais;Desenhar os ícones da área de trabalho apenas;Gerenciar recursos centrais como processos, memória e dispositivos;D;5
+493;Qual tipo de banco de dados organiza dados em documentos flexíveis, frequentemente em JSON ou formato semelhante?;Banco hierárquico de fita;Sistema de arquivos FAT;Banco orientado a documentos;Banco relacional estrito;C;5
+494;Qual técnica permite dividir uma aplicação em ambientes isolados que compartilham o kernel do sistema operacional?;Dual boot;Desfragmentação;Overclock;Contêineres;D;5
+495;Qual conceito descreve a capacidade de um sistema de continuar funcionando apesar da falha de um componente?;Serialização;Compressão;Tolerância a falhas;Latência;C;5
+496;Qual recurso de segurança exige dois ou mais fatores de categorias diferentes para autenticar um usuário?;Navegação anônima;Autenticação multifator;Hashing simples;Desfragmentação;B;2
+497;Quem escreveu Dom Casmurro, romance narrado por Bento Santiago?;Machado de Assis;Lima Barreto;Graciliano Ramos;José de Alencar;A;1
+498;Qual poeta brasileiro escreveu Canção do Exílio, com o verso que evoca palmeiras e sabiás?;Castro Alves;Álvares de Azevedo;Gonçalves Dias;Olavo Bilac;C;1
+499;Quem é o autor de Os Lusíadas, poema épico sobre a expansão marítima portuguesa?;Eça de Queirós;Fernando Pessoa;Gil Vicente;Luís de Camões;D;1
+500;Qual escritor criou a personagem Emília e o universo do Sítio do Picapau Amarelo?;Jorge Amado;Érico Veríssimo;Mário de Andrade;Monteiro Lobato;D;1
+501;Qual romance de Graciliano Ramos acompanha uma família de retirantes no sertão?;Vidas Secas;O Cortiço;São Bernardo;Fogo Morto;A;1
+502;Quem escreveu O Cortiço, romance naturalista ambientado em uma habitação coletiva no Rio de Janeiro?;José de Alencar;Machado de Assis;Raul Pompeia;Aluísio Azevedo;D;1
+503;Qual autora brasileira escreveu A Hora da Estrela, protagonizado por Macabéa?;Rachel de Queiroz;Clarice Lispector;Cecília Meireles;Lygia Fagundes Telles;B;1
+504;Qual escritor português criou o heterônimo Álvaro de Campos?;Fernando Namora;José Saramago;Camilo Castelo Branco;Fernando Pessoa;D;2
+505;Quem escreveu Ensaio sobre a Cegueira?;Miguel Torga;António Lobo Antunes;Eça de Queirós;José Saramago;D;2
+506;Qual obra de Mary Shelley é frequentemente apontada como um marco inicial da ficção científica?;Drácula;A Máquina do Tempo;O Médico e o Monstro;Frankenstein;D;2
+507;Quem criou o detetive Sherlock Holmes?;G. K. Chesterton;Arthur Conan Doyle;Agatha Christie;Wilkie Collins;B;2
+508;Qual autora criou Hercule Poirot e Miss Marple?;Dorothy L. Sayers;Agatha Christie;Jane Austen;Virginia Woolf;B;2
+509;Qual romance de George Orwell apresenta uma sociedade vigiada pelo Grande Irmão?;Admirável Mundo Novo;A Revolução dos Bichos;1984;Fahrenheit 451;C;2
+510;Quem escreveu Admirável Mundo Novo, romance sobre uma sociedade organizada por condicionamento e consumo?;George Orwell;Ray Bradbury;Aldous Huxley;H. G. Wells;C;2
+511;Qual autor escreveu O Senhor dos Anéis?;Terry Pratchett;C. S. Lewis;J. R. R. Tolkien;George R. R. Martin;C;3
+512;Qual série de livros de C. S. Lewis se passa em um mundo acessado por um guarda-roupa?;Duna;A Torre Negra;O Ciclo de Terramar;As Crônicas de Nárnia;D;3
+513;Quem escreveu Dom Quixote, obra que satiriza os romances de cavalaria?;Federico García Lorca;Miguel de Cervantes;Dante Alighieri;Lope de Vega;B;3
+514;Qual poeta florentino escreveu A Divina Comédia?;Boccaccio;Petrarca;Dante Alighieri;Ariosto;C;3
+515;Quem escreveu Romeu e Julieta?;John Milton;Ben Jonson;William Shakespeare;Christopher Marlowe;C;3
+516;Qual tragédia de Shakespeare apresenta o príncipe da Dinamarca que busca vingar a morte do pai?;Otelo;Rei Lear;Macbeth;Hamlet;D;3
+517;Qual romance de Victor Hugo acompanha Jean Valjean e a perseguição do inspetor Javert?;Nossa Senhora de Paris;O Corcunda de Notre-Dame;Os Miseráveis;Os Trabalhadores do Mar;C;3
+518;Quem escreveu O Pequeno Príncipe?;Albert Camus;Antoine de Saint-Exupéry;Marcel Proust;Júlio Verne;B;4
+519;Qual autor criou o capitão Nemo e o submarino Nautilus em Vinte Mil Léguas Submarinas?;H. G. Wells;Júlio Verne;Daniel Defoe;Robert Louis Stevenson;B;4
+520;Quem escreveu A Metamorfose, narrativa em que Gregor Samsa desperta transformado em inseto?;Thomas Mann;Hermann Hesse;Rainer Maria Rilke;Franz Kafka;D;4
+521;Qual romance de Jorge Amado apresenta Gabriela, uma retirante que chega a Ilhéus?;Tieta do Agreste;Dona Flor e Seus Dois Maridos;Capitães da Areia;Gabriela, Cravo e Canela;D;4
+522;Quem escreveu Capitães da Areia, sobre meninos em situação de rua em Salvador?;Jorge Amado;Graciliano Ramos;João Ubaldo Ribeiro;Jorge de Lima;A;4
+523;Qual autora escreveu Quarto de Despejo, diário sobre a vida na favela do Canindé?;Carolina Maria de Jesus;Adélia Prado;Hilda Hilst;Conceição Evaristo;A;4
+524;Qual escritor modernista brasileiro publicou Macunaíma?;Manuel Bandeira;Mário de Andrade;Oswald de Andrade;Carlos Drummond de Andrade;B;4
+525;Qual obra de Euclides da Cunha analisa a Guerra de Canudos e o sertão brasileiro?;Grande Sertão: Veredas;A Bagaceira;Os Sertões;O Quinze;C;5
+526;Quem escreveu Grande Sertão: Veredas?;Raduan Nassar;Ariano Suassuna;João Guimarães Rosa;José Lins do Rego;C;5
+527;Qual poeta brasileiro escreveu Sentimento do Mundo e A Rosa do Povo?;Carlos Drummond de Andrade;João Cabral de Melo Neto;Vinicius de Moraes;Manuel Bandeira;A;5
+528;Quem escreveu Morte e Vida Severina, poema dramático sobre a migração de um retirante?;Augusto dos Anjos;João Cabral de Melo Neto;Castro Alves;Ferreira Gullar;B;5
+529;Qual autor de língua inglesa criou o mundo ficcional de Duna?;Philip K. Dick;Isaac Asimov;Frank Herbert;Arthur C. Clarke;C;5
+530;Quem escreveu Fundação, série de ficção científica sobre a previsão matemática do futuro social?;Ray Bradbury;Frank Herbert;Ursula K. Le Guin;Isaac Asimov;D;5
+531;Qual escritora criou a Terra-média junto a obras como O Hobbit?;Diana Wynne Jones;Madeleine L'Engle;J. R. R. Tolkien;Ursula K. Le Guin;C;5
+532;Qual romance de Machado de Assis é narrado por um defunto autor chamado Brás Cubas?;Quincas Borba;Dom Casmurro;Memórias Póstumas de Brás Cubas;Esaú e Jacó;C;4
+533;Na frase “Os alunos chegaram cedo”, qual é o núcleo do sujeito?;Alunos;Chegaram;Cedo;Os;A;1
+534;Em “Maria comprou um livro”, qual termo exerce a função de objeto direto?;Comprou;Um livro;Maria;Nenhum termo;B;1
+535;Qual alternativa apresenta corretamente o uso de “mas” e “mais”?;Queria sair, mais choveu, preciso de mas tempo;Queria sair, mais choveu, preciso de mais tempo;Queria sair, mas choveu, preciso de mas tempo;Queria sair, mas choveu, preciso de mais tempo;D;1
+536;Qual palavra está corretamente acentuada por ser uma proparoxítona?;Café;Papel;Armazém;Lâmpada;D;1
+537;Qual alternativa apresenta um hiato?;Pai;Noite;Mãe;Saúde;D;1
+538;Qual é o plural correto de “pão”?;Pães;Pões;Pãoes;Pãos;A;1
+539;Qual alternativa usa corretamente a concordância verbal?;Faz dois ano que não o vejo;Fazem dois anos que não o vejo;Fazem dois ano que não o vejo;Faz dois anos que não o vejo;D;1
+540;Em “Havia muitas pessoas na sala”, por que o verbo fica no singular?;Porque pessoas é objeto direto plural e exige singular;Porque sala é sujeito oculto;Porque haver, no sentido de existir, é impessoal;Porque a frase está no futuro;C;2
+541;Qual alternativa apresenta uma oração subordinada adjetiva restritiva?;Os livros que comprei chegaram;Quando anoiteceu, saímos;Espero que você venha;Embora estivesse cansado, continuou;A;2
+542;Na frase “Ela falou calmamente”, a palavra “calmamente” é:;Adjetivo;Advérbio de modo;Pronome;Substantivo;B;2
+543;Qual é a função da preposição em “gosto de música”?;Marcar o plural do verbo;Introduzir o complemento exigido pelo verbo;Indicar o sujeito da oração;Concordar com o substantivo;B;2
+544;Qual alternativa emprega corretamente a crase?;Entreguei o documento à um professor;Ficamos frente à frente com à situação;Entreguei o documento à professora;Cheguei à pé;C;2
+545;Por que não há crase em “a prazo”?;Porque o verbo elimina qualquer preposição;Porque toda expressão masculina exige crase;Porque a expressão não admite artigo feminino antes de prazo;Porque a palavra prazo é plural;C;2
+546;Qual é o antônimo mais adequado de “efêmero”?;Passageiro;Transitório;Fugaz;Duradouro;D;2
+547;Qual palavra é sinônimo de “conciso”?;Sucinto;Prolixo;Ambíguo;Incoerente;A;3
+548;Em “Embora estivesse chovendo, fomos ao jogo”, qual relação a conjunção estabelece?;Explicação;Concessão;Causa;Conclusão;B;3
+549;Qual alternativa contém um pronome demonstrativo?;Nosso;Aquele;Quem;Alguém;B;3
+550;Na expressão “meio cansada”, por que “meio” permanece invariável?;Porque concorda com o sujeito no plural;Porque funciona como advérbio de intensidade;Porque é um numeral fracionário;Porque é um substantivo;B;3
+551;Qual é a forma correta do verbo intervir na frase “Se ele ___, resolverá o conflito”?;Intervier;Intervesse;Intervir;Intervém;A;3
+552;Qual alternativa apresenta corretamente a regência do verbo assistir no sentido de ver?;Assisti pelo filme;Assisti o filme;Assisti no filme;Assisti ao filme;D;3
+553;Em “Precisa-se de funcionários”, o sujeito é:;Oculto, sendo “se” pronome reflexivo;Funcionários;Indeterminado;Inexistente por causa do verbo precisar;C;3
+554;Qual pontuação isola corretamente um vocativo?;Pedro, feche a janela;Pedro feche, a janela;Pedro, feche a janela?;Pedro feche a janela,;A;4
+555;Qual alternativa evita ambiguidade ao indicar que Ana emprestou o livro a Beatriz?;Ana emprestou seu livro a ela;Ana emprestou o livro para Beatriz;Ela emprestou o livro para Ana;Ana disse que ela emprestou o livro;B;4
+556;Qual é a voz verbal em “O relatório foi escrito pela equipe”?;Voz ativa;Voz passiva analítica;Voz passiva sintética;Voz reflexiva;B;4
+557;Qual forma de “por que” deve ser usada em uma pergunta direta?;Por que;Por quê;Porque;Porquê;A;4
+558;Em “Não sei por que ele saiu”, a expressão destacada equivale a:;Por qual motivo;Pois;O motivo pelo qual;O motivo;A;4
+559;Qual alternativa apresenta uso correto de “onde” segundo a norma-padrão?;O projeto onde participei foi aprovado;A cidade onde nasci fica no Sul;A reunião onde discutimos o tema foi longa;A ideia onde pensei é simples;B;4
+560;Qual palavra é formada por prefixação?;Pedreiro;Beleza;Infeliz;Livraria;C;4
+561;Qual processo de formação ocorre em “planalto”, formado pela junção de plano e alto?;Derivação regressiva;Onomatopeia;Derivação parassintética;Composição por aglutinação;D;5
+562;Qual alternativa está corretamente escrita?;Excessão;Eceção;Exceção;Esceção;C;5
+563;Qual palavra apresenta dígrafo consonantal?;Pato;Chave;Casa;Lata;B;5
+564;Em uma frase, a elipse ocorre quando:;Há inversão obrigatória da ordem alfabética;Um termo pode ser identificado pelo contexto e fica omitido;Uma palavra é repetida de propósito;O verbo aparece sempre no infinitivo;B;5
+565;Qual figura de linguagem aparece em “O vento sussurrava entre as árvores”?;Eufemismo;Hipérbole;Personificação;Antítese;C;5
+566;Qual figura de linguagem estabelece comparação explícita usando conectivos como “como”?;Metonímia;Símile;Ironia;Sinestesia;B;5
+567;Qual alternativa apresenta linguagem denotativa?;A temperatura caiu para 10 graus;Aquela pessoa é uma fera;Ele tem um coração de pedra;A notícia explodiu na cidade;A;5
+568;Qual é o sujeito da oração “Choveu durante a madrugada”?;A madrugada;Choveu;Oração sem sujeito;Sujeito oculto “ele”;C;1
+569;Qual filósofo ateniense ficou conhecido pelo método de diálogo baseado em perguntas e exame de ideias?;Epicuro;Sócrates;Zenão de Cítio;Heráclito;B;1
+570;Qual filósofo escreveu A República e apresentou a alegoria da caverna?;Sêneca;Aristóteles;Plotino;Platão;D;1
+571;Quem foi o tutor de Alexandre, o Grande, e autor de obras sobre lógica e biologia?;Diógenes;Platão;Sócrates;Aristóteles;D;1
+572;Qual corrente filosófica antiga sustenta que a virtude é suficiente para uma vida feliz e valoriza o domínio das paixões?;Ceticismo pirrônico;Sofismo;Epicurismo;Estoicismo;D;1
+573;Qual filósofo associou a felicidade à busca moderada de prazer e à ausência de perturbação?;Heráclito;Plotino;Anaxágoras;Epicuro;D;1
+574;Quem é associado à máxima “Penso, logo existo” e ao racionalismo moderno?;René Descartes;Auguste Comte;David Hume;John Locke;A;1
+575;Qual filósofo empirista argumentou que o conhecimento deriva da experiência sensível?;Baruch Spinoza;René Descartes;John Locke;Gottfried Leibniz;C;1
+576;Qual filósofo escocês questionou a ideia de causalidade necessária a partir da observação de conjunções constantes?;Immanuel Kant;David Hume;Jean-Jacques Rousseau;Thomas Hobbes;B;2
+577;Quem escreveu Crítica da Razão Pura?;Arthur Schopenhauer;Immanuel Kant;Georg Hegel;Karl Marx;B;2
+578;Para Kant, o imperativo categórico exige que a máxima da ação possa ser:;Aplicada somente aos governantes;Usada apenas quando traz lucro;Definida pela tradição local;Universalizada como lei;D;2
+579;Qual filósofo contratualista descreveu o estado de natureza como uma condição de insegurança marcada pela guerra de todos contra todos?;Thomas Hobbes;Montesquieu;Jean-Jacques Rousseau;John Locke;A;2
+580;Qual autor defendeu que a soberania reside no povo e escreveu Do Contrato Social?;Edmund Burke;Thomas Hobbes;John Stuart Mill;Jean-Jacques Rousseau;D;2
+581;Qual pensador formulou a separação dos poderes legislativo, executivo e judiciário como mecanismo de limitação do poder?;Montesquieu;Maquiavel;Voltaire;Hobbes;A;2
+582;Quem escreveu O Príncipe, reflexão sobre poder político e governo?;Francis Bacon;Nicolau Maquiavel;Erasmo de Roterdã;Thomas More;B;2
+583;Qual filósofo alemão analisou a história a partir da luta de classes e da crítica ao capitalismo?;Arthur Schopenhauer;Friedrich Nietzsche;Martin Heidegger;Karl Marx;D;3
+584;Qual conceito marxista descreve a apropriação, pelo capitalista, do valor produzido pelo trabalhador além do equivalente ao salário?;Vontade de potência;Mais-valia;Contrato social;Alienação religiosa;B;3
+585;Qual filósofo proclamou a necessidade de reavaliar os valores tradicionais e popularizou a expressão “Deus está morto”?;Friedrich Nietzsche;Albert Camus;Jean-Paul Sartre;Søren Kierkegaard;A;3
+586;Qual corrente filosófica destaca liberdade, escolha e responsabilidade individual em um mundo sem sentido previamente garantido?;Idealismo platônico;Existencialismo;Positivismo lógico;Escolástica;B;3
+587;Quem escreveu O Ser e o Nada?;Maurice Merleau-Ponty;Simone de Beauvoir;Jean-Paul Sartre;Albert Camus;C;3
+588;Qual filósofa escreveu O Segundo Sexo, obra central para o pensamento feminista contemporâneo?;Judith Butler;Rosa Luxemburgo;Simone de Beauvoir;Hannah Arendt;C;3
+589;Qual filósofo grego é associado à ideia de que tudo flui e de que não se entra duas vezes no mesmo rio?;Parmênides;Pitágoras;Heráclito;Demócrito;C;3
+590;Qual pensador defendeu que a realidade verdadeira é imutável e que a mudança percebida pelos sentidos é enganosa?;Empédocles;Epicuro;Heráclito;Parmênides;D;4
+591;Qual escola antiga explicava a matéria por átomos e vazio e é associada a Demócrito?;Atomismo;Neoplatonismo;Ceticismo;Estoicismo;A;4
+592;Qual filósofo e cientista é associado à frase “saber é poder” e ao método indutivo?;René Descartes;Blaise Pascal;Francis Bacon;David Hume;C;4
+593;Qual pensador da Antiguidade formulou a teoria das quatro causas para explicar a realidade?;Platão;Epicuro;Aristóteles;Sócrates;C;4
+594;Qual autora escreveu A Condição Humana e analisou a ação, o trabalho e a fabricação na vida ativa?;Mary Wollstonecraft;Ayn Rand;Hannah Arendt;Simone Weil;C;4
+595;Qual filósofo político defendeu a liberdade individual e o princípio do dano em Sobre a Liberdade?;Auguste Comte;John Stuart Mill;Thomas Hobbes;Edmund Burke;B;4
+596;Qual corrente do século XIX defendia o conhecimento científico e a observação como base confiável do saber?;Ceticismo radical;Positivismo;Escolástica;Romantismo;B;4
+597;Quem formulou a teoria das ideias ou formas, segundo a qual objetos particulares participam de realidades inteligíveis?;Aristóteles;Epicuro;Demócrito;Platão;D;5
+598;Qual filósofo medieval escreveu a Suma Teológica e articulou a filosofia aristotélica ao cristianismo?;Boécio;Tomás de Aquino;Anselmo de Cantuária;Agostinho de Hipona;B;5
+599;Qual filósofo cristão escreveu Confissões e desenvolveu reflexões sobre tempo, memória e interioridade?;Pedro Abelardo;Tomás de Aquino;Guilherme de Ockham;Agostinho de Hipona;D;5
+600;Qual princípio ético afirma que pessoas devem ser tratadas como fins em si mesmas, nunca apenas como meios?;Relativismo cultural;Utilitarismo clássico;Formulação kantiana da humanidade;Hedonismo cirenaico;C;5
+601;Qual teoria ética avalia ações principalmente por suas consequências para o bem-estar agregado?;Ética das virtudes;Contratualismo hobbesiano;Deontologia kantiana;Utilitarismo;D;5
+602;Qual filósofo chinês é associado aos Analectos e a uma ética centrada em relações, rituais e virtude?;Confúcio;Sun Tzu;Mozi;Laozi;A;5
+603;Qual texto atribuído a Laozi é fundamental para o taoismo?;Tao Te Ching;Livro dos Ritos;Analectos;A Arte da Guerra;A;5
+604;Qual conceito de Aristóteles designa a finalidade ou propósito próprio de algo?;Telos;Aporia;Cogito;Doxa;A;5
+605;Qual artista pintou a Mona Lisa?;Rafael;Leonardo da Vinci;Sandro Botticelli;Michelangelo;B;1
+606;Qual pintor espanhol criou Guernica, obra que denuncia os horrores da guerra?;Salvador Dalí;Pablo Picasso;Joan Miró;Diego Velázquez;B;1
+607;Qual artista neerlandês pintou A Noite Estrelada?;Piet Mondrian;Vincent van Gogh;Rembrandt;Johannes Vermeer;B;1
+608;Qual movimento artístico é associado a Claude Monet e à pintura de impressões de luz e atmosfera?;Cubismo;Surrealismo;Futurismo;Impressionismo;D;1
+609;Qual artista pintou A Persistência da Memória, com relógios derretidos?;Joan Miró;René Magritte;Salvador Dalí;Max Ernst;C;1
+610;Qual escultor renascentista criou a estátua de David em mármore na Florença do século XVI?;Michelangelo;Bernini;Donatello;Rodin;A;1
+611;Qual artista brasileiro pintou Abaporu, obra associada ao movimento antropofágico?;Anita Malfatti;Tarsila do Amaral;Djanira;Lygia Clark;B;1
+612;Qual arquiteto brasileiro projetou Brasília em parceria com o urbanista Lúcio Costa?;Oscar Niemeyer;Ruy Ohtake;Paulo Mendes da Rocha;Affonso Eduardo Reidy;A;2
+613;Quem foi o urbanista responsável pelo plano-piloto de Brasília?;Oscar Niemeyer;Joaquim Cardozo;Roberto Burle Marx;Lúcio Costa;D;2
+614;Qual estilo arquitetônico europeu é reconhecido por arcos ogivais, vitrais e grandes catedrais medievais?;Gótico;Românico;Barroco;Neoclássico;A;2
+615;Qual característica é típica da arquitetura românica medieval?;Arcos de volta perfeita e paredes espessas;Estruturas de aço e vidro;Fachadas sem aberturas e sem pedra;Cúpulas geodésicas;A;2
+616;Qual arquiteto catalão projetou a Basílica da Sagrada Família em Barcelona?;Frank Lloyd Wright;Antoni Gaudí;Le Corbusier;Mies van der Rohe;B;2
+617;Qual monumento de Roma foi construído como anfiteatro para espetáculos públicos?;Fórum de Trajano;Panteão;Coliseu;Ara Pacis;C;2
+618;O Panteão de Roma é conhecido principalmente por sua grande:;Cúpula com óculo central;Abóbada de aço suspensa;Torre de vidro;Fachada gótica ogival;A;2
+619;Qual movimento arquitetônico do século XX valorizou formas simples, funcionalidade e ausência de ornamentos supérfluos?;Modernismo;Rococó;Neogótico;Maneirismo;A;3
+620;Qual arquiteto projetou a Villa Savoye, obra emblemática do modernismo?;Antoni Gaudí;Le Corbusier;Zaha Hadid;Frank Gehry;B;3
+621;Qual arquiteta iraquiano-britânica ficou conhecida por projetos de formas fluidas e dinâmicas?;Zaha Hadid;Eileen Gray;Lina Bo Bardi;Denise Scott Brown;A;3
+622;Qual edifício projetado por Lina Bo Bardi abriga o Museu de Arte de São Paulo na Avenida Paulista?;Museu Oscar Niemeyer;MASP;Palácio Gustavo Capanema;Museu do Amanhã;B;3
+623;Qual técnica de pintura aplica pigmentos sobre reboco ainda úmido?;Aquarela sobre papel seco;Afresco;Gravura em metal;Mosaico de vidro;B;3
+624;Qual técnica artística cria imagens pela impressão de uma matriz entalhada ou preparada?;Vitral;Afresco;Gravura;Modelagem;C;3
+625;Qual movimento artístico do início do século XX fragmentou formas em planos geométricos e múltiplos pontos de vista?;Impressionismo;Art Nouveau;Expressionismo abstrato;Cubismo;D;3
+626;Qual pintor cubista nasceu na Espanha e cofundou o movimento com Georges Braque?;Pablo Picasso;Paul Cézanne;Edvard Munch;Henri Matisse;A;4
+627;Qual obra de Edvard Munch representa uma figura angustiada sob um céu ondulante?;A Ronda Noturna;A Liberdade Guiando o Povo;O Grito;O Beijo;C;4
+628;Qual artista mexicana é conhecida por autorretratos e por abordar dor e identidade em sua pintura?;Frida Kahlo;Leonora Carrington;María Izquierdo;Remedios Varo;A;4
+629;Qual movimento artístico de vanguarda defendia espontaneidade e associações do inconsciente?;Surrealismo;Neoclassicismo;Construtivismo;Realismo;A;4
+630;Qual material é tradicionalmente utilizado em vitrais medievais para formar imagens coloridas em janelas?;Vidro colorido;Bronze fundido;Argila crua;Mármore branco;A;4
+631;Qual é a função estrutural de um arco em arquitetura tradicional?;Substituir todas as fundações;Distribuir cargas para os apoios laterais;Impedir qualquer compressão;Eliminar a gravidade;B;4
+632;Qual elemento arquitetônico vertical sustenta uma estrutura e transmite cargas à fundação?;Pilar;Rosácea;Frontão;Cornija;A;4
+633;Qual ordem clássica grega é reconhecida por capitéis com volutas?;Coríntia;Jônica;Toscana;Dórica;B;5
+634;Qual ordem clássica grega utiliza capitéis decorados com folhas de acanto?;Dórica;Coríntia;Jônica;Egípcia;B;5
+635;Qual patrimônio arquitetônico indiano foi construído como mausoléu de Mumtaz Mahal por ordem de Shah Jahan?;Templo Dourado;Qutub Minar;Taj Mahal;Forte de Agra;C;5
+636;Qual cidade abriga a Capela Sistina, cujo teto recebeu afrescos de Michelangelo?;Milão;Veneza;Cidade do Vaticano;Florença;C;5
+637;Qual artista brasileiro ficou conhecido por esculturas monumentais de figuras bíblicas em Congonhas?;Mestre Ataíde;Bruno Giorgi;Aleijadinho;Victor Brecheret;C;5
+638;Qual estilo artístico brasileiro do século XVIII é associado a igrejas ornamentadas, talha dourada e Aleijadinho?;Barroco;Neoplasticismo;Bauhaus;Concretismo;A;5
+639;Qual escola alemã de arte e design, fundada em 1919, influenciou profundamente a arquitetura moderna?;Academia de Belas Artes de Viena;Bauhaus;De Stijl;Arts and Crafts inglesa;B;5
+640;Qual artista criou os móbiles abstratos que se movem com correntes de ar?;Constantin Brâncuși;Henry Moore;Auguste Rodin;Alexander Calder;D;4
+641;Qual instrumento de teclas produz som quando martelos internos golpeiam cordas?;Piano;Órgão eletrônico;Cravo sem cordas;Acordeão;A;1
+642;Qual família de instrumentos inclui violino, viola, violoncelo e contrabaixo?;Madeiras;Percussão;Cordas friccionadas;Metais;C;1
+643;Qual compositor escreveu a Nona Sinfonia, que inclui a Ode à Alegria?;Ludwig van Beethoven;Franz Schubert;Wolfgang Amadeus Mozart;Johann Sebastian Bach;A;1
+644;Qual compositor austríaco escreveu A Flauta Mágica?;Gustav Mahler;Wolfgang Amadeus Mozart;Joseph Haydn;Antonio Vivaldi;B;1
+645;Qual compositor barroco é conhecido por As Quatro Estações?;Antonio Vivaldi;Claudio Monteverdi;George Frideric Handel;Johann Pachelbel;A;1
+646;Qual compositor alemão escreveu os Concertos de Brandemburgo?;Felix Mendelssohn;Johann Sebastian Bach;Richard Wagner;Robert Schumann;B;1
+647;Qual instrumento de sopro possui palheta simples e é comum no jazz?;Tuba;Clarinete;Trombone;Flauta transversal;B;1
+648;Qual instrumento de metal é tocado com uma vara deslizante?;Tuba;Trompete;Trompa;Trombone;D;2
+649;Qual gênero musical brasileiro surgiu no Rio de Janeiro no início do século XX e tem raízes afro-brasileiras?;Frevo;Samba;Carimbó;Vanerão;B;2
+650;Qual ritmo pernambucano é marcado por passo acelerado e sombrinhas coloridas?;Jongo;Frevo;Choro;Samba-canção;B;2
+651;Qual gênero musical brasileiro tem forte associação com viola caipira e duplas vocais?;Axé;Bossa nova;Música sertaneja;Maracatu;C;2
+652;Qual movimento musical brasileiro do fim dos anos 1950 associou voz suave e harmonias sofisticadas ao samba?;Manguebeat;Bossa nova;Jovem Guarda;Tropicália;B;2
+653;Qual cantor e compositor brasileiro lançou o álbum Transa e participou do Tropicalismo?;Luiz Gonzaga;Noel Rosa;Cartola;Caetano Veloso;D;2
+654;Qual artista brasileiro ficou conhecido como Rei do Baião?;Alceu Valença;Dominguinhos;Luiz Gonzaga;Jackson do Pandeiro;C;2
+655;Qual instrumento é central na formação tradicional do choro junto a cavaquinho e pandeiro?;Harpa;Oboé;Tuba;Flauta;D;3
+656;Qual compositor russo escreveu O Lago dos Cisnes?;Igor Stravinsky;Dmitri Shostakovich;Sergei Rachmaninoff;Piotr Ilitch Tchaikovsky;D;3
+657;Qual compositor criou a suíte O Pássaro de Fogo?;Maurice Ravel;Claude Debussy;Igor Stravinsky;Sergei Prokofiev;C;3
+658;Qual compositor francês escreveu Clair de Lune?;Hector Berlioz;Camille Saint-Saëns;Claude Debussy;Erik Satie;C;3
+659;Qual compositor francês escreveu Boléro, peça conhecida por repetir um tema com crescente orquestração?;Gabriel Fauré;Georges Bizet;Claude Debussy;Maurice Ravel;D;3
+660;Qual parâmetro musical indica a velocidade de uma composição?;Dinâmica;Andamento;Altura;Timbre;B;3
+661;Qual parâmetro musical diferencia sons graves e agudos?;Textura;Intensidade;Altura;Timbre;C;3
+662;Qual elemento musical indica a força ou o volume com que uma nota deve ser tocada?;Forma;Andamento;Dinâmica;Harmonia;C;4
+663;Qual intervalo musical corresponde a uma oitava justa?;Cinco semitons;Oito graus diatônicos;Três tons;Dois graus;B;4
+664;Qual é a função principal da clave na partitura?;Determinar a intensidade sonora;Indicar o instrumento obrigatório;Definir o andamento exato;Indicar a referência de altura das notas na pauta;D;4
+665;Qual símbolo musical eleva a nota em um semitom?;Bemol;Ponto de aumento;Bequadro;Sustenido;D;4
+666;Qual símbolo musical abaixa a nota em um semitom?;Fermata;Sustenido;Bemol;Bequadro;C;4
+667;Qual cantor e compositor brasileiro lançou o álbum A Tábua de Esmeralda e é conhecido por misturar samba, soul e MPB?;Jorge Ben Jor;Milton Nascimento;Chico Buarque;Djavan;A;4
+668;Qual compositor brasileiro escreveu a ópera O Guarani?;Carlos Gomes;Camargo Guarnieri;Heitor Villa-Lobos;Radamés Gnattali;A;4
+669;Qual compositor brasileiro criou as Bachianas Brasileiras?;Alberto Nepomuceno;Carlos Gomes;Ernesto Nazareth;Heitor Villa-Lobos;D;5
+670;Qual movimento musical dos anos 1960 reuniu artistas como Caetano Veloso, Gilberto Gil e Os Mutantes?;Jovem Guarda;Tropicália;Manguebeat;Clube da Esquina;B;5
+671;Qual banda britânica lançou o álbum Sgt. Pepper's Lonely Hearts Club Band?;The Who;The Beatles;The Rolling Stones;The Kinks;B;5
+672;Qual banda britânica tem Freddie Mercury como vocalista e lançou Bohemian Rhapsody?;Pink Floyd;Led Zeppelin;Deep Purple;Queen;D;5
+673;Qual gênero de música eletrônica surgiu nos clubes de Chicago na década de 1980?;Fado;Bluegrass;House;Samba de roda;C;5
+674;Qual instrumento de percussão brasileiro possui uma membrana circular e platinelas metálicas ao redor da moldura?;Reco-reco;Pandeiro;Agogô;Ganzá;B;5
+675;Qual forma musical costuma alternar estrofes e refrão recorrente em canções populares?;Sonata sem repetição;Passacaglia barroca;Forma estrófica com refrão;Fuga a quatro vozes;C;5
+676;Qual compositor é conhecido por desenvolver a técnica dodecafônica no século XX?;Gustav Holst;Arnold Schoenberg;Jean Sibelius;Edvard Grieg;B;5
+677;Quem dirigiu o filme Cidadão Kane, lançado em 1941?;John Ford;Orson Welles;Alfred Hitchcock;Billy Wilder;B;1
+678;Qual diretor criou a trilogia O Poderoso Chefão?;Brian De Palma;Francis Ford Coppola;Steven Spielberg;Martin Scorsese;B;1
+679;Qual filme de 1994 acompanha a trajetória de Forrest Gump?;Um Sonho de Liberdade;Clube da Luta;Forrest Gump;Pulp Fiction;C;1
+680;Quem dirigiu Jurassic Park, filme sobre um parque de dinossauros recriados por engenharia genética?;Robert Zemeckis;George Lucas;James Cameron;Steven Spielberg;D;1
+681;Qual diretor é conhecido pela trilogia O Senhor dos Anéis lançada entre 2001 e 2003?;Guillermo del Toro;Peter Jackson;Christopher Nolan;Ridley Scott;B;1
+682;Qual filme de animação da Pixar apresenta um robô compactador de lixo que permanece na Terra?;WALL-E;Up;Ratatouille;Carros;A;1
+683;Qual estúdio produziu Toy Story, o primeiro longa-metragem totalmente realizado com animação por computação gráfica?;Laika;Pixar;Studio Ghibli;DreamWorks;B;1
+684;Qual atriz interpretou Dorothy no filme O Mágico de Oz de 1939?;Vivien Leigh;Audrey Hepburn;Judy Garland;Grace Kelly;C;2
+685;Qual ator interpretou Indiana Jones na franquia cinematográfica principal?;Tom Hanks;Sean Connery;Mel Gibson;Harrison Ford;D;2
+686;Quem dirigiu Psicose, thriller de 1960 conhecido pela cena do chuveiro?;Alfred Hitchcock;Fritz Lang;Stanley Kubrick;David Lean;A;2
+687;Qual filme de Stanley Kubrick acompanha uma missão espacial rumo a Júpiter?;2001: Uma Odisseia no Espaço;Barry Lyndon;Dr. Fantástico;Laranja Mecânica;A;2
+688;Qual diretor brasileiro realizou Central do Brasil?;José Padilha;Fernando Meirelles;Walter Salles;Guel Arraes;C;2
+689;Qual atriz interpreta Dora em Central do Brasil?;Fernanda Montenegro;Marieta Severo;Glória Pires;Sônia Braga;A;2
+690;Qual filme brasileiro de 2002 acompanha o crescimento do crime organizado na Cidade de Deus, no Rio de Janeiro?;Tropa de Elite;Cidade de Deus;Carandiru;O Homem que Copiava;B;2
+691;Quem dirigiu Tropa de Elite, filme centrado no BOPE do Rio de Janeiro?;José Padilha;Walter Salles;Fernando Meirelles;Daniel Filho;A;3
+692;Qual filme sul-coreano de Bong Joon-ho venceu o Oscar de melhor filme em 2020?;A Criada;Parasita;Memórias de um Assassino;Oldboy;B;3
+693;Qual atriz interpretou Hermione Granger na série de filmes Harry Potter?;Bonnie Wright;Emma Watson;Natalie Dormer;Evanna Lynch;B;3
+694;Qual ator interpretou Jack Sparrow na franquia Piratas do Caribe?;Javier Bardem;Orlando Bloom;Johnny Depp;Geoffrey Rush;C;3
+695;Qual filme de animação japonês acompanha Chihiro em um mundo de espíritos?;O Castelo Animado;Princesa Mononoke;A Viagem de Chihiro;Meu Amigo Totoro;C;3
+696;Quem fundou o Studio Ghibli ao lado de Isao Takahata?;Hayao Miyazaki;Mamoru Hosoda;Makoto Shinkai;Satoshi Kon;A;3
+697;Qual série televisiva acompanha Walter White, um professor de química que passa a produzir metanfetamina?;Breaking Bad;The Wire;Ozark;Better Call Saul;A;3
+698;Em qual cidade se passa principalmente a série The Wire?;Baltimore;Boston;Nova York;Chicago;A;4
+699;Qual série criada por David Chase acompanha a família mafiosa de Tony Soprano?;Mad Men;Boardwalk Empire;Peaky Blinders;The Sopranos;D;4
+700;Qual série de televisão acompanha médicos no hospital fictício Seattle Grace, posteriormente Grey Sloan Memorial?;Grey's Anatomy;ER;House;Scrubs;A;4
+701;Qual diretor criou a série Twin Peaks junto com Mark Frost?;Wes Anderson;Tim Burton;David Fincher;David Lynch;D;4
+702;Qual filme de 1975 dirigido por Steven Spielberg ajudou a popularizar o modelo do blockbuster de verão?;Contatos Imediatos do Terceiro Grau;E.T.;Indiana Jones e os Caçadores da Arca Perdida;Tubarão;D;4
+703;Qual ator interpretou o Coringa em O Cavaleiro das Trevas, de 2008?;Jack Nicholson;Heath Ledger;Joaquin Phoenix;Jared Leto;B;4
+704;Qual filme de Christopher Nolan apresenta um grupo que invade sonhos para implantar uma ideia?;Interestelar;Tenet;Amnésia;A Origem;D;4
+705;Qual diretor brasileiro realizou Cidade de Deus ao lado de Kátia Lund?;José Padilha;Kleber Mendonça Filho;Fernando Meirelles;Cacá Diegues;C;5
+706;Qual filme de Akira Kurosawa inspirou diversas adaptações ocidentais e acompanha guerreiros contratados para defender uma aldeia?;Trono Manchado de Sangue;Yojimbo;Os Sete Samurais;Rashomon;C;5
+707;Qual prêmio da Academia de Artes e Ciências Cinematográficas reconhece realizações no cinema e é conhecido como Oscar?;Tony Awards;Academy Awards;BAFTA TV Awards;Grammy Awards;B;5
+708;Qual filme de animação da Disney apresenta a personagem Elsa e a canção Let It Go?;Valente;Enrolados;Frozen;Moana;C;5
+709;Qual ator interpreta o personagem Neo na trilogia original de Matrix?;Laurence Fishburne;Keanu Reeves;Hugo Weaving;Christian Bale;B;5
+710;Qual franquia cinematográfica apresenta o personagem Ethan Hunt, agente da IMF?;Missão: Impossível;007;Jack Reacher;Bourne;A;5
+711;Qual diretora dirigiu Barbie, filme de 2023 protagonizado por Margot Robbie?;Sofia Coppola;Greta Gerwig;Patty Jenkins;Chloé Zhao;B;5
+712;Qual filme brasileiro de 2019 dirigido por Kleber Mendonça Filho e Juliano Dornelles se passa em um povoado fictício do sertão?;Bacurau;Marighella;Aquarius;O Som ao Redor;A;2
+713;Qual criador de séries animadas concebeu Os Simpsons?;Mike Judge;Matt Groening;Trey Parker;Seth MacFarlane;B;1
+714;Qual é o sobrenome da família central de Os Simpsons?;Belcher;Simpson;Hill;Griffin;B;1
+715;Em qual cidade fictícia vivem os personagens de South Park?;Arlen;Springfield;Quahog;South Park;D;1
+716;Qual desenho apresenta um menino esponja que trabalha no restaurante Siri Cascudo?;O Laboratório de Dexter;Hora de Aventura;Apenas um Show;Bob Esponja;D;1
+717;Qual é o nome do melhor amigo estrela-do-mar de Bob Esponja?;Plankton;Lula Molusco;Seu Sirigueijo;Patrick Estrela;D;1
+718;Qual série animada acompanha Finn e Jake em uma terra pós-apocalíptica chamada Terra de Ooo?;Apenas um Show;Gravity Falls;Hora de Aventura;Steven Universo;C;1
+719;Qual animação apresenta os irmãos Dipper e Mabel em uma cidade cheia de mistérios?;Gravity Falls;Phineas e Ferb;Amphibia;O Segredo Além do Jardim;A;1
+720;Qual série animada acompanha um cientista excêntrico e seu neto em viagens interdimensionais?;Rick and Morty;BoJack Horseman;Futurama;Solar Opposites;A;2
+721;Quem criou a série Futurama ao lado de David X. Cohen?;Genndy Tartakovsky;Matt Groening;Seth MacFarlane;Craig McCracken;B;2
+722;Qual anime acompanha Son Goku em sua busca pelas Esferas do Dragão?;Dragon Ball;Yu Yu Hakusho;One Piece;Bleach;A;2
+723;Quem criou o mangá One Piece?;Tite Kubo;Akira Toriyama;Eiichiro Oda;Masashi Kishimoto;C;2
+724;Qual anime acompanha Naruto Uzumaki em seu objetivo de se tornar Hokage?;Naruto;Inuyasha;Death Note;Fullmetal Alchemist;A;2
+725;Qual personagem de Pokémon é conhecido por produzir eletricidade e ser o mascote da franquia?;Pikachu;Squirtle;Charmander;Eevee;A;2
+726;Quem é o criador japonês associado à concepção original de Pokémon?;Hideo Kojima;Gunpei Yokoi;Satoshi Tajiri;Shigeru Miyamoto;C;2
+727;Qual série japonesa apresenta os guerreiros chamados Cavaleiros de Atena?;Sailor Moon;Os Cavaleiros do Zodíaco;Yu-Gi-Oh!;Digimon Adventure;B;3
+728;Qual anime acompanha Edward e Alphonse Elric em busca da Pedra Filosofal?;D.Gray-man;Fullmetal Alchemist;Black Clover;Hunter × Hunter;B;3
+729;Qual estúdio japonês produziu Meu Amigo Totoro e A Viagem de Chihiro?;Studio Ghibli;Kyoto Animation;Toei Animation;Madhouse;A;3
+730;Qual diretor de animação japonês é associado a obras como A Viagem de Chihiro e Princesa Mononoke?;Isao Takahata;Satoshi Kon;Hayao Miyazaki;Mamoru Oshii;C;3
+731;Qual animação da Nickelodeon acompanha Aang, um jovem capaz de dominar os quatro elementos?;A Lenda de Korra;Avatar: A Lenda de Aang;Danny Phantom;A Vida Moderna de Rocko;B;3
+732;Na mitologia de Avatar: A Lenda de Aang, qual elemento Aang precisa aprender por último para enfrentar Ozai?;Água;Fogo;Ar;Terra;B;3
+733;Qual série animada acompanha uma família de super-heróis na cidade de Townsville?;Três Espiãs Demais;She-Ra;Kim Possible;As Meninas Superpoderosas;D;3
+734;Quem criou a animação O Laboratório de Dexter?;Rebecca Sugar;Pendleton Ward;Craig McCracken;Genndy Tartakovsky;D;4
+735;Qual desenho acompanha Phineas e Ferb durante as férias de verão e seus inventos diários?;Gravity Falls;Kick Buttowski;Phineas e Ferb;Recreio;C;4
+736;Qual personagem de Looney Tunes costuma perseguir Papa-Léguas e diz “meep meep”?;Patolino;Coiote;Gaguinho;Pernalonga;B;4
+737;Qual personagem dos Looney Tunes é conhecido por dizer “O que é que há, velhinho?”?;Patolino;Piu-Piu;Frajola;Pernalonga;D;4
+738;Qual série animada adulta acompanha um cavalo ator que enfrenta autodestruição e fama em Hollywood?;BoJack Horseman;American Dad!;Archer;Family Guy;A;4
+739;Qual série de animação apresenta um grupo de crianças que frequentam a escola primária na cidade de South Park?;Daria;The Cleveland Show;Beavis and Butt-Head;South Park;D;4
+740;Qual anime apresenta cadernos sobrenaturais capazes de matar pessoas cujos nomes são escritos neles?;Death Note;Psycho-Pass;Monster;Code Geass;A;4
+741;Qual personagem é o protagonista do anime e mangá Attack on Titan?;Levi Ackerman;Eren Yeager;Armin Arlert;Reiner Braun;B;5
+742;Qual série animada apresenta a equipe formada por Robin, Estelar, Ravena, Mutano e Ciborgue?;Liga da Justiça;Ben 10;Os Jovens Titãs;X-Men: Evolution;C;5
+743;Qual desenho acompanha um menino que usa um dispositivo alienígena chamado Omnitrix?;Max Steel;Generator Rex;Danny Phantom;Ben 10;D;5
+744;Qual série animada brasileira acompanha as aventuras de uma menina chamada Mônica e seus amigos no Bairro do Limoeiro?;Turma da Mônica;O Irmão do Jorel;Sítio do Picapau Amarelo;Peixonauta;A;5
+745;Qual animação brasileira acompanha Jorel, um garoto que vive à sombra de seu irmão mais velho e popular?;Irmão do Jorel;Tromba Trem;Historietas Assombradas;Mundo Ripilica;A;5
+746;Qual personagem de Steven Universo é a fusão de Garnet, Ametista, Pérola e Steven?;Sugilite;Stevonnie;Obsidiana;Rainbow Quartz 2.0;C;5
+747;Qual série animada apresenta uma princesa guerreira que descobre ser a heroína She-Ra?;Carmen Sandiego;Wakfu;Reboot;She-Ra e as Princesas do Poder;D;5
+748;Qual série animada acompanha a família Belcher, que administra uma hamburgueria?;Uma Família da Pesada;Bob's Burgers;BoJack Horseman;Archer;B;2
+749;Qual super-herói da DC Comics é conhecido como o Homem de Aço?;Superman;Flash;Aquaman;Batman;A;1
+750;Qual cidade fictícia é protegida pelo Batman?;Gotham City;Metrópolis;Central City;Star City;A;1
+751;Qual herói da Marvel usa um escudo circular feito de vibranium?;Capitão América;Homem de Ferro;Gavião Arqueiro;Thor;A;1
+752;Qual alter ego é associado ao herói Homem-Aranha na maior parte das histórias clássicas?;Clark Kent;Barry Allen;Bruce Wayne;Peter Parker;D;1
+753;Qual país fictício da Marvel é governado por T'Challa?;Sokovia;Wakanda;Latveria;Genosha;B;1
+754;Qual personagem da Marvel é conhecido como o Deus do Trovão e empunha o martelo Mjölnir?;Hulk;Thor;Loki;Doutor Estranho;B;1
+755;Qual equipe de super-heróis da Marvel inclui, em sua formação clássica, Homem de Ferro, Thor e Hulk?;Quarteto Fantástico;Guardiões da Galáxia;X-Men;Vingadores;D;1
+756;Qual equipe da DC Comics reúne heróis como Superman, Batman e Mulher-Maravilha?;Jovens Titãs;Sociedade da Justiça apenas;Patrulha do Destino;Liga da Justiça;D;2
+757;Qual personagem de Star Wars é pai de Luke Skywalker e foi conhecido como Anakin Skywalker?;Darth Vader;Mace Windu;Obi-Wan Kenobi;Han Solo;A;2
+758;Qual é o nome da ordem de guerreiros que utiliza sabres de luz e busca equilíbrio na Força?;Sith;Tusken;Mandolorianos;Jedi;D;2
+759;Qual planeta desértico é o mundo natal de Luke Skywalker?;Tatooine;Naboo;Endor;Hoth;A;2
+760;Qual mestre Jedi de Star Wars, conhecido por sua baixa estatura e modo peculiar de organizar as frases, treinou Luke Skywalker?;Obi-Wan Kenobi;Yoda;Mace Windu;Qui-Gon Jinn;B;2
+761;Em Star Trek, qual nave é comandada por James T. Kirk na série original?;USS Defiant;USS Voyager;USS Discovery;USS Enterprise;D;2
+762;Qual é o nome da força policial intergaláctica da DC Comics que utiliza anéis de poder?;Tropa dos Lanternas Verdes;Patrulha do Destino;Novos Titãs;Tropa dos Lanternas Vermelhos apenas;A;2
+763;Qual personagem de videogame da Nintendo é um encanador que frequentemente resgata a Princesa Peach?;Kirby;Donkey Kong;Link;Mario;D;3
+764;Qual é o nome do reino governado pela Princesa Zelda na franquia The Legend of Zelda?;Hyrule;Mushroom Kingdom;Midgar;Azeroth;A;3
+765;Qual personagem da Nintendo é conhecido por absorver habilidades de inimigos ao engoli-los?;Pikachu;Fox McCloud;Kirby;Samus Aran;C;3
+766;Qual franquia de jogos apresenta criaturas chamadas Creepers e um mundo construído com blocos?;Fortnite;Roblox;Minecraft;Terraria;C;3
+767;Qual jogo de estratégia em tempo real apresenta as facções Terran, Zerg e Protoss?;StarCraft;Age of Empires;Warcraft;Command & Conquer;A;3
+768;Qual franquia de jogos apresenta a região de Azeroth?;Warcraft;Final Fantasy;Diablo;The Elder Scrolls;A;3
+769;Qual jogo de RPG da Nintendo apresenta treinadores que capturam criaturas chamadas Pokémon?;Monster Hunter;Yo-kai Watch;Digimon World;Pokémon;D;3
+770;Qual personagem é o principal antagonista recorrente da série de jogos Sonic the Hedgehog?;Bowser;Metal Gear;Dr. Eggman;Sephiroth;C;4
+771;Qual é o nome do ouriço azul protagonista da franquia da Sega?;Sonic;Tails;Shadow;Knuckles;A;4
+772;Qual jogo de tabuleiro usa peças como rei, dama, torres e bispos?;Go;Damas;Gamão;Xadrez;D;4
+773;No xadrez, qual movimento especial envolve o rei e uma torre na mesma jogada?;Promoção;Roque;Xeque duplo;En passant;B;4
+774;Qual jogo de tabuleiro japonês utiliza pedras pretas e brancas para controlar território em um tabuleiro de linhas?;Othello;Shogi;Go;Mahjong;C;4
+775;Qual franquia de RPG da Square Enix apresenta cristais recorrentes e títulos numerados independentes?;Final Fantasy;Chrono Trigger;Kingdom Hearts;Dragon Quest;A;4
+776;Qual personagem de Final Fantasy VII é o principal antagonista associado à destruição de Nibelheim?;Cloud Strife;Sephiroth;Barret Wallace;Cid Highwind;B;4
+777;Qual franquia de jogos apresenta Lara Croft como protagonista arqueóloga?;Assassin's Creed;Tomb Raider;The Last of Us;Uncharted;B;5
+778;Qual série de jogos apresenta o protagonista Master Chief?;Halo;Gears of War;Doom;Mass Effect;A;5
+779;Qual franquia de jogos de luta inclui personagens como Ryu, Ken e Chun-Li?;Street Fighter;Mortal Kombat;Tekken;The King of Fighters;A;5
+780;Qual jogo de luta é conhecido por personagens como Scorpion, Sub-Zero e a expressão “Finish Him”?;Soulcalibur;Virtua Fighter;Mortal Kombat;Street Fighter;C;5
+781;Qual personagem de cultura pop é um arqueólogo aventureiro que usa chapéu fedora e chicote?;Jack Sparrow;Nathan Drake;Rick O'Connell;Indiana Jones;D;5
+782;Qual personagem literário e cinematográfico é um agente britânico conhecido pelo código 007?;Jason Bourne;John Wick;Ethan Hunt;James Bond;D;5
+783;Qual franquia de ficção científica apresenta os robôs gigantes chamados Autobots e Decepticons?;Transformers;Voltron;Pacific Rim;Power Rangers;A;5
+784;Qual grupo de heróis adolescentes costuma pilotar robôs que se combinam em um defensor gigante na série Voltron?;Paladinos de Voltron;Jovens Titãs;Cavaleiros de Atena;Patrulheiros do Espaço;A;4
+785;Na mitologia grega, qual deusa está associada à agricultura e às colheitas?;Deméter;Nêmesis;Íris;Héstia;A;1
+786;Na mitologia grega, quem é o deus dos mares e irmão de Zeus?;Hades;Poseidon;Apolo;Hermes;B;1
+787;Na mitologia grega, qual deusa representa a sabedoria e a estratégia militar?;Afrodite;Deméter;Atena;Héstia;C;1
+788;Qual herói grego realizou doze trabalhos como punição e prova de força?;Héracles;Perseu;Teseu;Aquiles;A;1
+789;Quem, na mitologia grega, roubou o fogo dos deuses para entregá-lo aos humanos?;Ícaro;Sísifo;Prometeu;Orfeu;C;1
+790;Qual personagem da mitologia grega voou perto demais do Sol, fazendo a cera de suas asas derreter?;Cadmo;Orfeu;Perseu;Ícaro;D;1
+791;Qual monstro da mitologia grega tinha corpo de leão, cabeça de cabra e cauda de serpente?;Minotauro;Cérbero;Quimera;Hidra;C;1
+792;Qual criatura guardava a entrada do mundo dos mortos na mitologia grega?;Grifo;Pégaso;Cérbero;Quimera;C;2
+793;Qual deus romano corresponde aproximadamente ao deus grego Zeus?;Vulcano;Júpiter;Netuno;Marte;B;2
+794;Qual deus romano da guerra corresponde a Ares na mitologia grega?;Janus;Mercúrio;Marte;Saturno;C;2
+795;Na mitologia nórdica, qual deus empunha o martelo Mjölnir?;Thor;Balder;Odin;Tyr;A;2
+796;Qual árvore conecta os diferentes mundos na cosmologia nórdica?;Yggdrasil;Mímameiðr;Gleipnir;Bifröst;A;2
+797;Quem é o deus nórdico associado à sabedoria, à poesia e à guerra, governante dos deuses?;Freyr;Heimdall;Loki;Odin;D;2
+798;Qual evento marca o fim do ciclo dos deuses na mitologia nórdica?;Ragnarök;Valhala;Thing;Yule;A;2
+799;Na mitologia egípcia, qual deus está associado à mumificação e ao mundo dos mortos?;Rá;Thoth;Anúbis;Hórus;C;3
+800;Qual deusa egípcia é mãe de Hórus e esposa de Osíris?;Sekhmet;Néftis;Bastet;Ísis;D;3
+801;Qual deus solar egípcio é frequentemente representado com cabeça de falcão e disco solar?;Ptah;Rá;Sobek;Seth;B;3
+802;Na mitologia mesopotâmica, qual herói é protagonista de uma das mais antigas epopeias conhecidas?;Enkidu;Hammurabi;Marduk;Gilgamesh;D;3
+803;Qual deusa mesopotâmica está associada ao amor, à fertilidade e à guerra?;Ereshkigal;Ninhursag;Inanna;Tiamat;C;3
+804;Na tradição hindu, qual divindade é frequentemente associada à criação e representada com quatro cabeças?;Shiva;Ganesha;Vishnu;Brahma;D;3
+805;Na tradição hindu, qual divindade é associada à preservação e possui avatares como Rama e Krishna?;Indra;Brahma;Shiva;Vishnu;D;3
+806;Qual divindade hindu é reconhecida pela cabeça de elefante e é associada à remoção de obstáculos?;Ganesha;Hanuman;Varuna;Agni;A;4
+807;Qual texto é uma das principais escrituras do hinduísmo e integra o épico Mahabharata?;Tripitaka;Torá;Bhagavad Gita;Rigveda;C;4
+808;Qual religião tem Siddhartha Gautama como figura central de sua origem histórica?;Siquismo;Judaísmo;Xintoísmo;Budismo;D;4
+809;Qual conjunto de ensinamentos budistas apresenta quatro verdades sobre o sofrimento e sua cessação?;Dez Mandamentos;Cinco Pilares;Quatro Nobres Verdades;Oito Bem-aventuranças;C;4
+810;Qual religião monoteísta tem a Torá como texto sagrado central?;Xintoísmo;Hinduísmo;Taoismo;Judaísmo;D;4
+811;Qual é o livro sagrado do cristianismo, composto por Antigo e Novo Testamentos?;Vedas;Avesta;Alcorão;Bíblia;D;4
+812;Qual texto é considerado a escritura sagrada central do islamismo?;Novo Testamento;Alcorão;Torá;Upanishads;B;4
+813;Qual cidade é considerada sagrada por judeus, cristãos e muçulmanos?;Vaticano;Medina;Meca;Jerusalém;D;5
+814;Qual cidade é o destino central da peregrinação islâmica conhecida como Hajj?;Meca;Jerusalém;Cairo;Bagdá;A;5
+815;Qual religião japonesa tradicional valoriza os kami e santuários associados à natureza e aos ancestrais?;Xintoísmo;Taoismo;Jainismo;Zoroastrismo;A;5
+816;Qual figura fundadora está associada ao zoroastrismo?;Laozi;Mahavira;Confúcio;Zaratustra;D;5
+817;Qual tradição filosófico-religiosa chinesa é associada a Laozi e ao conceito de Tao?;Xintoísmo;Jainismo;Taoismo;Confucionismo;C;5
+818;Na mitologia grega, quem desceu ao mundo dos mortos para tentar resgatar Eurídice?;Aquiles;Héracles;Jasão;Orfeu;D;5
+819;Qual herói grego matou o Minotauro com auxílio de Ariadne?;Belerofonte;Teseu;Jasão;Perseu;B;5
+820;Qual povo mesoamericano construiu Chichén Itzá e desenvolveu um sistema de calendário sofisticado?;Maias;Olmecas;Astecas;Incas;A;3
+821;Quantos jogadores de cada equipe ficam em campo no início de uma partida oficial de futebol?;10;9;12;11;D;1
+822;Qual cartão o árbitro utiliza para expulsar um jogador de uma partida de futebol?;Vermelho;Azul;Amarelo;Verde;A;1
+823;No futebol, como se chama a cobrança feita da marca situada a 11 metros do gol?;Tiro livre indireto;Pênalti;Escanteio;Tiro de meta;B;1
+824;Qual país venceu a primeira Copa do Mundo masculina de futebol, em 1930?;Brasil;Argentina;Uruguai;Itália;C;1
+825;Qual seleção venceu a Copa do Mundo masculina de futebol de 1970?;Uruguai;Itália;Alemanha Ocidental;Brasil;D;1
+826;Em qual esporte se disputa o torneio de Wimbledon?;Badminton;Tênis;Golfe;Críquete;B;1
+827;Quantos pontos vale uma cesta convertida de fora da linha de três pontos no basquete?;Quatro;Dois;Um;Três;D;1
+828;Quantos jogadores de cada equipe ficam em quadra no basquete?;Sete;Cinco;Seis;Quatro;B;2
+829;No voleibol de quadra, quantos jogadores de cada equipe ficam em quadra simultaneamente?;Sete;Seis;Cinco;Oito;B;2
+830;Qual fundamento do voleibol inicia cada rally?;Saque;Manchete;Levantamento;Bloqueio;A;2
+831;No voleibol, qual ação impede ou tenta impedir que a bola atravesse a rede após um ataque adversário?;Bloqueio;Saque;Rodízio;Manchete;A;2
+832;Qual país é considerado o berço histórico do judô moderno?;Japão;Tailândia;China;Coreia do Sul;A;2
+833;Qual arte marcial brasileira combina golpes, esquivas e música em uma roda?;Judô;Taekwondo;Capoeira;Karatê;C;2
+834;Em qual esporte se utiliza uma prancha e uma vela para aproveitar o vento sobre a água?;Canoagem slalom;Remo;Surfe;Windsurf;D;2
+835;Qual prova do atletismo consiste em percorrer 42,195 quilômetros?;Meia maratona;Corrida de 10.000 metros;Marcha atlética de 20 km;Maratona;D;3
+836;Qual atleta jamaicano tornou-se conhecido por recordes mundiais nos 100 e 200 metros rasos?;Carl Lewis;Asafa Powell;Usain Bolt;Michael Johnson;C;3
+837;Qual nadador norte-americano conquistou 23 medalhas de ouro olímpicas?;Mark Spitz;Michael Phelps;Ryan Lochte;Caeleb Dressel;B;3
+838;Qual aparelho da ginástica artística é exclusivo das provas masculinas e envolve apoio e balanços sobre dois arcos?;Barras assimétricas;Trave de equilíbrio;Solo feminino;Cavalo com alças;D;3
+839;Na Fórmula 1, o que indica a bandeira quadriculada?;Entrada imediata do safety car;Pista escorregadia;Fim da sessão ou corrida;Desclassificação do piloto;C;3
+840;Qual piloto brasileiro foi tricampeão mundial de Fórmula 1?;Nelson Piquet;Ayrton Senna;Rubens Barrichello;Emerson Fittipaldi;B;3
+841;Qual país sediou os primeiros Jogos Olímpicos da era moderna, em 1896?;Reino Unido;França;Grécia;Itália;C;3
+842;Qual símbolo de cinco anéis representa a união dos continentes no movimento olímpico?;Anéis olímpicos;Chama olímpica;Tocha paralímpica;Ramos de louro;A;4
+843;Qual esporte utiliza posições chamadas levantador, oposto, ponteiro e líbero?;Basquete;Voleibol;Futsal;Handebol;B;4
+844;No handebol, quantos jogadores de cada equipe podem estar em quadra, incluindo o goleiro?;Sete;Cinco;Oito;Seis;A;4
+845;Qual esporte é disputado sobre uma mesa dividida por uma rede e utiliza pequenas raquetes e uma bola leve?;Squash;Badminton;Paddle;Tênis de mesa;D;4
+846;Qual modalidade olímpica combina esqui cross-country, tiro com rifle e controle de respiração?;Pentatlo moderno;Skeleton;Biatlo;Combinado nórdico;C;4
+847;Qual modalidade do atletismo reúne dez provas diferentes em dois dias?;Pentatlo;Triatlo;Heptatlo;Decatlo;D;4
+848;Qual competição de ciclismo por etapas é tradicionalmente disputada na França?;Tour de France;Vuelta a España;Paris-Roubaix;Giro d'Italia;A;4
+849;Qual peça do xadrez pode se mover em forma de L e saltar sobre outras peças?;Bispo;Cavalo;Dama;Torre;B;5
+850;No beisebol, quantas eliminações são necessárias para encerrar a metade de uma entrada para uma equipe?;Duas;Quatro;Três;Cinco;C;5
+851;Qual modalidade de luta olímpica proíbe ataques às pernas e permite apenas golpes acima da cintura no estilo greco-romano?;Luta greco-romana;Judô;Luta livre;Boxe;A;5
+852;Qual esporte utiliza termos como birdie, eagle e bogey?;Polo;Golfe;Críquete;Tênis;B;5
+853;Em uma partida de rugby union, quantos jogadores por equipe estão em campo?;15;11;7;13;A;5
+854;Qual país é tradicionalmente associado ao sumô profissional?;Mongólia;China;Coreia do Sul;Japão;D;5
+855;Qual prova de natação combina borboleta, costas, peito e livre nessa ordem?;Revezamento livre;Maratona aquática;Nado sincronizado;Medley individual;D;5
+856;Qual é a duração regulamentar de uma partida de futebol, sem acréscimos ou prorrogação?;90 minutos;120 minutos;80 minutos;100 minutos;A;1
+857;Qual é a principal função do Poder Legislativo em uma democracia representativa?;Executar diretamente políticas públicas;Elaborar e aprovar leis e fiscalizar o Executivo;Julgar todos os processos criminais;Comandar exclusivamente as Forças Armadas;B;1
+858;No Brasil, qual órgão exerce a chefia do Poder Executivo federal?;Presidência da República;Tribunal de Contas da União;Supremo Tribunal Federal;Câmara dos Deputados;A;1
+859;Qual é a função típica do Poder Judiciário?;Elaborar o orçamento municipal;Comandar partidos políticos;Interpretar e aplicar o direito na solução de conflitos;Organizar eleições por conta própria;C;1
+860;Qual instituição brasileira é responsável por organizar e fiscalizar eleições?;Justiça Eleitoral;Conselho Nacional de Educação;Ministério da Fazenda;Banco Central;A;1
+861;Qual é a Câmara do Congresso Nacional que representa a população de forma proporcional à população dos estados?;Conselho da República;Supremo Tribunal Federal;Senado Federal;Câmara dos Deputados;D;1
+862;No Senado Federal brasileiro, cada unidade da Federação possui quantos representantes?;Três;Um;Quatro;Dois;A;1
+863;Qual é o tribunal de cúpula do Poder Judiciário brasileiro responsável principalmente pela guarda da Constituição?;Superior Tribunal de Justiça;Tribunal Superior Eleitoral;Tribunal de Contas da União;Supremo Tribunal Federal;D;1
+864;Qual corte brasileira tem como função principal uniformizar a interpretação da legislação federal infraconstitucional?;Tribunal Superior Eleitoral;Supremo Tribunal Federal;Superior Tribunal Militar;Superior Tribunal de Justiça;D;2
+865;Qual instituição internacional foi fundada em 1945 para promover cooperação e segurança internacionais?;Organização das Nações Unidas;Liga das Nações;União Europeia;Organização dos Estados Americanos;A;2
+866;Qual órgão da ONU tem responsabilidade primária pela manutenção da paz e segurança internacionais?;Conselho de Segurança;Assembleia Geral;Secretariado;Conselho Econômico e Social;A;2
+867;Quantos membros permanentes tem o Conselho de Segurança da ONU?;Quatro;Cinco;Dez;Seis;B;2
+868;Qual documento de 1948 estabelece direitos humanos fundamentais e foi adotado pela Assembleia Geral da ONU?;Convenção de Genebra de 1864;Carta de São Francisco;Pacto de Varsóvia;Declaração Universal dos Direitos Humanos;D;2
+869;Qual é o princípio de governo em que o poder político deriva do povo e é exercido por representantes eleitos ou diretamente?;Democracia;Monarquia absoluta;Teocracia obrigatória;Oligarquia hereditária;A;2
+870;Em um Estado federativo, como o Brasil, o poder político é:;Concentrado integralmente em municípios;Exercido apenas pelo governo central;Distribuído entre diferentes níveis de governo com autonomia constitucional;Delegado exclusivamente a empresas privadas;C;2
+871;Qual é a principal característica de uma Constituição rígida?;Ela nunca pode ser alterada;Sua alteração exige procedimento mais difícil que o de leis ordinárias;Ela vale apenas durante guerras;Ela é aprovada por decisão judicial simples;B;3
+872;Qual instrumento permite que cidadãos proponham projetos de lei com apoio de assinaturas, nos termos constitucionais brasileiros?;Medida provisória;Iniciativa popular;Decreto autônomo;Veto presidencial;B;3
+873;Qual princípio jurídico determina que a administração pública deve agir conforme a lei?;Sigilo absoluto;Legalidade;Arbitrariedade;Pessoalidade;B;3
+874;Qual princípio impede que agentes públicos favoreçam pessoas específicas por amizade ou parentesco?;Impessoalidade;Publicidade;Continuidade;Eficiência;A;3
+875;Qual organização reúne países da América do Sul e foi criada em 1991 para integração econômica regional?;União Africana;Mercosul;OTAN;ASEAN;B;3
+876;Qual tratado instituiu a União Europeia em sua forma moderna em 1992?;Tratado de Versalhes;Tratado de Roma de 1957;Tratado de Maastricht;Tratado de Lisboa de 2007;C;3
+877;Qual organização militar de defesa coletiva foi criada em 1949 e tem o artigo 5º como cláusula central de defesa mútua?;OMC;OCDE;OTAN;OEA;C;3
+878;Qual instituição regula o comércio internacional por meio de acordos e mecanismos de solução de controvérsias?;Banco Mundial;Organização Mundial do Comércio;Fundo Monetário Internacional;Organização Mundial da Saúde;B;4
+879;Qual agência especializada da ONU coordena ações internacionais de saúde pública?;Organização Mundial da Saúde;OIT;UNESCO;FAO;A;4
+880;Qual agência da ONU atua na proteção de refugiados?;UNICEF;ACNUR;PNUD;UNESCO;B;4
+881;Qual é a função principal de um banco central em uma economia?;Conduzir a política monetária e zelar pela estabilidade do sistema financeiro;Administrar escolas públicas;Aprovar leis penais;Definir o currículo universitário;A;4
+882;No Brasil, qual instituição exerce a autoridade monetária e supervisiona parte importante do sistema financeiro?;Banco do Brasil;Caixa Econômica Federal;Banco Central do Brasil;BNDES;C;4
+883;Qual é o papel típico de um tribunal de contas?;Conduzir eleições presidenciais;Executar sentenças criminais;Auxiliar o controle externo da administração e fiscalizar recursos públicos;Criar leis penais;C;4
+884;Qual instituto brasileiro é responsável por produzir estatísticas oficiais como o Censo Demográfico?;IPEA;INEP;INMET;IBGE;D;4
+885;Qual órgão federal brasileiro é responsável por fiscalizar a aplicação de recursos públicos federais e combater irregularidades administrativas?;Controladoria-Geral da União;Banco Central;Conselho Federal de Medicina;Instituto Nacional de Pesquisas Espaciais;A;5
+886;Qual princípio de organização do Estado impede que uma pessoa seja julgada ou punida sem base legal prévia?;Legalidade penal;Separação territorial;Soberania popular;Livre iniciativa;A;5
+887;Qual sistema eleitoral brasileiro é utilizado para escolher presidente, governador, prefeito e senador?;Majoritário;Sorteio público;Proporcional de lista fechada em todos os casos;Indicação judicial;A;5
+888;Qual sistema eleitoral é utilizado para escolher deputados federais no Brasil?;Nomeação pelo Senado;Majoritário em turno único;Voto indireto;Proporcional;D;5
+889;Qual é o nome do mecanismo pelo qual o Legislativo pode retirar a confiança de um governo parlamentar?;Decreto regulamentar;Recurso extraordinário;Veto popular;Moção de censura;D;5
+890;Qual é a função principal de uma comissão parlamentar de inquérito?;Nomear ministros do Supremo;Substituir permanentemente o Judiciário;Investigar fato determinado por prazo certo;Aprovar emendas constitucionais sozinha;C;5
+891;Qual documento oficial estabelece receitas e despesas previstas do governo para um exercício financeiro?;Código Civil;Regimento interno;Plano diretor urbano;Lei orçamentária;D;5
+892;Qual é o princípio político segundo o qual poderes diferentes devem limitar-se mutuamente para evitar concentração?;Mandato vitalício;Freios e contrapesos;Soberania econômica;Centralização absoluta;B;2
+893;Se uma pessoa recebe R$ 3.000 e gasta R$ 2.400, qual é sua poupança mensal?;R$ 600;R$ 800;R$ 1.000;R$ 400;A;1
+894;Quando os preços médios sobem de forma persistente, o fenômeno é chamado de:;Deflação;Valorização cambial;Inflação;Recessão técnica obrigatoriamente;C;1
+895;Qual índice mede a variação de preços de uma cesta de consumo e é usado como referência oficial de inflação no Brasil?;IDH;IPCA;Selic;PIB;B;1
+896;Qual é a taxa básica de juros da economia brasileira definida pelo Comitê de Política Monetária do Banco Central?;Selic;TR;IGP-M;IPCA;A;1
+897;Se o preço de um produto sobe de R$ 50 para R$ 60, qual foi o aumento percentual?;20%;10%;15%;25%;A;1
+898;Uma aplicação rende juros simples de 2% ao mês sobre R$ 1.000. Quanto rende em três meses, sem capitalização?;R$ 20;R$ 60;R$ 80;R$ 120;B;1
+899;Em juros compostos, o rendimento de cada período é calculado sobre:;Somente os impostos pagos;Apenas o capital inicial;O capital acumulado, incluindo juros anteriores;A taxa de inflação passada exclusivamente;C;1
+900;O que é liquidez de um investimento?;Facilidade de convertê-lo em dinheiro sem perda relevante de valor;Prazo obrigatório de dez anos;Ausência total de risco;Garantia de rendimento alto;A;2
+901;Qual é o principal risco de concentrar todo o patrimônio em um único ativo?;Aumento garantido de liquidez;Eliminação do risco de mercado;Falta de diversificação;Redução automática da inflação;C;2
+902;Qual é a finalidade de uma reserva de emergência?;Cobrir despesas imprevistas sem recorrer imediatamente a dívidas;Financiar compras de luxo recorrentes;Garantir lucro em ações;Substituir permanentemente a renda do trabalho;A;2
+903;O que caracteriza uma despesa fixa no orçamento doméstico?;Nunca pode ser reduzida;Depende sempre do preço internacional do petróleo;Tende a ter valor ou periodicidade previsível;Ocorre apenas em situações excepcionais;C;2
+904;Se a renda permanece igual e as despesas aumentam, o saldo mensal:;Permanece idêntico;Aumenta;Torna-se necessariamente positivo;Diminui;D;2
+905;Qual documento registra entradas e saídas de dinheiro ao longo de um período?;Fluxo de caixa;Certidão de nascimento;Balanço patrimonial pessoal apenas;Nota promissória;A;2
+906;Qual é o custo de oportunidade de uma decisão financeira?;Preço original de compra sem desconto;Valor da melhor alternativa sacrificada;Soma de todos os impostos pagos;Taxa fixa cobrada por bancos;B;2
+907;Qual conceito representa a quantidade de bens e serviços que uma unidade monetária consegue comprar?;Déficit fiscal;Poder de compra;Produto interno bruto;Liquidez bancária;B;3
+908;O que normalmente acontece com o poder de compra de dinheiro parado quando há inflação positiva e nenhum rendimento?;Aumenta;Diminui;Permanece necessariamente igual;Dobra a cada ano;B;3
+909;Qual indicador representa o valor total dos bens e serviços finais produzidos dentro de um país em determinado período?;Produto Interno Bruto;Balança comercial;Taxa de câmbio;Índice de Preços ao Consumidor;A;3
+910;Quando um país importa mais bens e serviços do que exporta, sua balança comercial de bens tende a apresentar:;Inflação zero;Superávit;Déficit;Equilíbrio obrigatório;C;3
+911;Qual é a diferença entre receita e lucro de uma empresa?;São termos sempre idênticos;Receita sempre desconta custos e lucro não;Lucro corresponde apenas ao total de empréstimos;Lucro considera custos e despesas, enquanto receita é o valor obtido com vendas e serviços;D;3
+912;Uma empresa vende um produto por R$ 100 e tem custo total de R$ 70. Qual é o lucro antes de outros itens não considerados?;R$ 30;R$ 170;R$ 100;R$ 70;A;3
+913;Qual mercado permite que empresas captem recursos emitindo ações e títulos?;Mercado de câmbio turismo apenas;Mercado de bens usados;Mercado de capitais;Mercado de trabalho doméstico;C;3
+914;O que representa uma ação ordinária de uma empresa?;Um seguro contra inflação;Um título emitido pelo governo;Um empréstimo sem participação societária;Uma fração do capital social com direito de voto, conforme regras da classe;D;4
+915;Qual é a característica principal de um título público federal?;É uma participação acionária em empresa privada;É uma moeda estrangeira;É uma apólice de seguro residencial;É uma dívida emitida pelo governo;D;4
+916;O que é diversificação de investimentos?;Aplicar tudo no ativo de maior retorno passado;Evitar qualquer investimento financeiro;Distribuir recursos entre ativos distintos para reduzir riscos específicos;Comprar apenas ativos de um setor;C;4
+917;Qual modalidade de crédito costuma apresentar juros elevados quando o saldo não é pago integralmente?;Tesouro Selic;Poupança;Consórcio contemplado;Rotativo do cartão de crédito;D;4
+918;Se uma pessoa paga apenas o valor mínimo da fatura do cartão, o saldo restante:;É transferido sem custo para a poupança;Reduz o limite e elimina a dívida;Pode entrar no crédito rotativo e gerar juros;É automaticamente perdoado;C;4
+919;Qual é a função de um seguro?;Eliminar todos os riscos da vida;Transferir determinados riscos mediante pagamento de prêmio;Substituir uma conta bancária;Garantir lucro em qualquer investimento;B;4
+920;O que caracteriza uma franquia em um contrato de seguro?;Valor total do prêmio anual;Rendimento mensal garantido;Parcela do prejuízo que fica a cargo do segurado em certos sinistros;Multa por atraso no pagamento de imposto;C;4
+921;Qual é o conceito econômico de escassez?;Recursos limitados diante de desejos e necessidades amplos;Excesso permanente de moeda;Falta de comércio internacional;Ausência total de recursos naturais;A;5
+922;Se a oferta de um produto aumenta e a demanda permanece constante, qual tendência ocorre no preço de equilíbrio, em condições usuais?;Tornar-se negativo;Diminuir;Permanecer sempre idêntico;Aumentar;B;5
+923;Se a demanda por um produto aumenta e a oferta permanece constante, qual tendência ocorre no preço de equilíbrio, em condições usuais?;Não pode mudar;Zerar;Aumentar;Diminuir;C;5
+924;O que significa dizer que um investimento tem rentabilidade real positiva?;Ele não sofre tributação;Seu retorno supera a inflação no período;Seu retorno nominal é necessariamente zero;Seu risco é inexistente;B;5
+925;Qual tributo brasileiro incide tipicamente sobre a propriedade de veículos automotores?;ICMS;IPTU;IPVA;ITBI;C;5
+926;Qual imposto brasileiro incide sobre a propriedade predial e territorial urbana?;IOF;IPTU;IPVA;IPI;B;5
+927;O que é câmbio?;Variação anual dos salários reais;Taxa de juros cobrada apenas em financiamentos imobiliários;Relação de troca entre moedas diferentes;Quantidade de ações de uma empresa;C;5
+928;Qual é a principal finalidade do orçamento público?;Planejar receitas e autorizar despesas governamentais;Definir o preço de todas as mercadorias privadas;Determinar o salário de cada cidadão;Substituir a Constituição;A;1
+929;Qual invenção associada a Gutenberg permitiu produzir livros em grande escala na Europa com tipos móveis?;Motor a combustão;Telégrafo elétrico;Prensa tipográfica de tipos móveis;Máquina a vapor;C;1
+930;Quem observou em 1928 que um fungo do gênero Penicillium inibia o crescimento de bactérias, contribuindo para a descoberta da penicilina?;Alexander Fleming;Robert Koch;Joseph Lister;Louis Pasteur;A;1
+931;Quem desenvolveu a primeira vacina bem-sucedida contra a varíola no fim do século XVIII?;Robert Koch;Albert Sabin;Edward Jenner;Jonas Salk;C;1
+932;Qual cientista identificou os raios X em 1895?;Michael Faraday;James Clerk Maxwell;Ernest Rutherford;Wilhelm Conrad Röntgen;D;1
+933;Quem propôs a tabela periódica organizada de modo a revelar a periodicidade dos elementos químicos?;Antoine Lavoisier;Dmitri Mendeleev;Niels Bohr;J. J. Thomson;B;1
+934;Qual cientista demonstrou a existência do elétron em experimentos com raios catódicos?;Ernest Rutherford;J. J. Thomson;Max Planck;James Chadwick;B;1
+935;Quem descobriu o nêutron em 1932?;J. J. Thomson;Ernest Lawrence;James Chadwick;Enrico Fermi;C;1
+936;Qual cientista é associado à formulação da teoria da relatividade especial em 1905?;Isaac Newton;Galileu Galilei;Albert Einstein;Hendrik Lorentz;C;2
+937;Quem formulou a hipótese dos quanta de energia para explicar a radiação de corpo negro?;Niels Bohr;Werner Heisenberg;Erwin Schrödinger;Max Planck;D;2
+938;Qual cientista propôs o modelo nuclear do átomo a partir do experimento da lâmina de ouro?;Marie Curie;John Dalton;J. J. Thomson;Ernest Rutherford;D;2
+939;Quem descobriu a radioatividade natural em sais de urânio em 1896?;Pierre Curie;Wilhelm Röntgen;Henri Becquerel;Enrico Fermi;C;2
+940;Qual pesquisadora realizou estudos fundamentais de difração de raios X que contribuíram para a compreensão da estrutura do DNA?;Dorothy Hodgkin;Barbara McClintock;Lise Meitner;Rosalind Franklin;D;2
+941;Qual cientista e matemática escreveu notas sobre a máquina analítica de Charles Babbage e é frequentemente reconhecida por um algoritmo pioneiro?;Katherine Johnson;Hedy Lamarr;Grace Hopper;Ada Lovelace;D;2
+942;Qual inventor aperfeiçoou a máquina a vapor e introduziu melhorias decisivas para sua eficiência industrial?;James Watt;Richard Trevithick;Thomas Newcomen;George Stephenson;A;2
+943;Qual inventor norte-americano desenvolveu o fonógrafo, capaz de gravar e reproduzir sons?;Alexander Graham Bell;Thomas Edison;Guglielmo Marconi;Nikola Tesla;B;3
+944;Qual inventor demonstrou em 1927 um sistema de televisão totalmente eletrônico, usando um tubo dissecador de imagens?;John Logie Baird;Vladimir Zworykin;Philo Farnsworth;Charles Francis Jenkins;C;3
+945;Qual inventor brasileiro é reconhecido por realizar demonstrações públicas de voo com o 14-Bis em Paris, em 1906?;Júlio César Ribeiro de Sousa;Padre Bartolomeu de Gusmão;Roberto Landell de Moura;Alberto Santos-Dumont;D;3
+946;Que irmãos realizaram o primeiro voo motorizado controlado e sustentado reconhecido pela história da aviação em 1903?;Irmãos Lumière;Irmãos Montgolfier;Irmãos Montgolfier e Blériot;Irmãos Wright;D;3
+947;Qual invento dos irmãos Lumière projetava imagens em movimento para uma plateia?;Telégrafo;Fonógrafo;Telescópio;Cinematógrafo;D;3
+948;Qual cientista desenvolveu a pasteurização, processo térmico que reduz microrganismos em alimentos e bebidas?;Robert Hooke;Alexander Fleming;Antoine Lavoisier;Louis Pasteur;D;3
+949;Qual cientista demonstrou que plantas verdes liberam oxigênio na presença de luz, em estudos fundamentais sobre fotossíntese?;Alfred Wegener;Jan Ingenhousz;Gregor Mendel;Charles Lyell;B;3
+950;Quem formulou as leis da hereditariedade a partir de experimentos com ervilhas?;Charles Darwin;Thomas Huxley;Gregor Mendel;Jean-Baptiste Lamarck;C;4
+951;Qual cientista propôs a teoria da evolução por seleção natural em A Origem das Espécies?;Carl Linnaeus;Alfred Russel Wallace não teve participação;Louis Pasteur;Charles Darwin;D;4
+952;Qual astrônomo publicou observações telescópicas que incluíram as luas de Júpiter em 1610?;Johannes Kepler;Tycho Brahe;Galileu Galilei;Edwin Hubble;C;4
+953;Quem identificou a expansão do universo por meio da relação entre distância e velocidade de recessão de galáxias, conhecida como lei de Hubble?;Edwin Hubble;Nicolaus Copernicus;William Herschel;Carl Sagan;A;4
+954;Qual cientista propôs a deriva continental, ideia precursora da tectônica de placas?;Harry Hess;James Hutton;Charles Lyell;Alfred Wegener;D;4
+955;Qual pesquisador demonstrou a circulação do sangue pelo corpo, incluindo o papel do coração como bomba?;Edward Jenner;Hippocrates;Andreas Vesalius;William Harvey;D;4
+956;Qual médico britânico associou a cólera em Londres a uma bomba de água contaminada, fortalecendo a epidemiologia moderna?;Robert Koch;John Snow;Joseph Lister;Ignaz Semmelweis;B;4
+957;Qual cientista desenvolveu a vacina inativada contra a poliomielite aplicada por injeção?;Albert Sabin;Edward Jenner;Louis Pasteur;Jonas Salk;D;5
+958;Qual pesquisador desenvolveu a vacina oral contra a poliomielite?;Albert Sabin;Robert Koch;Alexander Fleming;Jonas Salk;A;5
+959;Qual inventora e atriz ajudou a desenvolver uma técnica de salto de frequência que inspirou tecnologias de comunicação sem fio?;Hedy Lamarr;Ada Lovelace;Radia Perlman;Grace Hopper;A;5
+960;Qual engenheira e matemática é associada à criação do algoritmo de roteamento spanning tree, importante para redes Ethernet?;Katherine Johnson;Radia Perlman;Margaret Hamilton;Frances Allen;B;5
+961;Qual engenheira de software liderou a equipe que desenvolveu o software de voo das missões Apollo na NASA?;Annie Easley;Margaret Hamilton;Mary Jackson;Grace Hopper;B;5
+962;Qual cientista recebeu dois Prêmios Nobel em áreas científicas diferentes, Física e Química?;Lise Meitner;Rosalind Franklin;Dorothy Hodgkin;Marie Curie;D;5
+963;Qual geneticista brasileira é conhecida por pesquisas sobre doenças neuromusculares, células-tronco e genética humana?;Nise da Silveira;Bertha Lutz;Mayana Zatz;Johanna Döbereiner;C;5
+964;Qual cientista brasileira desenvolveu pesquisas fundamentais sobre fixação biológica de nitrogênio em leguminosas?;Mayana Zatz;Bertha Lutz;Johanna Döbereiner;Nise da Silveira;C;5
+965;Por que astronautas em órbita parecem flutuar dentro de uma estação espacial?;Porque a gravidade terrestre deixa de existir nessa altitude;Porque o ar da estação neutraliza o peso;Porque a estação permanece fora da atração gravitacional terrestre;Porque estação e astronautas estão em queda livre contínua ao redor da Terra;D;1
+966;Por que o céu diurno limpo costuma parecer azul para um observador na superfície da Terra?;Porque a luz azul é emitida pela camada de ozônio;Porque moléculas do ar espalham mais a luz de comprimentos de onda curtos;Porque a atmosfera absorve todas as outras cores;Porque o oceano reflete sua cor diretamente para o céu;B;1
+967;Por que o gelo flutua na água líquida?;Porque a água líquida não tem gravidade;Porque sua massa é zero;Porque o gelo contém ar obrigatoriamente em todas as moléculas;Porque sua densidade é menor;D;1
+968;Por que sentimos cheiro de um alimento antes de tocá-lo?;Moléculas voláteis chegam aos receptores olfativos pelo ar;O alimento envia ondas sonoras;A luz refletida pelo alimento ativa o nariz;A pele detecta moléculas à distância;A;1
+969;Qual unidade de medida é usada para expressar a intensidade sonora em escala logarítmica?;Decibel;Newton;Watt-hora;Hertz;A;1
+970;Qual é a principal razão para o uso de fusos horários?;A Lua ilumina cada país em horários diferentes;A rotação da Terra faz o horário solar variar conforme a longitude;A translação cria um novo dia a cada longitude;Os continentes têm velocidades de rotação próprias;B;1
+971;Por que um espelho plano forma uma imagem virtual?;A luz atravessa o espelho e converge atrás dele;Os raios refletidos parecem divergir de um ponto atrás do espelho;A imagem é formada por refração no vidro exclusivamente;O espelho produz luz própria;B;1
+972;Qual é a função do código de barras em produtos comerciais?;Permitir identificação e leitura automatizada do item;Medir diretamente seu peso;Substituir a etiqueta de preço em qualquer sistema;Indicar a data exata de fabricação em todos os padrões;A;2
+973;Qual material é atraído fortemente por um ímã comum?;Vidro;Cobre;Alumínio puro;Ferro;D;2
+974;Por que uma panela de metal aquece mais rapidamente que um cabo de madeira quando ambos estão próximos à mesma chama?;A madeira não contém átomos;O metal cria calor espontaneamente;Metais geralmente conduzem calor melhor que madeira;A chama só transfere energia para metais;C;2
+975;Qual fenômeno explica a formação de arco-íris após chuva quando há luz solar?;Apenas difração do som nas nuvens;Refração, reflexão interna e dispersão da luz nas gotas;Interferência de ondas sísmicas;Fusão de gotas de água;B;2
+976;Por que o som não se propaga no vácuo?;Porque precisa de um meio material para transmitir vibrações;Porque o som é uma onda eletromagnética;Porque o vácuo absorve todas as frequências;Porque não existe temperatura no vácuo;A;2
+977;Qual gás compõe a maior parte da atmosfera terrestre seca?;Oxigênio;Nitrogênio;Dióxido de carbono;Argônio;B;2
+978;Qual é o segundo gás mais abundante na atmosfera terrestre seca?;Argônio;Dióxido de carbono;Oxigênio;Hidrogênio;C;2
+979;Por que a pressão atmosférica diminui, em geral, com o aumento da altitude?;O oxigênio desaparece por completo;A gravidade fica necessariamente nula;Há menos coluna de ar acima do observador;A temperatura aumenta sempre;C;3
+980;Qual fenômeno faz o metal parecer mais frio que a madeira, mesmo quando ambos estão à mesma temperatura ambiente?;O metal conduz calor para a mão mais rapidamente;A madeira produz calor;O metal absorve luz visível;O metal tem temperatura necessariamente inferior;A;3
+981;Qual substância é utilizada como referência para definir pH neutro em água pura a 25 °C?;Água pura;Etanol puro;Solução concentrada de sal;Ácido clorídrico;A;3
+982;Qual é a função do fermento biológico em uma massa de pão?;O fermento diminui a temperatura da massa;Bactérias transformam toda a farinha em álcool;Leveduras produzem gás carbônico que ajuda a massa a crescer;O fermento remove o glúten;C;3
+983;Qual componente do leite é coagulado para formar a coalhada em muitos processos de fabricação de queijo?;Caseína;Água;Lactose;Vitamina C;A;3
+984;Por que a cebola pode provocar lacrimejamento ao ser cortada?;A luz refletida pelas camadas irrita a retina;O amido se transforma em vapor de água;A ruptura de suas células libera compostos voláteis irritantes;Ela libera gás carbônico puro;C;3
+985;Qual é a razão de a maioria dos objetos metálicos parecer brilhante?;Metais emitem luz visível continuamente;A superfície converte som em luz;Todos os metais são transparentes;Elétrons livres refletem eficientemente a luz incidente;D;3
+986;Qual animal é um mamífero que põe ovos?;Golfinho;Ornitorrinco;Morcego;Canguru;B;4
+987;Qual mamífero é capaz de voo ativo sustentado?;Lêmure-voador;Morcego;Esquilo-voador;Pinguim;B;4
+988;Qual animal possui três corações e sangue azul rico em hemocianina?;Golfinho;Polvo;Cavalo-marinho;Tubarão;B;4
+989;Qual grupo animal é conhecido por realizar metamorfose completa, com fases de ovo, larva, pupa e adulto?;Todos os mamíferos;Aves de rapina;Muitos insetos, como borboletas;Répteis marinhos;C;4
+990;Por que os flamingos apresentam tons rosados nas penas?;Seu sangue atravessa as penas;Produzem pigmento rosa por fotossíntese;Pigmentos carotenoides presentes na alimentação;A cor é causada por sal marinho depositado;C;4
+991;Qual é a principal função das listras digitais, conhecidas como impressões digitais, na identificação forense?;Indicam diretamente o tipo sanguíneo;São idênticas em gêmeos univitelinos;Revelam a idade exata de uma pessoa;Possuem padrões de cristas que podem ser comparados entre indivíduos;D;4
+992;Qual instrumento mede a pressão atmosférica?;Anemômetro;Barômetro;Sismógrafo;Higrômetro;B;4
+993;Qual instrumento mede a umidade relativa do ar?;Luxímetro;Barômetro;Altímetro;Higrômetro;D;5
+994;Qual instrumento mede a velocidade do vento?;Anemômetro;Higrômetro;Termopar;Pluviômetro;A;5
+995;Qual instrumento registra movimentos do solo associados a terremotos?;Barômetro;Sismógrafo;Amperímetro;Espectrômetro;B;5
+996;Qual é o nome do fenômeno em que a água líquida passa diretamente para vapor sem ferver?;Solidificação;Evaporação;Fusão;Condensação;B;5
+997;Qual é o nome da mudança direta do estado sólido para o gasoso?;Liquefação;Fusão;Condensação;Sublimação;D;5
+998;Qual propriedade explica por que pequenas gotas de água tendem a assumir forma aproximadamente esférica?;Viscosidade nula;Condutividade elétrica;Pressão osmótica;Tensão superficial;D;5
+999;Qual é o nome da região oceânica onde a luz solar não penetra em quantidade suficiente para fotossíntese?;Zona afótica;Zona intertidal;Zona fótica;Zona costeira;A;5
+1000;Por que a escala de Mohs é considerada ordinal, e não linear?;Porque seus números indicam a composição química dos minerais;Porque os valores indicam uma ordem de resistência a riscos, mas os intervalos não são iguais;Porque cada mineral recebe uma medida de densidade em unidades iguais;Porque a escala mede a temperatura necessária para derreter cada mineral;B;5
