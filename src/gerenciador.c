@@ -1,24 +1,33 @@
 /**
  * @file gerenciador.c
  * @brief Menu de terminal para cadastrar e administrar perguntas.
- * @version 0.1
- * @date 2026-11-17
+ * @version 1.0
+ * @date 2026-11-24
+ *
+ * @author 
+ * Giovani Lemos Proença (giovanilemosproenca@alunos.utfpr.edu.br)
+ * Hadassah Olívia de Paiva (hadassah@alunos.utfpr.edu.br)
+ * João Pedro Arruda (joaosilva.2007@alunos.utfpr.edu.br)
+ * @copyright Copyright (c) 2026
+ *
  */
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <errno.h>
+#include <limits.h>
 #include "pergunta.h"
 
 #define ARQUIVO_CSV "dados/perguntas_iniciais.csv"
 #define ARQUIVO_BIN "dados/perguntas.bin"
 #define ARQUIVO_EXPORTADO "dados/perguntas_exportadas.csv"
 
-void limparEntrada();
-void lerTexto(char texto[], int tamanho, char mensagem[]);
-int lerInteiro(char mensagem[]);
-void lerDadosPergunta(Pergunta *pergunta);
+void limparEntrada(void);
+int lerTexto(char texto[], int tamanho, const char mensagem[]);
+int lerInteiro(const char mensagem[]);
+int lerDadosPergunta(Pergunta *pergunta);
 void cadastrarPergunta(ListaPerguntas *lista);
 void listarPerguntas(ListaPerguntas *lista);
 void pesquisarPergunta(ListaPerguntas *lista);
@@ -26,7 +35,7 @@ void alterarPergunta(ListaPerguntas *lista);
 void removerPergunta(ListaPerguntas *lista);
 void navegarDificuldade(ListaPerguntas *lista);
 
-int main() {
+int main(void) {
     ListaPerguntas lista;
     int opcao;
     int carregadas;
@@ -99,7 +108,7 @@ int main() {
 /**
  * @brief Descarta os caracteres restantes da linha digitada.
  */
-void limparEntrada() {
+void limparEntrada(void) {
     int caractere;
     while ((caractere = getchar()) != '\n' && caractere != EOF) {
     }
@@ -108,31 +117,38 @@ void limparEntrada() {
 /**
  * @brief Lê uma linha de texto e remove o caractere de quebra de linha.
  */
-void lerTexto(char texto[], int tamanho, char mensagem[]) {
+int lerTexto(char texto[], int tamanho, const char mensagem[]) {
     printf("%s", mensagem);
-    if (fgets(texto, tamanho, stdin) != NULL) {
-        if (strchr(texto, '\n') == NULL) {
-            limparEntrada();
-        }
-        texto[strcspn(texto, "\n")] = '\0';
-    } else {
+
+    if (fgets(texto, tamanho, stdin) == NULL) {
         texto[0] = '\0';
+        return 0;
     }
+
+    if (strchr(texto, '\n') == NULL && !feof(stdin)) {
+        limparEntrada();
+        printf("Aviso: o texto foi limitado ao tamanho do campo.\n");
+    }
+
+    texto[strcspn(texto, "\n")] = '\0';
+    return 1;
 }
 
 /**
  * @brief Lê um número inteiro digitado pelo usuário.
  */
-int lerInteiro(char mensagem[]) {
+int lerInteiro(const char mensagem[]) {
     char linha[60];
     char *fim;
     long valor;
 
     while (1) {
-        lerTexto(linha, sizeof(linha), mensagem);
+        if (!lerTexto(linha, sizeof(linha), mensagem)) return 0;
+        errno = 0;
         valor = strtol(linha, &fim, 10);
 
-        if (linha[0] != '\0' && *fim == '\0') {
+        if (linha[0] != '\0' && fim != linha && *fim == '\0' &&
+            errno != ERANGE && valor >= INT_MIN && valor <= INT_MAX) {
             return (int)valor;
         }
 
@@ -141,40 +157,55 @@ int lerInteiro(char mensagem[]) {
 }
 
 /**
- * @brief Lê os campos de uma pergunta. Não aceita vírgulas para manter o CSV simples.
+ * @brief Lê os campos de uma pergunta.
+ *
+ * O CSV utiliza ponto e vírgula como separador e protege campos entre aspas.
+ * Por isso, vírgulas e ponto e vírgulas podem aparecer nos textos.
  */
-void lerDadosPergunta(Pergunta *pergunta) {
+int lerDadosPergunta(Pergunta *pergunta) {
     char resposta[20];
     int dificuldade;
 
+    /* O enunciado e as quatro alternativas nao podem ficar vazios. */
     do {
-        lerTexto(pergunta->enunciado, TAM_ENUNCIADO, "Enunciado: ");
-        if (strchr(pergunta->enunciado, ',') != NULL) {
-            printf("Nao use virgulas no enunciado neste modelo simples de CSV.\n");
+        if (!lerTexto(pergunta->enunciado, TAM_ENUNCIADO, "Enunciado: ")) return 0;
+        if (pergunta->enunciado[0] == '\0') {
+            printf("O enunciado nao pode ficar vazio.\n");
         }
-    } while (pergunta->enunciado[0] == '\0' || strchr(pergunta->enunciado, ',') != NULL);
+    } while (pergunta->enunciado[0] == '\0');
 
     for (int i = 0; i < TOTAL_ALTERNATIVAS; i++) {
         do {
             char mensagem[50];
             snprintf(mensagem, sizeof(mensagem), "Alternativa %c: ", 'A' + i);
-            lerTexto(pergunta->alternativas[i], TAM_ALTERNATIVA, mensagem);
-            if (strchr(pergunta->alternativas[i], ',') != NULL) {
-                printf("Nao use virgulas nas alternativas.\n");
+            if (!lerTexto(pergunta->alternativas[i], TAM_ALTERNATIVA, mensagem)) return 0;
+            if (pergunta->alternativas[i][0] == '\0') {
+                printf("A alternativa nao pode ficar vazia.\n");
             }
-        } while (pergunta->alternativas[i][0] == '\0' || strchr(pergunta->alternativas[i], ',') != NULL);
+        } while (pergunta->alternativas[i][0] == '\0');
     }
 
+    /* A resposta precisa ser uma unica letra entre A e D. */
     do {
-        lerTexto(resposta, sizeof(resposta), "Letra correta (A, B, C ou D): ");
+        if (!lerTexto(resposta, sizeof(resposta), "Letra correta (A, B, C ou D): ")) return 0;
         if (strlen(resposta) > 0) resposta[0] = (char)toupper((unsigned char)resposta[0]);
+        if (strlen(resposta) != 1 || resposta[0] < 'A' || resposta[0] > 'D') {
+            printf("Digite apenas A, B, C ou D.\n");
+        }
     } while (strlen(resposta) != 1 || resposta[0] < 'A' || resposta[0] > 'D');
     pergunta->resposta_correta = resposta[0];
 
+    /* A dificuldade deve estar entre os cinco niveis disponiveis. */
     do {
         dificuldade = lerInteiro("Dificuldade (1 muito facil, 2 facil, 3 medio, 4 dificil, 5 muito dificil): ");
+        if (dificuldade < MUITO_FACIL || dificuldade > MUITO_DIFICIL) {
+            printf("Dificuldade invalida. Escolha um valor de 1 a 5.\n");
+        }
+        if (feof(stdin)) return 0;
     } while (dificuldade < MUITO_FACIL || dificuldade > MUITO_DIFICIL);
     pergunta->dificuldade = (enum Dificuldade)dificuldade;
+
+    return 1;
 }
 
 /**
@@ -184,12 +215,15 @@ void cadastrarPergunta(ListaPerguntas *lista) {
     Pergunta pergunta = {0};
 
     printf("\n--- NOVA PERGUNTA ---\n");
-    lerDadosPergunta(&pergunta);
+    if (!lerDadosPergunta(&pergunta)) {
+        printf("Cadastro cancelado.\n");
+        return;
+    }
 
     if (adicionarPergunta(lista, pergunta)) {
         printf("Pergunta cadastrada com ID %d.\n", lista->dados[lista->quantidade - 1].id);
     } else {
-        printf("Nao foi possivel alocar memoria para a pergunta.\n");
+        printf("Nao foi possivel cadastrar a pergunta. Verifique os dados ou a memoria disponivel.\n");
     }
 }
 
@@ -230,7 +264,11 @@ void pesquisarPergunta(ListaPerguntas *lista) {
             printf("Pergunta nao encontrada.\n");
         }
     } else if (tipo == 2) {
-        lerTexto(termo, sizeof(termo), "Digite uma palavra: ");
+        if (!lerTexto(termo, sizeof(termo), "Digite uma palavra: ")) return;
+        if (termo[0] == '\0') {
+            printf("Digite ao menos uma letra para pesquisar.\n");
+            return;
+        }
         for (int i = 0; i < lista->quantidade; i++) {
             if (strstr(lista->dados[i].enunciado, termo) != NULL) {
                 printf("\n--------------------------------------------\n");
@@ -261,7 +299,14 @@ void alterarPergunta(ListaPerguntas *lista) {
     printf("Pergunta atual:\n");
     imprimirPergunta(*pergunta);
     printf("\nDigite os novos dados.\n");
-    lerDadosPergunta(pergunta);
+    {
+        Pergunta original = *pergunta;
+        if (!lerDadosPergunta(pergunta)) {
+            *pergunta = original;
+            printf("Alteracao cancelada. Os dados anteriores foram mantidos.\n");
+            return;
+        }
+    }
     printf("Pergunta alterada.\n");
 }
 
@@ -289,6 +334,7 @@ void navegarDificuldade(ListaPerguntas *lista) {
 
     do {
         dificuldade = lerInteiro("Nivel (1 muito facil, 2 facil, 3 medio, 4 dificil, 5 muito dificil): ");
+        if (feof(stdin)) return;
     } while (dificuldade < MUITO_FACIL || dificuldade > MUITO_DIFICIL);
 
     total = contarDificuldade(lista, (enum Dificuldade)dificuldade);
@@ -311,7 +357,9 @@ void navegarDificuldade(ListaPerguntas *lista) {
             }
         }
 
-        lerTexto(comando, sizeof(comando), "n - proxima | a - anterior | s - sair: ");
+        if (!lerTexto(comando, sizeof(comando), "n - proxima | a - anterior | s - sair: ")) {
+            break;
+        }
         if (comando[0] == 'n' && indice < total - 1) {
             indice++;
         } else if (comando[0] == 'a' && indice > 0) {
