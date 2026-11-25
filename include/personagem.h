@@ -1,6 +1,15 @@
 /**
  * @file personagem.h
  * @brief Estrutura e funções do personagem controlado pelo jogador.
+ *
+ * @author 
+ * Giovani Lemos Proença (giovanilemosproenca@alunos.utfpr.edu.br)
+ * Hadassah Olívia de Paiva (hadassah@alunos.utfpr.edu.br)
+ * João Pedro Arruda (joaosilva.2007@alunos.utfpr.edu.br)
+ * @version 1.0
+ * @date 2026-11-24
+ * @copyright Copyright (c) 2026
+ *
  */
 
 #ifndef PERSONAGEM_H
@@ -23,6 +32,8 @@ enum Direcao {
 
 typedef struct {
     Vector2 posicao;
+    Vector2 destino_mouse;
+    int movendo_mouse;
     float velocidade;
     float tempo_animacao;
     int direcao;
@@ -33,6 +44,7 @@ typedef struct {
 
 int iniciarPersonagem(Personagem *personagem);
 void atualizarPersonagem(Personagem *personagem, float tempo);
+void definirDestinoPersonagem(Personagem *personagem, Vector2 destino);
 void desenharPersonagem(Personagem personagem);
 void liberarPersonagem(Personagem *personagem);
 Vector2 centroPersonagem(Personagem personagem);
